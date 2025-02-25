@@ -36,6 +36,33 @@ reporting_task <- R6::R6Class("reporting_task",
         })
         names(self$formats) = names(task$formats)
       }
+    },
+    
+    #'@description Process data
+    #'@param data object of class \link{data.frame}
+    #'@param format format id for data validation
+    #'@param parallel whether data validation should be run in parallel
+    #'@param ... any other arguments to be passed to \pkg{vrule} validation method
+    process = function(data, format, parallel = FALSE, ...){
+      if(!format %in% names(self$formats)){
+        
+        errMsg = sprintf("Format '%s' is not among available formats for this task: [%s]", 
+                         format, paste0(names(self$formats), collapse = ","))
+        ERROR(errMsg)
+        stop(errMsg)
+      }
+      
+      #validation
+      INFO("Data validation")
+      validation_output = self$formats[[format]]$spec$validate(data = data, parallel = parallel, ...)
+      if(nrow(validation_output)>0 & any(validation_output$type == "ERROR")){
+        errMsg = "Errors were detected during validation phase, reporting is aborted"
+        ERROR(errMsg)
+        return(validation_output)
+      }
+      
+      #reporting (if any)
+      
     }
   )
 )
