@@ -1,0 +1,20 @@
+Package: repfishr
+Version: 0.1.20250225
+Date: 2025-02-25
+Title: Fisheries data reporting flows
+Authors@R: c(
+  person("Emmanuel", "Blondel", role = c("aut", "cre"), email = "emmanuel.blondel1@gmail.com", comment = c(ORCID = "0000-0002-5870-5762")))
+Maintainer: Emmanuel Blondel <emmanuel.blondel1@gmail.com>
+Depends: R (>= 4.0)
+Imports:
+  R6,
+  methods,
+  vrule
+Remotes:
+  fdiwg/vrule
+Suggests: testthat
+Description: R framework to facilitate fisheries data reporting flows, with first intention to help countries to validate, 
+ format and send data to relevant organizations including regional fisheries management organizations or bodies handling data collection reference frameworks, and FAO.
+URL: https://github.com/fdiwg/repfishr
+BugReports: https://github.com/fdiwg/repfishr/issues
+RoxygenNote: 7.3.1
