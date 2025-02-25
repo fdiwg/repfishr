@@ -1,956 +1,956 @@
-sender_type,sender,receiver_type,receiver,dcf,dcf_ref_url
-country,AUS,organization,IOTC,NA,NA
-country,BGD,organization,IOTC,NA,NA
-country,BLZ,organization,IOTC,NA,NA
-country,CHN,organization,IOTC,NA,NA
-country,COM,organization,IOTC,NA,NA
-country,ERI,organization,IOTC,NA,NA
-country,EUR,organization,IOTC,NA,NA
-country,FRA,organization,IOTC,NA,NA
-country,GIN,organization,IOTC,NA,NA
-country,IND,organization,IOTC,NA,NA
-country,IDN,organization,IOTC,NA,NA
-country,IRN,organization,IOTC,NA,NA
-country,JPN,organization,IOTC,NA,NA
-country,KEN,organization,IOTC,NA,NA
-country,KOR,organization,IOTC,NA,NA
-country,MDG,organization,IOTC,NA,NA
-country,MYS,organization,IOTC,NA,NA
-country,MDV,organization,IOTC,NA,NA
-country,MUS,organization,IOTC,NA,NA
-country,MOZ,organization,IOTC,NA,NA
-country,OMN,organization,IOTC,NA,NA
-country,PAK,organization,IOTC,NA,NA
-country,PHL,organization,IOTC,NA,NA
-country,SYC,organization,IOTC,NA,NA
-country,SLE,organization,IOTC,NA,NA
-country,SOM,organization,IOTC,NA,NA
-country,ZAF,organization,IOTC,NA,NA
-country,LKA,organization,IOTC,NA,NA
-country,SDN,organization,IOTC,NA,NA
-country,TZA,organization,IOTC,NA,NA
-country,THA,organization,IOTC,NA,NA
-country,GBR,organization,IOTC,NA,NA
-country,YEM,organization,IOTC,NA,NA
-country,ARG,organization,ACAP,NA,NA
-country,AUS,organization,ACAP,NA,NA
-country,BRA,organization,ACAP,NA,NA
-country,CHL,organization,ACAP,NA,NA
-country,ECU,organization,ACAP,NA,NA
-country,FRA,organization,ACAP,NA,NA
-country,NZL,organization,ACAP,NA,NA
-country,NOR,organization,ACAP,NA,NA
-country,PER,organization,ACAP,NA,NA
-country,ZAF,organization,ACAP,NA,NA
-country,ESP,organization,ACAP,NA,NA
-country,GBR,organization,ACAP,NA,NA
-country,URY,organization,ACAP,NA,NA
-country,AUS,organization,APFIC,NA,NA
-country,BGD,organization,APFIC,NA,NA
-country,KHM,organization,APFIC,NA,NA
-country,CHN,organization,APFIC,NA,NA
-country,FRA,organization,APFIC,NA,NA
-country,IND,organization,APFIC,NA,NA
-country,IDN,organization,APFIC,NA,NA
-country,JPN,organization,APFIC,NA,NA
-country,MYS,organization,APFIC,NA,NA
-country,MMR,organization,APFIC,NA,NA
-country,NPL,organization,APFIC,NA,NA
-country,NZL,organization,APFIC,NA,NA
-country,PAK,organization,APFIC,NA,NA
-country,PHL,organization,APFIC,NA,NA
-country,KOR,organization,APFIC,NA,NA
-country,LKA,organization,APFIC,NA,NA
-country,TLS,organization,APFIC,NA,NA
-country,THA,organization,APFIC,NA,NA
-country,GBR,organization,APFIC,NA,NA
-country,USA,organization,APFIC,NA,NA
-country,VNM,organization,APFIC,NA,NA
-country,ARM,organization,CACFish,NA,NA
-country,TJK,organization,CACFish,NA,NA
-country,KGZ,organization,CACFish,NA,NA
-country,TUR,organization,CACFish,NA,NA
-country,AZE,organization,CACFish,NA,NA
-country,ARG,organization,CCAMLR,NA,NA
-country,AUS,organization,CCAMLR,NA,NA
-country,BEL,organization,CCAMLR,NA,NA
-country,BRA,organization,CCAMLR,NA,NA
-country,CHL,organization,CCAMLR,NA,NA
-country,CHN,organization,CCAMLR,NA,NA
-country,EUR,organization,CCAMLR,NA,NA
-country,FRA,organization,CCAMLR,NA,NA
-country,DEU,organization,CCAMLR,NA,NA
-country,IND,organization,CCAMLR,NA,NA
-country,ITA,organization,CCAMLR,NA,NA
-country,JPN,organization,CCAMLR,NA,NA
-country,NAM,organization,CCAMLR,NA,NA
-country,NLD,organization,CCAMLR,NA,NA
-country,NZL,organization,CCAMLR,NA,NA
-country,NOR,organization,CCAMLR,NA,NA
-country,POL,organization,CCAMLR,NA,NA
-country,KOR,organization,CCAMLR,NA,NA
-country,RUS,organization,CCAMLR,NA,NA
-country,ZAF,organization,CCAMLR,NA,NA
-country,ESP,organization,CCAMLR,NA,NA
-country,SWE,organization,CCAMLR,NA,NA
-country,UKR,organization,CCAMLR,NA,NA
-country,GBR,organization,CCAMLR,NA,NA
-country,USA,organization,CCAMLR,NA,NA
-country,URY,organization,CCAMLR,NA,NA
-country,CHN,organization,CCBSP,NA,NA
-country,JPN,organization,CCBSP,NA,NA
-country,KOR,organization,CCBSP,NA,NA
-country,POL,organization,CCBSP,NA,NA
-country,RUS,organization,CCBSP,NA,NA
-country,USA,organization,CCBSP,NA,NA
-country,AUS,organization,CCSBT,NA,NA
-country,IDN,organization,CCSBT,NA,NA
-country,JPN,organization,CCSBT,NA,NA
-country,KOR,organization,CCSBT,NA,NA
-country,NZL,organization,CCSBT,NA,NA
-country,ZAF,organization,CCSBT,NA,NA
-country,TWN,organization,CCSBT,NA,NA
-country,AGO,organization,CECAF,NA,NA
-country,BEN,organization,CECAF,NA,NA
-country,CMR,organization,CECAF,NA,NA
-country,CPV,organization,CECAF,NA,NA
-country,COD,organization,CECAF,NA,NA
-country,COG,organization,CECAF,NA,NA
-country,CIV,organization,CECAF,NA,NA
-country,CUB,organization,CECAF,NA,NA
-country,GNQ,organization,CECAF,NA,NA
-country,EUR,organization,CECAF,NA,NA
-country,FRA,organization,CECAF,NA,NA
-country,GAB,organization,CECAF,NA,NA
-country,GMB,organization,CECAF,NA,NA
-country,GHA,organization,CECAF,NA,NA
-country,GRC,organization,CECAF,NA,NA
-country,GIN,organization,CECAF,NA,NA
-country,GNB,organization,CECAF,NA,NA
-country,ITA,organization,CECAF,NA,NA
-country,JPN,organization,CECAF,NA,NA
-country,KOR,organization,CECAF,NA,NA
-country,LBR,organization,CECAF,NA,NA
-country,MRT,organization,CECAF,NA,NA
-country,MAR,organization,CECAF,NA,NA
-country,NLD,organization,CECAF,NA,NA
-country,NGA,organization,CECAF,NA,NA
-country,NOR,organization,CECAF,NA,NA
-country,POL,organization,CECAF,NA,NA
-country,ROU,organization,CECAF,NA,NA
-country,STP,organization,CECAF,NA,NA
-country,SEN,organization,CECAF,NA,NA
-country,SLE,organization,CECAF,NA,NA
-country,ESP,organization,CECAF,NA,NA
-country,TGO,organization,CECAF,NA,NA
-country,USA,organization,CECAF,NA,NA
-country,BEN,organization,CIFAA,NA,NA
-country,BWA,organization,CIFAA,NA,NA
-country,BFA,organization,CIFAA,NA,NA
-country,BDI,organization,CIFAA,NA,NA
-country,CMR,organization,CIFAA,NA,NA
-country,CAF,organization,CIFAA,NA,NA
-country,TCD,organization,CIFAA,NA,NA
-country,COD,organization,CIFAA,NA,NA
-country,COG,organization,CIFAA,NA,NA
-country,CIV,organization,CIFAA,NA,NA
-country,EGY,organization,CIFAA,NA,NA
-country,ERI,organization,CIFAA,NA,NA
-country,ETH,organization,CIFAA,NA,NA
-country,GAB,organization,CIFAA,NA,NA
-country,GMB,organization,CIFAA,NA,NA
-country,GHA,organization,CIFAA,NA,NA
-country,GIN,organization,CIFAA,NA,NA
-country,KEN,organization,CIFAA,NA,NA
-country,LSO,organization,CIFAA,NA,NA
-country,MDG,organization,CIFAA,NA,NA
-country,MWI,organization,CIFAA,NA,NA
-country,MLI,organization,CIFAA,NA,NA
-country,MUS,organization,CIFAA,NA,NA
-country,MOZ,organization,CIFAA,NA,NA
-country,NER,organization,CIFAA,NA,NA
-country,NGA,organization,CIFAA,NA,NA
-country,RWA,organization,CIFAA,NA,NA
-country,SEN,organization,CIFAA,NA,NA
-country,SLE,organization,CIFAA,NA,NA
-country,SOM,organization,CIFAA,NA,NA
-country,SDN,organization,CIFAA,NA,NA
-country,SWZ,organization,CIFAA,NA,NA
-country,TZA,organization,CIFAA,NA,NA
-country,TGO,organization,CIFAA,NA,NA
-country,UGA,organization,CIFAA,NA,NA
-country,ZMB,organization,CIFAA,NA,NA
-country,ZWE,organization,CIFAA,NA,NA
-country,ARG,organization,COPPESAALC,NA,NA
-country,BOL,organization,COPPESAALC,NA,NA
-country,BRA,organization,COPPESAALC,NA,NA
-country,CHL,organization,COPPESAALC,NA,NA
-country,COL,organization,COPPESAALC,NA,NA
-country,CRI,organization,COPPESAALC,NA,NA
-country,CUB,organization,COPPESAALC,NA,NA
-country,DOM,organization,COPPESAALC,NA,NA
-country,ECU,organization,COPPESAALC,NA,NA
-country,SLV,organization,COPPESAALC,NA,NA
-country,GTM,organization,COPPESAALC,NA,NA
-country,HND,organization,COPPESAALC,NA,NA
-country,JAM,organization,COPPESAALC,NA,NA
-country,MEX,organization,COPPESAALC,NA,NA
-country,NIC,organization,COPPESAALC,NA,NA
-country,PAN,organization,COPPESAALC,NA,NA
-country,PRY,organization,COPPESAALC,NA,NA
-country,PER,organization,COPPESAALC,NA,NA
-country,SUR,organization,COPPESAALC,NA,NA
-country,URY,organization,COPPESAALC,NA,NA
-country,VEN,organization,COPPESAALC,NA,NA
-country,AGO,organization,COREP,NA,NA
-country,CMR,organization,COREP,NA,NA
-country,COG,organization,COREP,NA,NA
-country,COD,organization,COREP,NA,NA
-country,GAB,organization,COREP,NA,NA
-country,STP,organization,COREP,NA,NA
-country,CHL,organization,CPPS,NA,NA
-country,COL,organization,CPPS,NA,NA
-country,ECU,organization,CPPS,NA,NA
-country,PER,organization,CPPS,NA,NA
-country,AIA,organization,CRFM,NA,NA
-country,ATG,organization,CRFM,NA,NA
-country,BHS,organization,CRFM,NA,NA
-country,BRB,organization,CRFM,NA,NA
-country,BLZ,organization,CRFM,NA,NA
-country,GRD,organization,CRFM,NA,NA
-country,GUY,organization,CRFM,NA,NA
-country,HTI,organization,CRFM,NA,NA
-country,JAM,organization,CRFM,NA,NA
-country,MSR,organization,CRFM,NA,NA
-country,LCA,organization,CRFM,NA,NA
-country,KNA,organization,CRFM,NA,NA
-country,VCT,organization,CRFM,NA,NA
-country,SUR,organization,CRFM,NA,NA
-country,TTO,organization,CRFM,NA,NA
-country,TCA,organization,CRFM,NA,NA
-country,ARG,organization,CTMFM,NA,NA
-country,URY,organization,CTMFM,NA,NA
-country,ALB,organization,EIFAAC,NA,NA
-country,AUT,organization,EIFAAC,NA,NA
-country,BEL,organization,EIFAAC,NA,NA
-country,BIH,organization,EIFAAC,NA,NA
-country,BGR,organization,EIFAAC,NA,NA
-country,HRV,organization,EIFAAC,NA,NA
-country,CYP,organization,EIFAAC,NA,NA
-country,CZE,organization,EIFAAC,NA,NA
-country,DNK,organization,EIFAAC,NA,NA
-country,EST,organization,EIFAAC,NA,NA
-country,EUR,organization,EIFAAC,NA,NA
-country,FIN,organization,EIFAAC,NA,NA
-country,FRA,organization,EIFAAC,NA,NA
-country,DEU,organization,EIFAAC,NA,NA
-country,GRC,organization,EIFAAC,NA,NA
-country,HUN,organization,EIFAAC,NA,NA
-country,ISL,organization,EIFAAC,NA,NA
-country,IRL,organization,EIFAAC,NA,NA
-country,ISR,organization,EIFAAC,NA,NA
-country,ITA,organization,EIFAAC,NA,NA
-country,LVA,organization,EIFAAC,NA,NA
-country,LTU,organization,EIFAAC,NA,NA
-country,LUX,organization,EIFAAC,NA,NA
-country,MDA,organization,EIFAAC,NA,NA
-country,NLD,organization,EIFAAC,NA,NA
-country,MKD,organization,EIFAAC,NA,NA
-country,NOR,organization,EIFAAC,NA,NA
-country,POL,organization,EIFAAC,NA,NA
-country,PRT,organization,EIFAAC,NA,NA
-country,ROU,organization,EIFAAC,NA,NA
-country,SVN,organization,EIFAAC,NA,NA
-country,SVK,organization,EIFAAC,NA,NA
-country,ESP,organization,EIFAAC,NA,NA
-country,SRB,organization,EIFAAC,NA,NA
-country,SWE,organization,EIFAAC,NA,NA
-country,CHE,organization,EIFAAC,NA,NA
-country,TUR,organization,EIFAAC,NA,NA
-country,GBR,organization,EIFAAC,NA,NA
-country,BEN,organization,FCWC,NA,NA
-country,CIV,organization,FCWC,NA,NA
-country,GHA,organization,FCWC,NA,NA
-country,LBR,organization,FCWC,NA,NA
-country,NGA,organization,FCWC,NA,NA
-country,TGO,organization,FCWC,NA,NA
-country,AUS,organization,FFA,NA,NA
-country,COK,organization,FFA,NA,NA
-country,FJI,organization,FFA,NA,NA
-country,KIR,organization,FFA,NA,NA
-country,MHL,organization,FFA,NA,NA
-country,FSM,organization,FFA,NA,NA
-country,NRU,organization,FFA,NA,NA
-country,NZL,organization,FFA,NA,NA
-country,NIU,organization,FFA,NA,NA
-country,PLW,organization,FFA,NA,NA
-country,PNG,organization,FFA,NA,NA
-country,WSM,organization,FFA,NA,NA
-country,SLB,organization,FFA,NA,NA
-country,TKL,organization,FFA,NA,NA
-country,TON,organization,FFA,NA,NA
-country,TUV,organization,FFA,NA,NA
-country,VUT,organization,FFA,NA,NA
-country,ALB,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,DZA,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,BGR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,HRV,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,CYP,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,EUR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,EGY,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,FRA,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,GRC,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,ISR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,ITA,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,JPN,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,LBN,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,LBY,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,MLT,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,MCO,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,MNE,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,MAR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,ROU,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,SVN,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,ESP,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,SYR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,TUN,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,TUR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
-country,BLZ,organization,IATTC,NA,NA
-country,CAN,organization,IATTC,NA,NA
-country,CHN,organization,IATTC,NA,NA
-country,TWN,organization,IATTC,NA,NA
-country,COL,organization,IATTC,NA,NA
-country,CRI,organization,IATTC,NA,NA
-country,ECU,organization,IATTC,NA,NA
-country,SLV,organization,IATTC,NA,NA
-country,EUR,organization,IATTC,NA,NA
-country,FRA,organization,IATTC,NA,NA
-country,GTM,organization,IATTC,NA,NA
-country,KIR,organization,IATTC,NA,NA
-country,JPN,organization,IATTC,NA,NA
-country,MEX,organization,IATTC,NA,NA
-country,NIC,organization,IATTC,NA,NA
-country,PAN,organization,IATTC,NA,NA
-country,PER,organization,IATTC,NA,NA
-country,KOR,organization,IATTC,NA,NA
-country,USA,organization,IATTC,NA,NA
-country,VUT,organization,IATTC,NA,NA
-country,VEN,organization,IATTC,NA,NA
-country,ALB,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,DZA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,AGO,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,BRB,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,BLZ,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,BRA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,CAN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,CPV,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,CHN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,CIV,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,CUW,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,EGY,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,SLV,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,GNQ,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,EUR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,FRA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,GAB,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,GHA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,GRD,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,GTM,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,GIN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,HND,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,ISL,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,JPN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,LBR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,LBY,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,MAR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,MRT,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,MEX,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,NAM,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,NIC,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,NGA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,NOR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,PAN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,PHL,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,KOR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,RUS,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,VCT,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,STP,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,SEN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,SLE,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,ZAF,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,SYR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,TTO,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,TUN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,TUR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,GBR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,USA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,URY,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,VUT,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,VEN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
-country,BEL,organization,ICES,NA,NA
-country,CAN,organization,ICES,NA,NA
-country,DNK,organization,ICES,NA,NA
-country,EST,organization,ICES,NA,NA
-country,FIN,organization,ICES,NA,NA
-country,FRA,organization,ICES,NA,NA
-country,DEU,organization,ICES,NA,NA
-country,ISL,organization,ICES,NA,NA
-country,IRL,organization,ICES,NA,NA
-country,LVA,organization,ICES,NA,NA
-country,LTU,organization,ICES,NA,NA
-country,NLD,organization,ICES,NA,NA
-country,NOR,organization,ICES,NA,NA
-country,POL,organization,ICES,NA,NA
-country,PRT,organization,ICES,NA,NA
-country,RUS,organization,ICES,NA,NA
-country,ESP,organization,ICES,NA,NA
-country,SWE,organization,ICES,NA,NA
-country,GBR,organization,ICES,NA,NA
-country,USA,organization,ICES,NA,NA
-country,CAN,organization,IPHC,NA,NA
-country,USA,organization,IPHC,NA,NA
-country,ATG,organization,IWC,NA,NA
-country,ARG,organization,IWC,NA,NA
-country,AUS,organization,IWC,NA,NA
-country,AUT,organization,IWC,NA,NA
-country,BEL,organization,IWC,NA,NA
-country,BLZ,organization,IWC,NA,NA
-country,BEN,organization,IWC,NA,NA
-country,BRA,organization,IWC,NA,NA
-country,BGR,organization,IWC,NA,NA
-country,KHM,organization,IWC,NA,NA
-country,CMR,organization,IWC,NA,NA
-country,CHL,organization,IWC,NA,NA
-country,CHN,organization,IWC,NA,NA
-country,COL,organization,IWC,NA,NA
-country,COG,organization,IWC,NA,NA
-country,CRI,organization,IWC,NA,NA
-country,CIV,organization,IWC,NA,NA
-country,HRV,organization,IWC,NA,NA
-country,CYP,organization,IWC,NA,NA
-country,CZE,organization,IWC,NA,NA
-country,DNK,organization,IWC,NA,NA
-country,DMA,organization,IWC,NA,NA
-country,DOM,organization,IWC,NA,NA
-country,ECU,organization,IWC,NA,NA
-country,ERI,organization,IWC,NA,NA
-country,EST,organization,IWC,NA,NA
-country,FIN,organization,IWC,NA,NA
-country,FRA,organization,IWC,NA,NA
-country,GAB,organization,IWC,NA,NA
-country,GMB,organization,IWC,NA,NA
-country,DEU,organization,IWC,NA,NA
-country,GHA,organization,IWC,NA,NA
-country,GRD,organization,IWC,NA,NA
-country,GTM,organization,IWC,NA,NA
-country,GIN,organization,IWC,NA,NA
-country,GNB,organization,IWC,NA,NA
-country,HUN,organization,IWC,NA,NA
-country,ISL,organization,IWC,NA,NA
-country,IND,organization,IWC,NA,NA
-country,IRL,organization,IWC,NA,NA
-country,ISR,organization,IWC,NA,NA
-country,ITA,organization,IWC,NA,NA
-country,JPN,organization,IWC,NA,NA
-country,KEN,organization,IWC,NA,NA
-country,KIR,organization,IWC,NA,NA
-country,LAO,organization,IWC,NA,NA
-country,LTU,organization,IWC,NA,NA
-country,LUX,organization,IWC,NA,NA
-country,MLI,organization,IWC,NA,NA
-country,MHL,organization,IWC,NA,NA
-country,MRT,organization,IWC,NA,NA
-country,MEX,organization,IWC,NA,NA
-country,MCO,organization,IWC,NA,NA
-country,MNG,organization,IWC,NA,NA
-country,MAR,organization,IWC,NA,NA
-country,NRU,organization,IWC,NA,NA
-country,NLD,organization,IWC,NA,NA
-country,NZL,organization,IWC,NA,NA
-country,NIC,organization,IWC,NA,NA
-country,NOR,organization,IWC,NA,NA
-country,OMN,organization,IWC,NA,NA
-country,PLW,organization,IWC,NA,NA
-country,PAN,organization,IWC,NA,NA
-country,PER,organization,IWC,NA,NA
-country,POL,organization,IWC,NA,NA
-country,PRT,organization,IWC,NA,NA
-country,KOR,organization,IWC,NA,NA
-country,ROU,organization,IWC,NA,NA
-country,RUS,organization,IWC,NA,NA
-country,KNA,organization,IWC,NA,NA
-country,LCA,organization,IWC,NA,NA
-country,VCT,organization,IWC,NA,NA
-country,SMR,organization,IWC,NA,NA
-country,SEN,organization,IWC,NA,NA
-country,SVK,organization,IWC,NA,NA
-country,SVN,organization,IWC,NA,NA
-country,SLB,organization,IWC,NA,NA
-country,ZAF,organization,IWC,NA,NA
-country,ESP,organization,IWC,NA,NA
-country,SUR,organization,IWC,NA,NA
-country,SWE,organization,IWC,NA,NA
-country,CHE,organization,IWC,NA,NA
-country,TGO,organization,IWC,NA,NA
-country,TUV,organization,IWC,NA,NA
-country,GBR,organization,IWC,NA,NA
-country,USA,organization,IWC,NA,NA
-country,TZA,organization,IWC,NA,NA
-country,URY,organization,IWC,NA,NA
-country,NOR,organization,JointFish,NA,NA
-country,RUS,organization,JointFish,NA,NA
-country,BDI,organization,LTA,NA,NA
-country,COD,organization,LTA,NA,NA
-country,TZA,organization,LTA,NA,NA
-country,ZMB,organization,LTA,NA,NA
-country,BDI,organization,LVFO,NA,NA
-country,KEN,organization,LVFO,NA,NA
-country,UGA,organization,LVFO,NA,NA
-country,TZA,organization,LVFO,NA,NA
-country,KHM,organization,MRC,NA,NA
-country,LAO,organization,MRC,NA,NA
-country,THA,organization,MRC,NA,NA
-country,VNM,organization,MRC,NA,NA
-country,AUS,organization,NACA,NA,NA
-country,BGD,organization,NACA,NA,NA
-country,KHM,organization,NACA,NA,NA
-country,CHN,organization,NACA,NA,NA
-country,HKG,organization,NACA,NA,NA
-country,IND,organization,NACA,NA,NA
-country,IDN,organization,NACA,NA,NA
-country,IRN,organization,NACA,NA,NA
-country,PRK,organization,NACA,NA,NA
-country,LAO,organization,NACA,NA,NA
-country,MYS,organization,NACA,NA,NA
-country,MMR,organization,NACA,NA,NA
-country,NPL,organization,NACA,NA,NA
-country,PAK,organization,NACA,NA,NA
-country,PHL,organization,NACA,NA,NA
-country,LKA,organization,NACA,NA,NA
-country,THA,organization,NACA,NA,NA
-country,VNM,organization,NACA,NA,NA
-country,CAN,organization,NAFO,NA,NA
-country,CUB,organization,NAFO,NA,NA
-country,DNK,organization,NAFO,NA,NA
-country,FRO,organization,NAFO,NA,NA
-country,GRL,organization,NAFO,NA,NA
-country,EUR,organization,NAFO,NA,NA
-country,FRA,organization,NAFO,NA,NA
-country,ISL,organization,NAFO,NA,NA
-country,JPN,organization,NAFO,NA,NA
-country,NOR,organization,NAFO,NA,NA
-country,KOR,organization,NAFO,NA,NA
-country,RUS,organization,NAFO,NA,NA
-country,GBR,organization,NAFO,NA,NA
-country,UKR,organization,NAFO,NA,NA
-country,USA,organization,NAFO,NA,NA
-country,FRO,organization,NAMMCO,NA,NA
-country,GRL,organization,NAMMCO,NA,NA
-country,ISL,organization,NAMMCO,NA,NA
-country,NOR,organization,NAMMCO,NA,NA
-country,CAN,organization,NASCO,NA,NA
-country,DNK,organization,NASCO,NA,NA
-country,EUR,organization,NASCO,NA,NA
-country,NOR,organization,NASCO,NA,NA
-country,RUS,organization,NASCO,NA,NA
-country,GBR,organization,NASCO,NA,NA
-country,USA,organization,NASCO,NA,NA
-country,DNK,organization,NEAFC,NA,NA
-country,EUR,organization,NEAFC,NA,NA
-country,ISL,organization,NEAFC,NA,NA
-country,NOR,organization,NEAFC,NA,NA
-country,RUS,organization,NEAFC,NA,NA
-country,GBR,organization,NEAFC,NA,NA
-country,CAN,organization,NPAFC,NA,NA
-country,JPN,organization,NPAFC,NA,NA
-country,KOR,organization,NPAFC,NA,NA
-country,RUS,organization,NPAFC,NA,NA
-country,USA,organization,NPAFC,NA,NA
-country,CAN,organization,NPFC,NA,NA
-country,CHN,organization,NPFC,NA,NA
-country,EUR,organization,NPFC,NA,NA
-country,JPN,organization,NPFC,NA,NA
-country,KOR,organization,NPFC,NA,NA
-country,RUS,organization,NPFC,NA,NA
-country,USA,organization,NPFC,NA,NA
-country,VUT,organization,NPFC,NA,NA
-country,BLZ,organization,OSPESCA,NA,NA
-country,CRI,organization,OSPESCA,NA,NA
-country,DOM,organization,OSPESCA,NA,NA
-country,SLV,organization,OSPESCA,NA,NA
-country,GTM,organization,OSPESCA,NA,NA
-country,HND,organization,OSPESCA,NA,NA
-country,NIC,organization,OSPESCA,NA,NA
-country,PAN,organization,OSPESCA,NA,NA
-country,DJI,organization,PERSGA,NA,NA
-country,EGY,organization,PERSGA,NA,NA
-country,JOR,organization,PERSGA,NA,NA
-country,SAU,organization,PERSGA,NA,NA
-country,SOM,organization,PERSGA,NA,NA
-country,SDN,organization,PERSGA,NA,NA
-country,YEM,organization,PERSGA,NA,NA
-country,CAN,organization,PICES,NA,NA
-country,CHN,organization,PICES,NA,NA
-country,JPN,organization,PICES,NA,NA
-country,KOR,organization,PICES,NA,NA
-country,RUS,organization,PICES,NA,NA
-country,USA,organization,PICES,NA,NA
-country,CAN,organization,PSC,NA,NA
-country,USA,organization,PSC,NA,NA
-country,BHR,organization,RECOFI,RECOFI MDR PILOT,NA
-country,IRQ,organization,RECOFI,RECOFI MDR PILOT,NA
-country,IRN,organization,RECOFI,RECOFI MDR PILOT,NA
-country,KWT,organization,RECOFI,RECOFI MDR PILOT,NA
-country,OMN,organization,RECOFI,RECOFI MDR PILOT,NA
-country,QAT,organization,RECOFI,RECOFI MDR PILOT,NA
-country,SAU,organization,RECOFI,RECOFI MDR PILOT,NA
-country,ARE,organization,RECOFI,RECOFI MDR PILOT,NA
-country,BRN,organization,SEAFDEC,NA,NA
-country,KHM,organization,SEAFDEC,NA,NA
-country,IDN,organization,SEAFDEC,NA,NA
-country,JPN,organization,SEAFDEC,NA,NA
-country,LAO,organization,SEAFDEC,NA,NA
-country,MYS,organization,SEAFDEC,NA,NA
-country,MMR,organization,SEAFDEC,NA,NA
-country,PHL,organization,SEAFDEC,NA,NA
-country,SGP,organization,SEAFDEC,NA,NA
-country,THA,organization,SEAFDEC,NA,NA
-country,VNM,organization,SEAFDEC,NA,NA
-country,AGO,organization,SEAFO,NA,NA
-country,EUR,organization,SEAFO,NA,NA
-country,JPN,organization,SEAFO,NA,NA
-country,NAM,organization,SEAFO,NA,NA
-country,KOR,organization,SEAFO,NA,NA
-country,ZAF,organization,SEAFO,NA,NA
-country,AUS,organization,SIOFA,NA,NA
-country,COM,organization,SIOFA,NA,NA
-country,COK,organization,SIOFA,NA,NA
-country,EUR,organization,SIOFA,NA,NA
-country,FRA,organization,SIOFA,NA,NA
-country,JPN,organization,SIOFA,NA,NA
-country,KOR,organization,SIOFA,NA,NA
-country,MUS,organization,SIOFA,NA,NA
-country,SYC,organization,SIOFA,NA,NA
-country,ASM,organization,SPC,NA,NA
-country,AUS,organization,SPC,NA,NA
-country,COK,organization,SPC,NA,NA
-country,FSM,organization,SPC,NA,NA
-country,FJI,organization,SPC,NA,NA
-country,FRA,organization,SPC,NA,NA
-country,PYF,organization,SPC,NA,NA
-country,GUM,organization,SPC,NA,NA
-country,KIR,organization,SPC,NA,NA
-country,MHL,organization,SPC,NA,NA
-country,NRU,organization,SPC,NA,NA
-country,NCL,organization,SPC,NA,NA
-country,NIU,organization,SPC,NA,NA
-country,MNP,organization,SPC,NA,NA
-country,PLW,organization,SPC,NA,NA
-country,PNG,organization,SPC,NA,NA
-country,PCN,organization,SPC,NA,NA
-country,WSM,organization,SPC,NA,NA
-country,SLB,organization,SPC,NA,NA
-country,TKL,organization,SPC,NA,NA
-country,TON,organization,SPC,NA,NA
-country,TUV,organization,SPC,NA,NA
-country,USA,organization,SPC,NA,NA
-country,VUT,organization,SPC,NA,NA
-country,WLF,organization,SPC,NA,NA
-country,AUS,organization,SPRFMO,NA,NA
-country,BLZ,organization,SPRFMO,NA,NA
-country,CHL,organization,SPRFMO,NA,NA
-country,CHN,organization,SPRFMO,NA,NA
-country,COK,organization,SPRFMO,NA,NA
-country,CUB,organization,SPRFMO,NA,NA
-country,ECU,organization,SPRFMO,NA,NA
-country,EUR,organization,SPRFMO,NA,NA
-country,DNK,organization,SPRFMO,NA,NA
-country,KOR,organization,SPRFMO,NA,NA
-country,VUT,organization,SPRFMO,NA,NA
-country,NZL,organization,SPRFMO,NA,NA
-country,PAN,organization,SPRFMO,NA,NA
-country,PER,organization,SPRFMO,NA,NA
-country,RUS,organization,SPRFMO,NA,NA
-country,TWN,organization,SPRFMO,NA,NA
-country,USA,organization,SPRFMO,NA,NA
-country,CPV,organization,SRFC,NA,NA
-country,GMB,organization,SRFC,NA,NA
-country,GIN,organization,SRFC,NA,NA
-country,GNB,organization,SRFC,NA,NA
-country,MRT,organization,SRFC,NA,NA
-country,SEN,organization,SRFC,NA,NA
-country,SLE,organization,SRFC,NA,NA
-country,COM,organization,SWIOFC,NA,NA
-country,FRA,organization,SWIOFC,NA,NA
-country,KEN,organization,SWIOFC,NA,NA
-country,MDG,organization,SWIOFC,NA,NA
-country,MDV,organization,SWIOFC,NA,NA
-country,MUS,organization,SWIOFC,NA,NA
-country,MOZ,organization,SWIOFC,NA,NA
-country,SYC,organization,SWIOFC,NA,NA
-country,SOM,organization,SWIOFC,NA,NA
-country,ZAF,organization,SWIOFC,NA,NA
-country,TZA,organization,SWIOFC,NA,NA
-country,YEM,organization,SWIOFC,NA,NA
-country,AUS,organization,WCPFC,NA,NA
-country,CAN,organization,WCPFC,NA,NA
-country,CHN,organization,WCPFC,NA,NA
-country,COK,organization,WCPFC,NA,NA
-country,EUR,organization,WCPFC,NA,NA
-country,FJI,organization,WCPFC,NA,NA
-country,FRA,organization,WCPFC,NA,NA
-country,IDN,organization,WCPFC,NA,NA
-country,JPN,organization,WCPFC,NA,NA
-country,KIR,organization,WCPFC,NA,NA
-country,MHL,organization,WCPFC,NA,NA
-country,FSM,organization,WCPFC,NA,NA
-country,NRU,organization,WCPFC,NA,NA
-country,NZL,organization,WCPFC,NA,NA
-country,NIU,organization,WCPFC,NA,NA
-country,PLW,organization,WCPFC,NA,NA
-country,PNG,organization,WCPFC,NA,NA
-country,PHL,organization,WCPFC,NA,NA
-country,KOR,organization,WCPFC,NA,NA
-country,WSM,organization,WCPFC,NA,NA
-country,SLB,organization,WCPFC,NA,NA
-country,TON,organization,WCPFC,NA,NA
-country,TWN,organization,WCPFC,NA,NA
-country,TUV,organization,WCPFC,NA,NA
-country,USA,organization,WCPFC,NA,NA
-country,VUT,organization,WCPFC,NA,NA
-country,ATG,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,BHS,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,BRB,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,BLZ,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,BRA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,COL,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,CRI,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,CUB,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,DMA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,DOM,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,EUR,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,FRA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,GRD,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,GTM,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,GIN,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,GUY,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,HTI,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,HND,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,JAM,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,JPN,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,MEX,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,NLD,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,NIC,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,PAN,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,KOR,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,KNA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,LCA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,VCT,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,ESP,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,SUR,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,TTO,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,GBR,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,USA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,VEN,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
-country,AUS,organization,UN-FAO,NA,NA
-country,BGD,organization,UN-FAO,NA,NA
-country,BLZ,organization,UN-FAO,NA,NA
-country,CHN,organization,UN-FAO,NA,NA
-country,COM,organization,UN-FAO,NA,NA
-country,ERI,organization,UN-FAO,NA,NA
-country,EUR,organization,UN-FAO,NA,NA
-country,FRA,organization,UN-FAO,NA,NA
-country,GIN,organization,UN-FAO,NA,NA
-country,IND,organization,UN-FAO,NA,NA
-country,IDN,organization,UN-FAO,NA,NA
-country,IRN,organization,UN-FAO,NA,NA
-country,JPN,organization,UN-FAO,NA,NA
-country,KEN,organization,UN-FAO,NA,NA
-country,KOR,organization,UN-FAO,NA,NA
-country,MDG,organization,UN-FAO,NA,NA
-country,MYS,organization,UN-FAO,NA,NA
-country,MDV,organization,UN-FAO,NA,NA
-country,MUS,organization,UN-FAO,NA,NA
-country,MOZ,organization,UN-FAO,NA,NA
-country,OMN,organization,UN-FAO,NA,NA
-country,PAK,organization,UN-FAO,NA,NA
-country,PHL,organization,UN-FAO,NA,NA
-country,SYC,organization,UN-FAO,NA,NA
-country,SLE,organization,UN-FAO,NA,NA
-country,SOM,organization,UN-FAO,NA,NA
-country,ZAF,organization,UN-FAO,NA,NA
-country,LKA,organization,UN-FAO,NA,NA
-country,SDN,organization,UN-FAO,NA,NA
-country,TZA,organization,UN-FAO,NA,NA
-country,THA,organization,UN-FAO,NA,NA
-country,GBR,organization,UN-FAO,NA,NA
-country,YEM,organization,UN-FAO,NA,NA
-country,ARG,organization,UN-FAO,NA,NA
-country,BRA,organization,UN-FAO,NA,NA
-country,CHL,organization,UN-FAO,NA,NA
-country,ECU,organization,UN-FAO,NA,NA
-country,NZL,organization,UN-FAO,NA,NA
-country,NOR,organization,UN-FAO,NA,NA
-country,PER,organization,UN-FAO,NA,NA
-country,ESP,organization,UN-FAO,NA,NA
-country,URY,organization,UN-FAO,NA,NA
-country,KHM,organization,UN-FAO,NA,NA
-country,MMR,organization,UN-FAO,NA,NA
-country,NPL,organization,UN-FAO,NA,NA
-country,TLS,organization,UN-FAO,NA,NA
-country,USA,organization,UN-FAO,NA,NA
-country,VNM,organization,UN-FAO,NA,NA
-country,ARM,organization,UN-FAO,NA,NA
-country,TJK,organization,UN-FAO,NA,NA
-country,KGZ,organization,UN-FAO,NA,NA
-country,TUR,organization,UN-FAO,NA,NA
-country,AZE,organization,UN-FAO,NA,NA
-country,BEL,organization,UN-FAO,NA,NA
-country,DEU,organization,UN-FAO,NA,NA
-country,ITA,organization,UN-FAO,NA,NA
-country,NAM,organization,UN-FAO,NA,NA
-country,NLD,organization,UN-FAO,NA,NA
-country,POL,organization,UN-FAO,NA,NA
-country,RUS,organization,UN-FAO,NA,NA
-country,SWE,organization,UN-FAO,NA,NA
-country,UKR,organization,UN-FAO,NA,NA
-country,TWN,organization,UN-FAO,NA,NA
-country,AGO,organization,UN-FAO,NA,NA
-country,BEN,organization,UN-FAO,NA,NA
-country,CMR,organization,UN-FAO,NA,NA
-country,CPV,organization,UN-FAO,NA,NA
-country,COD,organization,UN-FAO,NA,NA
-country,COG,organization,UN-FAO,NA,NA
-country,CIV,organization,UN-FAO,NA,NA
-country,CUB,organization,UN-FAO,NA,NA
-country,GNQ,organization,UN-FAO,NA,NA
-country,GAB,organization,UN-FAO,NA,NA
-country,GMB,organization,UN-FAO,NA,NA
-country,GHA,organization,UN-FAO,NA,NA
-country,GRC,organization,UN-FAO,NA,NA
-country,GNB,organization,UN-FAO,NA,NA
-country,LBR,organization,UN-FAO,NA,NA
-country,MRT,organization,UN-FAO,NA,NA
-country,MAR,organization,UN-FAO,NA,NA
-country,NGA,organization,UN-FAO,NA,NA
-country,ROU,organization,UN-FAO,NA,NA
-country,STP,organization,UN-FAO,NA,NA
-country,SEN,organization,UN-FAO,NA,NA
-country,TGO,organization,UN-FAO,NA,NA
-country,BWA,organization,UN-FAO,NA,NA
-country,BFA,organization,UN-FAO,NA,NA
-country,BDI,organization,UN-FAO,NA,NA
-country,CAF,organization,UN-FAO,NA,NA
-country,TCD,organization,UN-FAO,NA,NA
-country,EGY,organization,UN-FAO,NA,NA
-country,ETH,organization,UN-FAO,NA,NA
-country,LSO,organization,UN-FAO,NA,NA
-country,MWI,organization,UN-FAO,NA,NA
-country,MLI,organization,UN-FAO,NA,NA
-country,NER,organization,UN-FAO,NA,NA
-country,RWA,organization,UN-FAO,NA,NA
-country,SWZ,organization,UN-FAO,NA,NA
-country,UGA,organization,UN-FAO,NA,NA
-country,ZMB,organization,UN-FAO,NA,NA
-country,ZWE,organization,UN-FAO,NA,NA
-country,BOL,organization,UN-FAO,NA,NA
-country,COL,organization,UN-FAO,NA,NA
-country,CRI,organization,UN-FAO,NA,NA
-country,DOM,organization,UN-FAO,NA,NA
-country,SLV,organization,UN-FAO,NA,NA
-country,GTM,organization,UN-FAO,NA,NA
-country,HND,organization,UN-FAO,NA,NA
-country,JAM,organization,UN-FAO,NA,NA
-country,MEX,organization,UN-FAO,NA,NA
-country,NIC,organization,UN-FAO,NA,NA
-country,PAN,organization,UN-FAO,NA,NA
-country,PRY,organization,UN-FAO,NA,NA
-country,SUR,organization,UN-FAO,NA,NA
-country,VEN,organization,UN-FAO,NA,NA
-country,AIA,organization,UN-FAO,NA,NA
-country,ATG,organization,UN-FAO,NA,NA
-country,BHS,organization,UN-FAO,NA,NA
-country,BRB,organization,UN-FAO,NA,NA
-country,GRD,organization,UN-FAO,NA,NA
-country,GUY,organization,UN-FAO,NA,NA
-country,HTI,organization,UN-FAO,NA,NA
-country,MSR,organization,UN-FAO,NA,NA
-country,LCA,organization,UN-FAO,NA,NA
-country,KNA,organization,UN-FAO,NA,NA
-country,VCT,organization,UN-FAO,NA,NA
-country,TTO,organization,UN-FAO,NA,NA
-country,TCA,organization,UN-FAO,NA,NA
-country,ALB,organization,UN-FAO,NA,NA
-country,AUT,organization,UN-FAO,NA,NA
-country,BIH,organization,UN-FAO,NA,NA
-country,BGR,organization,UN-FAO,NA,NA
-country,HRV,organization,UN-FAO,NA,NA
-country,CYP,organization,UN-FAO,NA,NA
-country,CZE,organization,UN-FAO,NA,NA
-country,DNK,organization,UN-FAO,NA,NA
-country,EST,organization,UN-FAO,NA,NA
-country,FIN,organization,UN-FAO,NA,NA
-country,HUN,organization,UN-FAO,NA,NA
-country,ISL,organization,UN-FAO,NA,NA
-country,IRL,organization,UN-FAO,NA,NA
-country,ISR,organization,UN-FAO,NA,NA
-country,LVA,organization,UN-FAO,NA,NA
-country,LTU,organization,UN-FAO,NA,NA
-country,LUX,organization,UN-FAO,NA,NA
-country,MDA,organization,UN-FAO,NA,NA
-country,MKD,organization,UN-FAO,NA,NA
-country,PRT,organization,UN-FAO,NA,NA
-country,SVN,organization,UN-FAO,NA,NA
-country,SVK,organization,UN-FAO,NA,NA
-country,SRB,organization,UN-FAO,NA,NA
-country,CHE,organization,UN-FAO,NA,NA
-country,COK,organization,UN-FAO,NA,NA
-country,FJI,organization,UN-FAO,NA,NA
-country,KIR,organization,UN-FAO,NA,NA
-country,MHL,organization,UN-FAO,NA,NA
-country,FSM,organization,UN-FAO,NA,NA
-country,NRU,organization,UN-FAO,NA,NA
-country,NIU,organization,UN-FAO,NA,NA
-country,PLW,organization,UN-FAO,NA,NA
-country,PNG,organization,UN-FAO,NA,NA
-country,WSM,organization,UN-FAO,NA,NA
-country,SLB,organization,UN-FAO,NA,NA
-country,TKL,organization,UN-FAO,NA,NA
-country,TON,organization,UN-FAO,NA,NA
-country,TUV,organization,UN-FAO,NA,NA
-country,VUT,organization,UN-FAO,NA,NA
-country,DZA,organization,UN-FAO,NA,NA
-country,LBN,organization,UN-FAO,NA,NA
-country,LBY,organization,UN-FAO,NA,NA
-country,MLT,organization,UN-FAO,NA,NA
-country,MCO,organization,UN-FAO,NA,NA
-country,MNE,organization,UN-FAO,NA,NA
-country,SYR,organization,UN-FAO,NA,NA
-country,TUN,organization,UN-FAO,NA,NA
-country,CAN,organization,UN-FAO,NA,NA
-country,CUW,organization,UN-FAO,NA,NA
-country,DMA,organization,UN-FAO,NA,NA
-country,LAO,organization,UN-FAO,NA,NA
-country,MNG,organization,UN-FAO,NA,NA
-country,SMR,organization,UN-FAO,NA,NA
-country,HKG,organization,UN-FAO,NA,NA
-country,PRK,organization,UN-FAO,NA,NA
-country,FRO,organization,UN-FAO,NA,NA
-country,GRL,organization,UN-FAO,NA,NA
-country,DJI,organization,UN-FAO,NA,NA
-country,JOR,organization,UN-FAO,NA,NA
-country,SAU,organization,UN-FAO,NA,NA
-country,BHR,organization,UN-FAO,NA,NA
-country,IRQ,organization,UN-FAO,NA,NA
-country,KWT,organization,UN-FAO,NA,NA
-country,QAT,organization,UN-FAO,NA,NA
-country,ARE,organization,UN-FAO,NA,NA
-country,BRN,organization,UN-FAO,NA,NA
-country,SGP,organization,UN-FAO,NA,NA
-country,ASM,organization,UN-FAO,NA,NA
-country,PYF,organization,UN-FAO,NA,NA
-country,GUM,organization,UN-FAO,NA,NA
-country,NCL,organization,UN-FAO,NA,NA
-country,MNP,organization,UN-FAO,NA,NA
-country,PCN,organization,UN-FAO,NA,NA
-country,WLF,organization,UN-FAO,NA,NA
+sender_type,sender_id,sender_name,receiver_type,receiver_id,receiver_name,dcf,dcf_ref_url
+country,AUS,Australia,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,BGD,Bangladesh,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,BLZ,Belize,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,CHN,China,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,COM,Comoros,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,ERI,Eritrea,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,EUR,European Union,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,FRA,France,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,GIN,Guinea,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,IND,India,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,IDN,Indonesia,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,IRN,Iran (Islamic Republic of),organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,JPN,Japan,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,KEN,Kenya,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,KOR,Republic of Korea,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,MDG,Madagascar,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,MYS,Malaysia,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,MDV,Maldives,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,MUS,Mauritius,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,MOZ,Mozambique,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,OMN,Oman,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,PAK,Pakistan,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,PHL,Philippines,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,SYC,Seychelles,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,SLE,Sierra Leone,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,SOM,Somalia,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,ZAF,South Africa,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,LKA,Sri Lanka,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,SDN,Sudan,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,TZA,United Republic of Tanzania,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,THA,Thailand,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,YEM,Yemen,organization,IOTC,Indian Ocean Tuna Commission,NA,NA
+country,ARG,Argentina,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,AUS,Australia,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,BRA,Brazil,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,CHL,Chile,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,ECU,Ecuador,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,FRA,France,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,NZL,New Zealand,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,NOR,Norway,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,PER,Peru,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,ZAF,South Africa,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,ESP,Spain,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,URY,Uruguay,organization,ACAP,Agreement on the Conservation of Albatrosses and Petrels,NA,NA
+country,AUS,Australia,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,BGD,Bangladesh,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,KHM,Cambodia,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,CHN,China,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,FRA,France,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,IND,India,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,IDN,Indonesia,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,JPN,Japan,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,MYS,Malaysia,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,MMR,Myanmar,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,NPL,Nepal,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,NZL,New Zealand,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,PAK,Pakistan,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,PHL,Philippines,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,KOR,Republic of Korea,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,LKA,Sri Lanka,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,TLS,Timor-Leste,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,THA,Thailand,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,USA,United States of America,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,VNM,Viet Nam,organization,APFIC,Asia-Pacific Fisheries Commission,NA,NA
+country,ARM,Armenia,organization,CACFish,Comisión de Pesca y Acuicultura de Asia Central y el Cáucaso,NA,NA
+country,TJK,Tajikistan,organization,CACFish,Comisión de Pesca y Acuicultura de Asia Central y el Cáucaso,NA,NA
+country,KGZ,Kyrgyzstan,organization,CACFish,Comisión de Pesca y Acuicultura de Asia Central y el Cáucaso,NA,NA
+country,TUR,Türkiye,organization,CACFish,Comisión de Pesca y Acuicultura de Asia Central y el Cáucaso,NA,NA
+country,AZE,Azerbaijan,organization,CACFish,Comisión de Pesca y Acuicultura de Asia Central y el Cáucaso,NA,NA
+country,ARG,Argentina,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,AUS,Australia,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,BEL,Belgium,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,BRA,Brazil,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,CHL,Chile,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,CHN,China,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,EUR,European Union,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,FRA,France,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,DEU,Germany,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,IND,India,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,ITA,Italy,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,JPN,Japan,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,NAM,Namibia,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,NLD,Netherlands (Kingdom of the),organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,NZL,New Zealand,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,NOR,Norway,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,POL,Poland,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,KOR,Republic of Korea,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,RUS,Russian Federation,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,ZAF,South Africa,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,ESP,Spain,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,SWE,Sweden,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,UKR,Ukraine,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,USA,United States of America,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,URY,Uruguay,organization,CCAMLR,Commission on the Conservation of Antarctic Marine Living Resources,NA,NA
+country,CHN,China,organization,CCBSP,Convention on the Conservation and Management of the Pollock Resources In the Central Bering Sea,NA,NA
+country,JPN,Japan,organization,CCBSP,Convention on the Conservation and Management of the Pollock Resources In the Central Bering Sea,NA,NA
+country,KOR,Republic of Korea,organization,CCBSP,Convention on the Conservation and Management of the Pollock Resources In the Central Bering Sea,NA,NA
+country,POL,Poland,organization,CCBSP,Convention on the Conservation and Management of the Pollock Resources In the Central Bering Sea,NA,NA
+country,RUS,Russian Federation,organization,CCBSP,Convention on the Conservation and Management of the Pollock Resources In the Central Bering Sea,NA,NA
+country,USA,United States of America,organization,CCBSP,Convention on the Conservation and Management of the Pollock Resources In the Central Bering Sea,NA,NA
+country,AUS,Australia,organization,CCSBT,Commission for the Conservation of Southern Bluefin Tuna,NA,NA
+country,IDN,Indonesia,organization,CCSBT,Commission for the Conservation of Southern Bluefin Tuna,NA,NA
+country,JPN,Japan,organization,CCSBT,Commission for the Conservation of Southern Bluefin Tuna,NA,NA
+country,KOR,Republic of Korea,organization,CCSBT,Commission for the Conservation of Southern Bluefin Tuna,NA,NA
+country,NZL,New Zealand,organization,CCSBT,Commission for the Conservation of Southern Bluefin Tuna,NA,NA
+country,ZAF,South Africa,organization,CCSBT,Commission for the Conservation of Southern Bluefin Tuna,NA,NA
+country,TWN,Taiwan Province of China,organization,CCSBT,Commission for the Conservation of Southern Bluefin Tuna,NA,NA
+country,AGO,Angola,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,BEN,Benin,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,CMR,Cameroon,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,CPV,Cabo Verde,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,COD,Democratic Republic of the Congo,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,COG,Congo,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,CIV,Côte d'Ivoire,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,CUB,Cuba,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,GNQ,Equatorial Guinea,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,EUR,European Union,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,FRA,France,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,GAB,Gabon,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,GMB,Gambia,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,GHA,Ghana,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,GRC,Greece,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,GIN,Guinea,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,GNB,Guinea-Bissau,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,ITA,Italy,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,JPN,Japan,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,KOR,Republic of Korea,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,LBR,Liberia,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,MRT,Mauritania,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,MAR,Morocco,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,NLD,Netherlands (Kingdom of the),organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,NGA,Nigeria,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,NOR,Norway,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,POL,Poland,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,ROU,Romania,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,STP,Sao Tome and Principe,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,SEN,Senegal,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,SLE,Sierra Leone,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,ESP,Spain,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,TGO,Togo,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,USA,United States of America,organization,CECAF,Fishery Committee for the Eastern Central Atlantic,NA,NA
+country,BEN,Benin,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,BWA,Botswana,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,BFA,Burkina Faso,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,BDI,Burundi,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,CMR,Cameroon,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,CAF,Central African Republic,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,TCD,Chad,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,COD,Democratic Republic of the Congo,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,COG,Congo,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,CIV,Côte d'Ivoire,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,EGY,Egypt,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,ERI,Eritrea,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,ETH,Ethiopia,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,GAB,Gabon,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,GMB,Gambia,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,GHA,Ghana,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,GIN,Guinea,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,KEN,Kenya,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,LSO,Lesotho,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,MDG,Madagascar,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,MWI,Malawi,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,MLI,Mali,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,MUS,Mauritius,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,MOZ,Mozambique,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,NER,Niger,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,NGA,Nigeria,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,RWA,Rwanda,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,SEN,Senegal,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,SLE,Sierra Leone,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,SOM,Somalia,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,SDN,Sudan,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,SWZ,Eswatini,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,TZA,United Republic of Tanzania,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,TGO,Togo,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,UGA,Uganda,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,ZMB,Zambia,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,ZWE,Zimbabwe,organization,CIFAA,The Committee for Inland Fisheries and Aquaculture of Africa,NA,NA
+country,ARG,Argentina,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,BOL,Bolivia (Plurinational State of),organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,BRA,Brazil,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,CHL,Chile,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,COL,Colombia,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,CRI,Costa Rica,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,CUB,Cuba,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,DOM,Dominican Republic,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,ECU,Ecuador,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,SLV,El Salvador,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,GTM,Guatemala,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,HND,Honduras,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,JAM,Jamaica,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,MEX,Mexico,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,NIC,Nicaragua,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,PAN,Panama,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,PRY,Paraguay,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,PER,Peru,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,SUR,Suriname,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,URY,Uruguay,organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,VEN,Venezuela (Bolivarian Republic of),organization,COPPESAALC,Commission for Small-Scale and Artisanal Fisheries and Aquaculture of Latin America and the Caribbean,NA,NA
+country,AGO,Angola,organization,COREP,Regional Fisheries Commission for the Gulf of Guinea,NA,NA
+country,CMR,Cameroon,organization,COREP,Regional Fisheries Commission for the Gulf of Guinea,NA,NA
+country,COG,Congo,organization,COREP,Regional Fisheries Commission for the Gulf of Guinea,NA,NA
+country,COD,Democratic Republic of the Congo,organization,COREP,Regional Fisheries Commission for the Gulf of Guinea,NA,NA
+country,GAB,Gabon,organization,COREP,Regional Fisheries Commission for the Gulf of Guinea,NA,NA
+country,STP,Sao Tome and Principe,organization,COREP,Regional Fisheries Commission for the Gulf of Guinea,NA,NA
+country,CHL,Chile,organization,CPPS,Permanent Commission for the South Pacific,NA,NA
+country,COL,Colombia,organization,CPPS,Permanent Commission for the South Pacific,NA,NA
+country,ECU,Ecuador,organization,CPPS,Permanent Commission for the South Pacific,NA,NA
+country,PER,Peru,organization,CPPS,Permanent Commission for the South Pacific,NA,NA
+country,AIA,Anguilla,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,ATG,Antigua and Barbuda,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,BHS,Bahamas,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,BRB,Barbados,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,BLZ,Belize,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,GRD,Grenada,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,GUY,Guyana,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,HTI,Haiti,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,JAM,Jamaica,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,MSR,Montserrat,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,LCA,Saint Lucia,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,KNA,Saint Kitts and Nevis,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,VCT,Saint Vincent and the Grenadines,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,SUR,Suriname,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,TTO,Trinidad and Tobago,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,TCA,Turks and Caicos Islands,organization,CRFM,Caribbean Regional Fisheries Mechanism,NA,NA
+country,ARG,Argentina,organization,CTMFM,Joint Technical Commission of the Maritime Front,NA,NA
+country,URY,Uruguay,organization,CTMFM,Joint Technical Commission of the Maritime Front,NA,NA
+country,ALB,Albania,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,AUT,Austria,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,BEL,Belgium,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,BIH,Bosnia and Herzegovina,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,BGR,Bulgaria,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,HRV,Croatia,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,CYP,Cyprus,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,CZE,Czechia,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,DNK,Denmark,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,EST,Estonia,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,EUR,European Union,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,FIN,Finland,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,FRA,France,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,DEU,Germany,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,GRC,Greece,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,HUN,Hungary,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,ISL,Iceland,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,IRL,Ireland,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,ISR,Israel,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,ITA,Italy,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,LVA,Latvia,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,LTU,Lithuania,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,LUX,Luxembourg,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,MDA,Republic of Moldova,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,NLD,Netherlands (Kingdom of the),organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,MKD,North Macedonia,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,NOR,Norway,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,POL,Poland,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,PRT,Portugal,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,ROU,Romania,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,SVN,Slovenia,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,SVK,Slovakia,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,ESP,Spain,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,SRB,Serbia,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,SWE,Sweden,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,CHE,Switzerland,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,TUR,Türkiye,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,EIFAAC,European Inland Fisheries and Aquaculture Advisory Commission,NA,NA
+country,BEN,Benin,organization,FCWC,Fisheries Committee for the West Central Gulf of Guinea,NA,NA
+country,CIV,Côte d'Ivoire,organization,FCWC,Fisheries Committee for the West Central Gulf of Guinea,NA,NA
+country,GHA,Ghana,organization,FCWC,Fisheries Committee for the West Central Gulf of Guinea,NA,NA
+country,LBR,Liberia,organization,FCWC,Fisheries Committee for the West Central Gulf of Guinea,NA,NA
+country,NGA,Nigeria,organization,FCWC,Fisheries Committee for the West Central Gulf of Guinea,NA,NA
+country,TGO,Togo,organization,FCWC,Fisheries Committee for the West Central Gulf of Guinea,NA,NA
+country,AUS,Australia,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,COK,Cook Islands,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,FJI,Fiji,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,KIR,Kiribati,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,MHL,Marshall Islands,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,FSM,Micronesia (Federated States of),organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,NRU,Nauru,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,NZL,New Zealand,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,NIU,Niue,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,PLW,Palau,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,PNG,Papua New Guinea,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,WSM,Samoa,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,SLB,Solomon Islands,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,TKL,Tokelau,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,TON,Tonga,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,TUV,Tuvalu,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,VUT,Vanuatu,organization,FFA,Pacific Islands Forum Fisheries Agency,NA,NA
+country,ALB,Albania,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,DZA,Algeria,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,BGR,Bulgaria,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,HRV,Croatia,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,CYP,Cyprus,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,EUR,European Union,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,EGY,Egypt,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,FRA,France,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,GRC,Greece,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,ISR,Israel,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,ITA,Italy,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,JPN,Japan,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,LBN,Lebanon,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,LBY,Libya,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,MLT,Malta,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,MCO,Monaco,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,MNE,Montenegro,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,MAR,Morocco,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,ROU,Romania,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,SVN,Slovenia,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,ESP,Spain,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,SYR,Syrian Arab Republic,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,TUN,Tunisia,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,TUR,Türkiye,organization,GFCM,General Fisheries Commission for the Mediterranean,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,BLZ,Belize,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,CAN,Canada,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,CHN,China,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,TWN,Taiwan Province of China,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,COL,Colombia,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,CRI,Costa Rica,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,ECU,Ecuador,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,SLV,El Salvador,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,EUR,European Union,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,FRA,France,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,GTM,Guatemala,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,KIR,Kiribati,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,JPN,Japan,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,MEX,Mexico,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,NIC,Nicaragua,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,PAN,Panama,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,PER,Peru,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,KOR,Republic of Korea,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,USA,United States of America,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,VUT,Vanuatu,organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,VEN,Venezuela (Bolivarian Republic of),organization,IATTC,Inter-American Tropical Tuna Commission,NA,NA
+country,ALB,Albania,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,DZA,Algeria,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,AGO,Angola,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,BRB,Barbados,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,BLZ,Belize,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,BRA,Brazil,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CAN,Canada,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CPV,Cabo Verde,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CHN,China,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CIV,Côte d'Ivoire,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CUW,Curaçao,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,EGY,Egypt,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,SLV,El Salvador,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GNQ,Equatorial Guinea,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,EUR,European Union,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,FRA,France,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GAB,Gabon,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GHA,Ghana,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GRD,Grenada,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GTM,Guatemala,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GIN,Guinea,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,HND,Honduras,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,ISL,Iceland,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,JPN,Japan,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,LBR,Liberia,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,LBY,Libya,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,MAR,Morocco,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,MRT,Mauritania,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,MEX,Mexico,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,NAM,Namibia,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,NIC,Nicaragua,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,NGA,Nigeria,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,NOR,Norway,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,PAN,Panama,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,PHL,Philippines,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,KOR,Republic of Korea,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,RUS,Russian Federation,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,VCT,Saint Vincent and the Grenadines,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,STP,Sao Tome and Principe,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,SEN,Senegal,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,SLE,Sierra Leone,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,ZAF,South Africa,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,SYR,Syrian Arab Republic,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,TTO,Trinidad and Tobago,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,TUN,Tunisia,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,TUR,Türkiye,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,USA,United States of America,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,URY,Uruguay,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,VUT,Vanuatu,organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,VEN,Venezuela (Bolivarian Republic of),organization,ICCAT,International Commission for the Conservation of Atlantic Tunas,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,BEL,Belgium,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,CAN,Canada,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,DNK,Denmark,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,EST,Estonia,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,FIN,Finland,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,FRA,France,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,DEU,Germany,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,ISL,Iceland,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,IRL,Ireland,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,LVA,Latvia,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,LTU,Lithuania,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,NLD,Netherlands (Kingdom of the),organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,NOR,Norway,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,POL,Poland,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,PRT,Portugal,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,RUS,Russian Federation,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,ESP,Spain,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,SWE,Sweden,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,USA,United States of America,organization,ICES,International Council for the Exploration of the Sea,NA,NA
+country,CAN,Canada,organization,IPHC,International Pacific Halibut Commission,NA,NA
+country,USA,United States of America,organization,IPHC,International Pacific Halibut Commission,NA,NA
+country,ATG,Antigua and Barbuda,organization,IWC,International Whaling Commission,NA,NA
+country,ARG,Argentina,organization,IWC,International Whaling Commission,NA,NA
+country,AUS,Australia,organization,IWC,International Whaling Commission,NA,NA
+country,AUT,Austria,organization,IWC,International Whaling Commission,NA,NA
+country,BEL,Belgium,organization,IWC,International Whaling Commission,NA,NA
+country,BLZ,Belize,organization,IWC,International Whaling Commission,NA,NA
+country,BEN,Benin,organization,IWC,International Whaling Commission,NA,NA
+country,BRA,Brazil,organization,IWC,International Whaling Commission,NA,NA
+country,BGR,Bulgaria,organization,IWC,International Whaling Commission,NA,NA
+country,KHM,Cambodia,organization,IWC,International Whaling Commission,NA,NA
+country,CMR,Cameroon,organization,IWC,International Whaling Commission,NA,NA
+country,CHL,Chile,organization,IWC,International Whaling Commission,NA,NA
+country,CHN,China,organization,IWC,International Whaling Commission,NA,NA
+country,COL,Colombia,organization,IWC,International Whaling Commission,NA,NA
+country,COG,Congo,organization,IWC,International Whaling Commission,NA,NA
+country,CRI,Costa Rica,organization,IWC,International Whaling Commission,NA,NA
+country,CIV,Côte d'Ivoire,organization,IWC,International Whaling Commission,NA,NA
+country,HRV,Croatia,organization,IWC,International Whaling Commission,NA,NA
+country,CYP,Cyprus,organization,IWC,International Whaling Commission,NA,NA
+country,CZE,Czechia,organization,IWC,International Whaling Commission,NA,NA
+country,DNK,Denmark,organization,IWC,International Whaling Commission,NA,NA
+country,DMA,Dominica,organization,IWC,International Whaling Commission,NA,NA
+country,DOM,Dominican Republic,organization,IWC,International Whaling Commission,NA,NA
+country,ECU,Ecuador,organization,IWC,International Whaling Commission,NA,NA
+country,ERI,Eritrea,organization,IWC,International Whaling Commission,NA,NA
+country,EST,Estonia,organization,IWC,International Whaling Commission,NA,NA
+country,FIN,Finland,organization,IWC,International Whaling Commission,NA,NA
+country,FRA,France,organization,IWC,International Whaling Commission,NA,NA
+country,GAB,Gabon,organization,IWC,International Whaling Commission,NA,NA
+country,GMB,Gambia,organization,IWC,International Whaling Commission,NA,NA
+country,DEU,Germany,organization,IWC,International Whaling Commission,NA,NA
+country,GHA,Ghana,organization,IWC,International Whaling Commission,NA,NA
+country,GRD,Grenada,organization,IWC,International Whaling Commission,NA,NA
+country,GTM,Guatemala,organization,IWC,International Whaling Commission,NA,NA
+country,GIN,Guinea,organization,IWC,International Whaling Commission,NA,NA
+country,GNB,Guinea-Bissau,organization,IWC,International Whaling Commission,NA,NA
+country,HUN,Hungary,organization,IWC,International Whaling Commission,NA,NA
+country,ISL,Iceland,organization,IWC,International Whaling Commission,NA,NA
+country,IND,India,organization,IWC,International Whaling Commission,NA,NA
+country,IRL,Ireland,organization,IWC,International Whaling Commission,NA,NA
+country,ISR,Israel,organization,IWC,International Whaling Commission,NA,NA
+country,ITA,Italy,organization,IWC,International Whaling Commission,NA,NA
+country,JPN,Japan,organization,IWC,International Whaling Commission,NA,NA
+country,KEN,Kenya,organization,IWC,International Whaling Commission,NA,NA
+country,KIR,Kiribati,organization,IWC,International Whaling Commission,NA,NA
+country,LAO,Lao People's Democratic Republic,organization,IWC,International Whaling Commission,NA,NA
+country,LTU,Lithuania,organization,IWC,International Whaling Commission,NA,NA
+country,LUX,Luxembourg,organization,IWC,International Whaling Commission,NA,NA
+country,MLI,Mali,organization,IWC,International Whaling Commission,NA,NA
+country,MHL,Marshall Islands,organization,IWC,International Whaling Commission,NA,NA
+country,MRT,Mauritania,organization,IWC,International Whaling Commission,NA,NA
+country,MEX,Mexico,organization,IWC,International Whaling Commission,NA,NA
+country,MCO,Monaco,organization,IWC,International Whaling Commission,NA,NA
+country,MNG,Mongolia,organization,IWC,International Whaling Commission,NA,NA
+country,MAR,Morocco,organization,IWC,International Whaling Commission,NA,NA
+country,NRU,Nauru,organization,IWC,International Whaling Commission,NA,NA
+country,NLD,Netherlands (Kingdom of the),organization,IWC,International Whaling Commission,NA,NA
+country,NZL,New Zealand,organization,IWC,International Whaling Commission,NA,NA
+country,NIC,Nicaragua,organization,IWC,International Whaling Commission,NA,NA
+country,NOR,Norway,organization,IWC,International Whaling Commission,NA,NA
+country,OMN,Oman,organization,IWC,International Whaling Commission,NA,NA
+country,PLW,Palau,organization,IWC,International Whaling Commission,NA,NA
+country,PAN,Panama,organization,IWC,International Whaling Commission,NA,NA
+country,PER,Peru,organization,IWC,International Whaling Commission,NA,NA
+country,POL,Poland,organization,IWC,International Whaling Commission,NA,NA
+country,PRT,Portugal,organization,IWC,International Whaling Commission,NA,NA
+country,KOR,Republic of Korea,organization,IWC,International Whaling Commission,NA,NA
+country,ROU,Romania,organization,IWC,International Whaling Commission,NA,NA
+country,RUS,Russian Federation,organization,IWC,International Whaling Commission,NA,NA
+country,KNA,Saint Kitts and Nevis,organization,IWC,International Whaling Commission,NA,NA
+country,LCA,Saint Lucia,organization,IWC,International Whaling Commission,NA,NA
+country,VCT,Saint Vincent and the Grenadines,organization,IWC,International Whaling Commission,NA,NA
+country,SMR,San Marino,organization,IWC,International Whaling Commission,NA,NA
+country,SEN,Senegal,organization,IWC,International Whaling Commission,NA,NA
+country,SVK,Slovakia,organization,IWC,International Whaling Commission,NA,NA
+country,SVN,Slovenia,organization,IWC,International Whaling Commission,NA,NA
+country,SLB,Solomon Islands,organization,IWC,International Whaling Commission,NA,NA
+country,ZAF,South Africa,organization,IWC,International Whaling Commission,NA,NA
+country,ESP,Spain,organization,IWC,International Whaling Commission,NA,NA
+country,SUR,Suriname,organization,IWC,International Whaling Commission,NA,NA
+country,SWE,Sweden,organization,IWC,International Whaling Commission,NA,NA
+country,CHE,Switzerland,organization,IWC,International Whaling Commission,NA,NA
+country,TGO,Togo,organization,IWC,International Whaling Commission,NA,NA
+country,TUV,Tuvalu,organization,IWC,International Whaling Commission,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,IWC,International Whaling Commission,NA,NA
+country,USA,United States of America,organization,IWC,International Whaling Commission,NA,NA
+country,TZA,United Republic of Tanzania,organization,IWC,International Whaling Commission,NA,NA
+country,URY,Uruguay,organization,IWC,International Whaling Commission,NA,NA
+country,NOR,Norway,organization,JointFish,null,NA,NA
+country,RUS,Russian Federation,organization,JointFish,null,NA,NA
+country,BDI,Burundi,organization,LTA,Lake Tanganyika Authority,NA,NA
+country,COD,Democratic Republic of the Congo,organization,LTA,Lake Tanganyika Authority,NA,NA
+country,TZA,United Republic of Tanzania,organization,LTA,Lake Tanganyika Authority,NA,NA
+country,ZMB,Zambia,organization,LTA,Lake Tanganyika Authority,NA,NA
+country,BDI,Burundi,organization,LVFO,Lake Victoria Fisheries Organization,NA,NA
+country,KEN,Kenya,organization,LVFO,Lake Victoria Fisheries Organization,NA,NA
+country,UGA,Uganda,organization,LVFO,Lake Victoria Fisheries Organization,NA,NA
+country,TZA,United Republic of Tanzania,organization,LVFO,Lake Victoria Fisheries Organization,NA,NA
+country,KHM,Cambodia,organization,MRC,Mekong River Commission,NA,NA
+country,LAO,Lao People's Democratic Republic,organization,MRC,Mekong River Commission,NA,NA
+country,THA,Thailand,organization,MRC,Mekong River Commission,NA,NA
+country,VNM,Viet Nam,organization,MRC,Mekong River Commission,NA,NA
+country,AUS,Australia,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,BGD,Bangladesh,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,KHM,Cambodia,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,CHN,China,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,HKG,"China, Hong Kong SAR",organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,IND,India,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,IDN,Indonesia,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,IRN,Iran (Islamic Republic of),organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,PRK,Democratic People's Republic of Korea,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,LAO,Lao People's Democratic Republic,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,MYS,Malaysia,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,MMR,Myanmar,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,NPL,Nepal,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,PAK,Pakistan,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,PHL,Philippines,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,LKA,Sri Lanka,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,THA,Thailand,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,VNM,Viet Nam,organization,NACA,Network of Aquaculture Centers In Asia-Pacific,NA,NA
+country,CAN,Canada,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,CUB,Cuba,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,DNK,Denmark,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,FRO,Faroe Islands,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,GRL,Greenland,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,EUR,European Union,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,FRA,France,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,ISL,Iceland,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,JPN,Japan,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,NOR,Norway,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,KOR,Republic of Korea,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,RUS,Russian Federation,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,UKR,Ukraine,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,USA,United States of America,organization,NAFO,Northwest Atlantic Fisheries Organization,NA,NA
+country,FRO,Faroe Islands,organization,NAMMCO,North Atlantic Marine Mammal Commission,NA,NA
+country,GRL,Greenland,organization,NAMMCO,North Atlantic Marine Mammal Commission,NA,NA
+country,ISL,Iceland,organization,NAMMCO,North Atlantic Marine Mammal Commission,NA,NA
+country,NOR,Norway,organization,NAMMCO,North Atlantic Marine Mammal Commission,NA,NA
+country,CAN,Canada,organization,NASCO,North Atlantic Salmon Conservation Organization,NA,NA
+country,DNK,Denmark,organization,NASCO,North Atlantic Salmon Conservation Organization,NA,NA
+country,EUR,European Union,organization,NASCO,North Atlantic Salmon Conservation Organization,NA,NA
+country,NOR,Norway,organization,NASCO,North Atlantic Salmon Conservation Organization,NA,NA
+country,RUS,Russian Federation,organization,NASCO,North Atlantic Salmon Conservation Organization,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,NASCO,North Atlantic Salmon Conservation Organization,NA,NA
+country,USA,United States of America,organization,NASCO,North Atlantic Salmon Conservation Organization,NA,NA
+country,DNK,Denmark,organization,NEAFC,North-East Atlantic Fisheries Commission,NA,NA
+country,EUR,European Union,organization,NEAFC,North-East Atlantic Fisheries Commission,NA,NA
+country,ISL,Iceland,organization,NEAFC,North-East Atlantic Fisheries Commission,NA,NA
+country,NOR,Norway,organization,NEAFC,North-East Atlantic Fisheries Commission,NA,NA
+country,RUS,Russian Federation,organization,NEAFC,North-East Atlantic Fisheries Commission,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,NEAFC,North-East Atlantic Fisheries Commission,NA,NA
+country,CAN,Canada,organization,NPAFC,North Pacific Anadromous Fish Commission,NA,NA
+country,JPN,Japan,organization,NPAFC,North Pacific Anadromous Fish Commission,NA,NA
+country,KOR,Republic of Korea,organization,NPAFC,North Pacific Anadromous Fish Commission,NA,NA
+country,RUS,Russian Federation,organization,NPAFC,North Pacific Anadromous Fish Commission,NA,NA
+country,USA,United States of America,organization,NPAFC,North Pacific Anadromous Fish Commission,NA,NA
+country,CAN,Canada,organization,NPFC,North Pacific Fisheries Commission,NA,NA
+country,CHN,China,organization,NPFC,North Pacific Fisheries Commission,NA,NA
+country,EUR,European Union,organization,NPFC,North Pacific Fisheries Commission,NA,NA
+country,JPN,Japan,organization,NPFC,North Pacific Fisheries Commission,NA,NA
+country,KOR,Republic of Korea,organization,NPFC,North Pacific Fisheries Commission,NA,NA
+country,RUS,Russian Federation,organization,NPFC,North Pacific Fisheries Commission,NA,NA
+country,USA,United States of America,organization,NPFC,North Pacific Fisheries Commission,NA,NA
+country,VUT,Vanuatu,organization,NPFC,North Pacific Fisheries Commission,NA,NA
+country,BLZ,Belize,organization,OSPESCA,Central America Fisheries and Aquaculture Organization,NA,NA
+country,CRI,Costa Rica,organization,OSPESCA,Central America Fisheries and Aquaculture Organization,NA,NA
+country,DOM,Dominican Republic,organization,OSPESCA,Central America Fisheries and Aquaculture Organization,NA,NA
+country,SLV,El Salvador,organization,OSPESCA,Central America Fisheries and Aquaculture Organization,NA,NA
+country,GTM,Guatemala,organization,OSPESCA,Central America Fisheries and Aquaculture Organization,NA,NA
+country,HND,Honduras,organization,OSPESCA,Central America Fisheries and Aquaculture Organization,NA,NA
+country,NIC,Nicaragua,organization,OSPESCA,Central America Fisheries and Aquaculture Organization,NA,NA
+country,PAN,Panama,organization,OSPESCA,Central America Fisheries and Aquaculture Organization,NA,NA
+country,DJI,Djibouti,organization,PERSGA,Regional Organization for the Conservation of the Environment of the Red Sea And Gulf of Aden,NA,NA
+country,EGY,Egypt,organization,PERSGA,Regional Organization for the Conservation of the Environment of the Red Sea And Gulf of Aden,NA,NA
+country,JOR,Jordan,organization,PERSGA,Regional Organization for the Conservation of the Environment of the Red Sea And Gulf of Aden,NA,NA
+country,SAU,Saudi Arabia,organization,PERSGA,Regional Organization for the Conservation of the Environment of the Red Sea And Gulf of Aden,NA,NA
+country,SOM,Somalia,organization,PERSGA,Regional Organization for the Conservation of the Environment of the Red Sea And Gulf of Aden,NA,NA
+country,SDN,Sudan,organization,PERSGA,Regional Organization for the Conservation of the Environment of the Red Sea And Gulf of Aden,NA,NA
+country,YEM,Yemen,organization,PERSGA,Regional Organization for the Conservation of the Environment of the Red Sea And Gulf of Aden,NA,NA
+country,CAN,Canada,organization,PICES,North Pacific Marine Science Organization,NA,NA
+country,CHN,China,organization,PICES,North Pacific Marine Science Organization,NA,NA
+country,JPN,Japan,organization,PICES,North Pacific Marine Science Organization,NA,NA
+country,KOR,Republic of Korea,organization,PICES,North Pacific Marine Science Organization,NA,NA
+country,RUS,Russian Federation,organization,PICES,North Pacific Marine Science Organization,NA,NA
+country,USA,United States of America,organization,PICES,North Pacific Marine Science Organization,NA,NA
+country,CAN,Canada,organization,PSC,Pacific Salmon Commission,NA,NA
+country,USA,United States of America,organization,PSC,Pacific Salmon Commission,NA,NA
+country,BHR,Bahrain,organization,RECOFI,Regional Commission for Fisheries,RECOFI MDR PILOT,NA
+country,IRQ,Iraq,organization,RECOFI,Regional Commission for Fisheries,RECOFI MDR PILOT,NA
+country,IRN,Iran (Islamic Republic of),organization,RECOFI,Regional Commission for Fisheries,RECOFI MDR PILOT,NA
+country,KWT,Kuwait,organization,RECOFI,Regional Commission for Fisheries,RECOFI MDR PILOT,NA
+country,OMN,Oman,organization,RECOFI,Regional Commission for Fisheries,RECOFI MDR PILOT,NA
+country,QAT,Qatar,organization,RECOFI,Regional Commission for Fisheries,RECOFI MDR PILOT,NA
+country,SAU,Saudi Arabia,organization,RECOFI,Regional Commission for Fisheries,RECOFI MDR PILOT,NA
+country,ARE,United Arab Emirates,organization,RECOFI,Regional Commission for Fisheries,RECOFI MDR PILOT,NA
+country,BRN,Brunei Darussalam,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,KHM,Cambodia,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,IDN,Indonesia,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,JPN,Japan,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,LAO,Lao People's Democratic Republic,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,MYS,Malaysia,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,MMR,Myanmar,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,PHL,Philippines,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,SGP,Singapore,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,THA,Thailand,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,VNM,Viet Nam,organization,SEAFDEC,Southeast Asian Fisheries Development Center,NA,NA
+country,AGO,Angola,organization,SEAFO,South East Atlantic Fisheries Organization,NA,NA
+country,EUR,European Union,organization,SEAFO,South East Atlantic Fisheries Organization,NA,NA
+country,JPN,Japan,organization,SEAFO,South East Atlantic Fisheries Organization,NA,NA
+country,NAM,Namibia,organization,SEAFO,South East Atlantic Fisheries Organization,NA,NA
+country,KOR,Republic of Korea,organization,SEAFO,South East Atlantic Fisheries Organization,NA,NA
+country,ZAF,South Africa,organization,SEAFO,South East Atlantic Fisheries Organization,NA,NA
+country,AUS,Australia,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,COM,Comoros,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,COK,Cook Islands,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,EUR,European Union,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,FRA,France,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,JPN,Japan,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,KOR,Republic of Korea,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,MUS,Mauritius,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,SYC,Seychelles,organization,SIOFA,South Indian Ocean Fisheries Agreement,NA,NA
+country,ASM,American Samoa,organization,SPC,Pacific Community,NA,NA
+country,AUS,Australia,organization,SPC,Pacific Community,NA,NA
+country,COK,Cook Islands,organization,SPC,Pacific Community,NA,NA
+country,FSM,Micronesia (Federated States of),organization,SPC,Pacific Community,NA,NA
+country,FJI,Fiji,organization,SPC,Pacific Community,NA,NA
+country,FRA,France,organization,SPC,Pacific Community,NA,NA
+country,PYF,French Polynesia,organization,SPC,Pacific Community,NA,NA
+country,GUM,Guam,organization,SPC,Pacific Community,NA,NA
+country,KIR,Kiribati,organization,SPC,Pacific Community,NA,NA
+country,MHL,Marshall Islands,organization,SPC,Pacific Community,NA,NA
+country,NRU,Nauru,organization,SPC,Pacific Community,NA,NA
+country,NCL,New Caledonia,organization,SPC,Pacific Community,NA,NA
+country,NIU,Niue,organization,SPC,Pacific Community,NA,NA
+country,MNP,Northern Mariana Islands,organization,SPC,Pacific Community,NA,NA
+country,PLW,Palau,organization,SPC,Pacific Community,NA,NA
+country,PNG,Papua New Guinea,organization,SPC,Pacific Community,NA,NA
+country,PCN,Pitcairn,organization,SPC,Pacific Community,NA,NA
+country,WSM,Samoa,organization,SPC,Pacific Community,NA,NA
+country,SLB,Solomon Islands,organization,SPC,Pacific Community,NA,NA
+country,TKL,Tokelau,organization,SPC,Pacific Community,NA,NA
+country,TON,Tonga,organization,SPC,Pacific Community,NA,NA
+country,TUV,Tuvalu,organization,SPC,Pacific Community,NA,NA
+country,USA,United States of America,organization,SPC,Pacific Community,NA,NA
+country,VUT,Vanuatu,organization,SPC,Pacific Community,NA,NA
+country,WLF,Wallis and Futuna Islands,organization,SPC,Pacific Community,NA,NA
+country,AUS,Australia,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,BLZ,Belize,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,CHL,Chile,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,CHN,China,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,COK,Cook Islands,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,CUB,Cuba,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,ECU,Ecuador,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,EUR,European Union,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,DNK,Denmark,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,KOR,Republic of Korea,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,VUT,Vanuatu,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,NZL,New Zealand,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,PAN,Panama,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,PER,Peru,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,RUS,Russian Federation,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,TWN,Taiwan Province of China,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,USA,United States of America,organization,SPRFMO,South Pacific Regional Fisheries Management Organisation,NA,NA
+country,CPV,Cabo Verde,organization,SRFC,Sub-Regional Fisheries Commission,NA,NA
+country,GMB,Gambia,organization,SRFC,Sub-Regional Fisheries Commission,NA,NA
+country,GIN,Guinea,organization,SRFC,Sub-Regional Fisheries Commission,NA,NA
+country,GNB,Guinea-Bissau,organization,SRFC,Sub-Regional Fisheries Commission,NA,NA
+country,MRT,Mauritania,organization,SRFC,Sub-Regional Fisheries Commission,NA,NA
+country,SEN,Senegal,organization,SRFC,Sub-Regional Fisheries Commission,NA,NA
+country,SLE,Sierra Leone,organization,SRFC,Sub-Regional Fisheries Commission,NA,NA
+country,COM,Comoros,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,FRA,France,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,KEN,Kenya,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,MDG,Madagascar,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,MDV,Maldives,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,MUS,Mauritius,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,MOZ,Mozambique,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,SYC,Seychelles,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,SOM,Somalia,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,ZAF,South Africa,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,TZA,United Republic of Tanzania,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,YEM,Yemen,organization,SWIOFC,Southwest Indian Ocean Fisheries Commission,NA,NA
+country,AUS,Australia,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,CAN,Canada,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,CHN,China,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,COK,Cook Islands,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,EUR,European Union,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,FJI,Fiji,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,FRA,France,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,IDN,Indonesia,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,JPN,Japan,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,KIR,Kiribati,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,MHL,Marshall Islands,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,FSM,Micronesia (Federated States of),organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,NRU,Nauru,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,NZL,New Zealand,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,NIU,Niue,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,PLW,Palau,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,PNG,Papua New Guinea,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,PHL,Philippines,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,KOR,Republic of Korea,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,WSM,Samoa,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,SLB,Solomon Islands,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,TON,Tonga,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,TWN,Taiwan Province of China,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,TUV,Tuvalu,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,USA,United States of America,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,VUT,Vanuatu,organization,WCPFC,Western and Central Pacific Fisheries Commission,NA,NA
+country,ATG,Antigua and Barbuda,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,BHS,Bahamas,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,BRB,Barbados,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,BLZ,Belize,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,BRA,Brazil,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,COL,Colombia,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,CRI,Costa Rica,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,CUB,Cuba,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,DMA,Dominica,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,DOM,Dominican Republic,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,EUR,European Union,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,FRA,France,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GRD,Grenada,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GTM,Guatemala,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GIN,Guinea,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GUY,Guyana,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,HTI,Haiti,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,HND,Honduras,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,JAM,Jamaica,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,JPN,Japan,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,MEX,Mexico,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,NLD,Netherlands (Kingdom of the),organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,NIC,Nicaragua,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,PAN,Panama,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,KOR,Republic of Korea,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,KNA,Saint Kitts and Nevis,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,LCA,Saint Lucia,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,VCT,Saint Vincent and the Grenadines,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,ESP,Spain,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,SUR,Suriname,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,TTO,Trinidad and Tobago,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,USA,United States of America,organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,VEN,Venezuela (Bolivarian Republic of),organization,WECAFC,Western Central Atlantic Fishery Commission,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,AUS,Australia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BGD,Bangladesh,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BLZ,Belize,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CHN,China,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,COM,Comoros,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ERI,Eritrea,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,EUR,European Union,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,FRA,France,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GIN,Guinea,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,IND,India,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,IDN,Indonesia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,IRN,Iran (Islamic Republic of),organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,JPN,Japan,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,KEN,Kenya,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,KOR,Republic of Korea,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MDG,Madagascar,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MYS,Malaysia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MDV,Maldives,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MUS,Mauritius,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MOZ,Mozambique,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,OMN,Oman,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PAK,Pakistan,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PHL,Philippines,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SYC,Seychelles,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SLE,Sierra Leone,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SOM,Somalia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ZAF,South Africa,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LKA,Sri Lanka,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SDN,Sudan,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TZA,United Republic of Tanzania,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,THA,Thailand,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GBR,United Kingdom of Great Britain and Northern Ireland,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,YEM,Yemen,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ARG,Argentina,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BRA,Brazil,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CHL,Chile,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ECU,Ecuador,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NZL,New Zealand,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NOR,Norway,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PER,Peru,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ESP,Spain,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,URY,Uruguay,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,KHM,Cambodia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MMR,Myanmar,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NPL,Nepal,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TLS,Timor-Leste,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,USA,United States of America,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,VNM,Viet Nam,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ARM,Armenia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TJK,Tajikistan,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,KGZ,Kyrgyzstan,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TUR,Türkiye,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,AZE,Azerbaijan,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BEL,Belgium,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,DEU,Germany,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ITA,Italy,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NAM,Namibia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NLD,Netherlands (Kingdom of the),organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,POL,Poland,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,RUS,Russian Federation,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SWE,Sweden,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,UKR,Ukraine,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TWN,Taiwan Province of China,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,AGO,Angola,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BEN,Benin,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CMR,Cameroon,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CPV,Cabo Verde,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,COD,Democratic Republic of the Congo,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,COG,Congo,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CIV,Côte d'Ivoire,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CUB,Cuba,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GNQ,Equatorial Guinea,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GAB,Gabon,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GMB,Gambia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GHA,Ghana,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GRC,Greece,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GNB,Guinea-Bissau,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LBR,Liberia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MRT,Mauritania,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MAR,Morocco,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NGA,Nigeria,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ROU,Romania,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,STP,Sao Tome and Principe,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SEN,Senegal,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TGO,Togo,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BWA,Botswana,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BFA,Burkina Faso,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BDI,Burundi,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CAF,Central African Republic,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TCD,Chad,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,EGY,Egypt,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ETH,Ethiopia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LSO,Lesotho,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MWI,Malawi,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MLI,Mali,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NER,Niger,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,RWA,Rwanda,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SWZ,Eswatini,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,UGA,Uganda,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ZMB,Zambia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ZWE,Zimbabwe,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BOL,Bolivia (Plurinational State of),organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,COL,Colombia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CRI,Costa Rica,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,DOM,Dominican Republic,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SLV,El Salvador,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GTM,Guatemala,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,HND,Honduras,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,JAM,Jamaica,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MEX,Mexico,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NIC,Nicaragua,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PAN,Panama,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PRY,Paraguay,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SUR,Suriname,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,VEN,Venezuela (Bolivarian Republic of),organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,AIA,Anguilla,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ATG,Antigua and Barbuda,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BHS,Bahamas,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BRB,Barbados,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GRD,Grenada,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GUY,Guyana,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,HTI,Haiti,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MSR,Montserrat,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LCA,Saint Lucia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,KNA,Saint Kitts and Nevis,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,VCT,Saint Vincent and the Grenadines,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TTO,Trinidad and Tobago,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TCA,Turks and Caicos Islands,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ALB,Albania,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,AUT,Austria,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BIH,Bosnia and Herzegovina,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BGR,Bulgaria,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,HRV,Croatia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CYP,Cyprus,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CZE,Czechia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,DNK,Denmark,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,EST,Estonia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,FIN,Finland,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,HUN,Hungary,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ISL,Iceland,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,IRL,Ireland,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ISR,Israel,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LVA,Latvia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LTU,Lithuania,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LUX,Luxembourg,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MDA,Republic of Moldova,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MKD,North Macedonia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PRT,Portugal,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SVN,Slovenia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SVK,Slovakia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SRB,Serbia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CHE,Switzerland,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,COK,Cook Islands,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,FJI,Fiji,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,KIR,Kiribati,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MHL,Marshall Islands,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,FSM,Micronesia (Federated States of),organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NRU,Nauru,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NIU,Niue,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PLW,Palau,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PNG,Papua New Guinea,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,WSM,Samoa,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SLB,Solomon Islands,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TKL,Tokelau,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TON,Tonga,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TUV,Tuvalu,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,VUT,Vanuatu,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,DZA,Algeria,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LBN,Lebanon,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LBY,Libya,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MLT,Malta,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MCO,Monaco,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MNE,Montenegro,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SYR,Syrian Arab Republic,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,TUN,Tunisia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CAN,Canada,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,CUW,Curaçao,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,DMA,Dominica,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,LAO,Lao People's Democratic Republic,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MNG,Mongolia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SMR,San Marino,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,HKG,"China, Hong Kong SAR",organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PRK,Democratic People's Republic of Korea,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,FRO,Faroe Islands,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GRL,Greenland,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,DJI,Djibouti,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,JOR,Jordan,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SAU,Saudi Arabia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BHR,Bahrain,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,IRQ,Iraq,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,KWT,Kuwait,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,QAT,Qatar,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ARE,United Arab Emirates,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,BRN,Brunei Darussalam,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,SGP,Singapore,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,ASM,American Samoa,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PYF,French Polynesia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,GUM,Guam,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,NCL,New Caledonia,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,MNP,Northern Mariana Islands,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,PCN,Pitcairn,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
+country,WLF,Wallis and Futuna Islands,organization,UN-FAO,Food and Agriculture Organization of the United Nations,NA,NA
