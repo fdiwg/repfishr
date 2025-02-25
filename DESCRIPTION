@@ -17,4 +17,7 @@ Description: R framework to facilitate fisheries data reporting flows, with firs
  format and send data to relevant organizations including regional fisheries management organizations or bodies handling data collection reference frameworks, and FAO.
 URL: https://github.com/fdiwg/repfishr
 BugReports: https://github.com/fdiwg/repfishr/issues
+LazyLoad: yes
+Encoding: UTF-8
 RoxygenNote: 7.3.1
+Roxygen: list(r6 = TRUE)

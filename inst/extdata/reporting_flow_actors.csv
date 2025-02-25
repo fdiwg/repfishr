@@ -1,0 +1,956 @@
+sender_type,sender,receiver_type,receiver,dcf,dcf_ref_url
+country,AUS,organization,IOTC,NA,NA
+country,BGD,organization,IOTC,NA,NA
+country,BLZ,organization,IOTC,NA,NA
+country,CHN,organization,IOTC,NA,NA
+country,COM,organization,IOTC,NA,NA
+country,ERI,organization,IOTC,NA,NA
+country,EUR,organization,IOTC,NA,NA
+country,FRA,organization,IOTC,NA,NA
+country,GIN,organization,IOTC,NA,NA
+country,IND,organization,IOTC,NA,NA
+country,IDN,organization,IOTC,NA,NA
+country,IRN,organization,IOTC,NA,NA
+country,JPN,organization,IOTC,NA,NA
+country,KEN,organization,IOTC,NA,NA
+country,KOR,organization,IOTC,NA,NA
+country,MDG,organization,IOTC,NA,NA
+country,MYS,organization,IOTC,NA,NA
+country,MDV,organization,IOTC,NA,NA
+country,MUS,organization,IOTC,NA,NA
+country,MOZ,organization,IOTC,NA,NA
+country,OMN,organization,IOTC,NA,NA
+country,PAK,organization,IOTC,NA,NA
+country,PHL,organization,IOTC,NA,NA
+country,SYC,organization,IOTC,NA,NA
+country,SLE,organization,IOTC,NA,NA
+country,SOM,organization,IOTC,NA,NA
+country,ZAF,organization,IOTC,NA,NA
+country,LKA,organization,IOTC,NA,NA
+country,SDN,organization,IOTC,NA,NA
+country,TZA,organization,IOTC,NA,NA
+country,THA,organization,IOTC,NA,NA
+country,GBR,organization,IOTC,NA,NA
+country,YEM,organization,IOTC,NA,NA
+country,ARG,organization,ACAP,NA,NA
+country,AUS,organization,ACAP,NA,NA
+country,BRA,organization,ACAP,NA,NA
+country,CHL,organization,ACAP,NA,NA
+country,ECU,organization,ACAP,NA,NA
+country,FRA,organization,ACAP,NA,NA
+country,NZL,organization,ACAP,NA,NA
+country,NOR,organization,ACAP,NA,NA
+country,PER,organization,ACAP,NA,NA
+country,ZAF,organization,ACAP,NA,NA
+country,ESP,organization,ACAP,NA,NA
+country,GBR,organization,ACAP,NA,NA
+country,URY,organization,ACAP,NA,NA
+country,AUS,organization,APFIC,NA,NA
+country,BGD,organization,APFIC,NA,NA
+country,KHM,organization,APFIC,NA,NA
+country,CHN,organization,APFIC,NA,NA
+country,FRA,organization,APFIC,NA,NA
+country,IND,organization,APFIC,NA,NA
+country,IDN,organization,APFIC,NA,NA
+country,JPN,organization,APFIC,NA,NA
+country,MYS,organization,APFIC,NA,NA
+country,MMR,organization,APFIC,NA,NA
+country,NPL,organization,APFIC,NA,NA
+country,NZL,organization,APFIC,NA,NA
+country,PAK,organization,APFIC,NA,NA
+country,PHL,organization,APFIC,NA,NA
+country,KOR,organization,APFIC,NA,NA
+country,LKA,organization,APFIC,NA,NA
+country,TLS,organization,APFIC,NA,NA
+country,THA,organization,APFIC,NA,NA
+country,GBR,organization,APFIC,NA,NA
+country,USA,organization,APFIC,NA,NA
+country,VNM,organization,APFIC,NA,NA
+country,ARM,organization,CACFish,NA,NA
+country,TJK,organization,CACFish,NA,NA
+country,KGZ,organization,CACFish,NA,NA
+country,TUR,organization,CACFish,NA,NA
+country,AZE,organization,CACFish,NA,NA
+country,ARG,organization,CCAMLR,NA,NA
+country,AUS,organization,CCAMLR,NA,NA
+country,BEL,organization,CCAMLR,NA,NA
+country,BRA,organization,CCAMLR,NA,NA
+country,CHL,organization,CCAMLR,NA,NA
+country,CHN,organization,CCAMLR,NA,NA
+country,EUR,organization,CCAMLR,NA,NA
+country,FRA,organization,CCAMLR,NA,NA
+country,DEU,organization,CCAMLR,NA,NA
+country,IND,organization,CCAMLR,NA,NA
+country,ITA,organization,CCAMLR,NA,NA
+country,JPN,organization,CCAMLR,NA,NA
+country,NAM,organization,CCAMLR,NA,NA
+country,NLD,organization,CCAMLR,NA,NA
+country,NZL,organization,CCAMLR,NA,NA
+country,NOR,organization,CCAMLR,NA,NA
+country,POL,organization,CCAMLR,NA,NA
+country,KOR,organization,CCAMLR,NA,NA
+country,RUS,organization,CCAMLR,NA,NA
+country,ZAF,organization,CCAMLR,NA,NA
+country,ESP,organization,CCAMLR,NA,NA
+country,SWE,organization,CCAMLR,NA,NA
+country,UKR,organization,CCAMLR,NA,NA
+country,GBR,organization,CCAMLR,NA,NA
+country,USA,organization,CCAMLR,NA,NA
+country,URY,organization,CCAMLR,NA,NA
+country,CHN,organization,CCBSP,NA,NA
+country,JPN,organization,CCBSP,NA,NA
+country,KOR,organization,CCBSP,NA,NA
+country,POL,organization,CCBSP,NA,NA
+country,RUS,organization,CCBSP,NA,NA
+country,USA,organization,CCBSP,NA,NA
+country,AUS,organization,CCSBT,NA,NA
+country,IDN,organization,CCSBT,NA,NA
+country,JPN,organization,CCSBT,NA,NA
+country,KOR,organization,CCSBT,NA,NA
+country,NZL,organization,CCSBT,NA,NA
+country,ZAF,organization,CCSBT,NA,NA
+country,TWN,organization,CCSBT,NA,NA
+country,AGO,organization,CECAF,NA,NA
+country,BEN,organization,CECAF,NA,NA
+country,CMR,organization,CECAF,NA,NA
+country,CPV,organization,CECAF,NA,NA
+country,COD,organization,CECAF,NA,NA
+country,COG,organization,CECAF,NA,NA
+country,CIV,organization,CECAF,NA,NA
+country,CUB,organization,CECAF,NA,NA
+country,GNQ,organization,CECAF,NA,NA
+country,EUR,organization,CECAF,NA,NA
+country,FRA,organization,CECAF,NA,NA
+country,GAB,organization,CECAF,NA,NA
+country,GMB,organization,CECAF,NA,NA
+country,GHA,organization,CECAF,NA,NA
+country,GRC,organization,CECAF,NA,NA
+country,GIN,organization,CECAF,NA,NA
+country,GNB,organization,CECAF,NA,NA
+country,ITA,organization,CECAF,NA,NA
+country,JPN,organization,CECAF,NA,NA
+country,KOR,organization,CECAF,NA,NA
+country,LBR,organization,CECAF,NA,NA
+country,MRT,organization,CECAF,NA,NA
+country,MAR,organization,CECAF,NA,NA
+country,NLD,organization,CECAF,NA,NA
+country,NGA,organization,CECAF,NA,NA
+country,NOR,organization,CECAF,NA,NA
+country,POL,organization,CECAF,NA,NA
+country,ROU,organization,CECAF,NA,NA
+country,STP,organization,CECAF,NA,NA
+country,SEN,organization,CECAF,NA,NA
+country,SLE,organization,CECAF,NA,NA
+country,ESP,organization,CECAF,NA,NA
+country,TGO,organization,CECAF,NA,NA
+country,USA,organization,CECAF,NA,NA
+country,BEN,organization,CIFAA,NA,NA
+country,BWA,organization,CIFAA,NA,NA
+country,BFA,organization,CIFAA,NA,NA
+country,BDI,organization,CIFAA,NA,NA
+country,CMR,organization,CIFAA,NA,NA
+country,CAF,organization,CIFAA,NA,NA
+country,TCD,organization,CIFAA,NA,NA
+country,COD,organization,CIFAA,NA,NA
+country,COG,organization,CIFAA,NA,NA
+country,CIV,organization,CIFAA,NA,NA
+country,EGY,organization,CIFAA,NA,NA
+country,ERI,organization,CIFAA,NA,NA
+country,ETH,organization,CIFAA,NA,NA
+country,GAB,organization,CIFAA,NA,NA
+country,GMB,organization,CIFAA,NA,NA
+country,GHA,organization,CIFAA,NA,NA
+country,GIN,organization,CIFAA,NA,NA
+country,KEN,organization,CIFAA,NA,NA
+country,LSO,organization,CIFAA,NA,NA
+country,MDG,organization,CIFAA,NA,NA
+country,MWI,organization,CIFAA,NA,NA
+country,MLI,organization,CIFAA,NA,NA
+country,MUS,organization,CIFAA,NA,NA
+country,MOZ,organization,CIFAA,NA,NA
+country,NER,organization,CIFAA,NA,NA
+country,NGA,organization,CIFAA,NA,NA
+country,RWA,organization,CIFAA,NA,NA
+country,SEN,organization,CIFAA,NA,NA
+country,SLE,organization,CIFAA,NA,NA
+country,SOM,organization,CIFAA,NA,NA
+country,SDN,organization,CIFAA,NA,NA
+country,SWZ,organization,CIFAA,NA,NA
+country,TZA,organization,CIFAA,NA,NA
+country,TGO,organization,CIFAA,NA,NA
+country,UGA,organization,CIFAA,NA,NA
+country,ZMB,organization,CIFAA,NA,NA
+country,ZWE,organization,CIFAA,NA,NA
+country,ARG,organization,COPPESAALC,NA,NA
+country,BOL,organization,COPPESAALC,NA,NA
+country,BRA,organization,COPPESAALC,NA,NA
+country,CHL,organization,COPPESAALC,NA,NA
+country,COL,organization,COPPESAALC,NA,NA
+country,CRI,organization,COPPESAALC,NA,NA
+country,CUB,organization,COPPESAALC,NA,NA
+country,DOM,organization,COPPESAALC,NA,NA
+country,ECU,organization,COPPESAALC,NA,NA
+country,SLV,organization,COPPESAALC,NA,NA
+country,GTM,organization,COPPESAALC,NA,NA
+country,HND,organization,COPPESAALC,NA,NA
+country,JAM,organization,COPPESAALC,NA,NA
+country,MEX,organization,COPPESAALC,NA,NA
+country,NIC,organization,COPPESAALC,NA,NA
+country,PAN,organization,COPPESAALC,NA,NA
+country,PRY,organization,COPPESAALC,NA,NA
+country,PER,organization,COPPESAALC,NA,NA
+country,SUR,organization,COPPESAALC,NA,NA
+country,URY,organization,COPPESAALC,NA,NA
+country,VEN,organization,COPPESAALC,NA,NA
+country,AGO,organization,COREP,NA,NA
+country,CMR,organization,COREP,NA,NA
+country,COG,organization,COREP,NA,NA
+country,COD,organization,COREP,NA,NA
+country,GAB,organization,COREP,NA,NA
+country,STP,organization,COREP,NA,NA
+country,CHL,organization,CPPS,NA,NA
+country,COL,organization,CPPS,NA,NA
+country,ECU,organization,CPPS,NA,NA
+country,PER,organization,CPPS,NA,NA
+country,AIA,organization,CRFM,NA,NA
+country,ATG,organization,CRFM,NA,NA
+country,BHS,organization,CRFM,NA,NA
+country,BRB,organization,CRFM,NA,NA
+country,BLZ,organization,CRFM,NA,NA
+country,GRD,organization,CRFM,NA,NA
+country,GUY,organization,CRFM,NA,NA
+country,HTI,organization,CRFM,NA,NA
+country,JAM,organization,CRFM,NA,NA
+country,MSR,organization,CRFM,NA,NA
+country,LCA,organization,CRFM,NA,NA
+country,KNA,organization,CRFM,NA,NA
+country,VCT,organization,CRFM,NA,NA
+country,SUR,organization,CRFM,NA,NA
+country,TTO,organization,CRFM,NA,NA
+country,TCA,organization,CRFM,NA,NA
+country,ARG,organization,CTMFM,NA,NA
+country,URY,organization,CTMFM,NA,NA
+country,ALB,organization,EIFAAC,NA,NA
+country,AUT,organization,EIFAAC,NA,NA
+country,BEL,organization,EIFAAC,NA,NA
+country,BIH,organization,EIFAAC,NA,NA
+country,BGR,organization,EIFAAC,NA,NA
+country,HRV,organization,EIFAAC,NA,NA
+country,CYP,organization,EIFAAC,NA,NA
+country,CZE,organization,EIFAAC,NA,NA
+country,DNK,organization,EIFAAC,NA,NA
+country,EST,organization,EIFAAC,NA,NA
+country,EUR,organization,EIFAAC,NA,NA
+country,FIN,organization,EIFAAC,NA,NA
+country,FRA,organization,EIFAAC,NA,NA
+country,DEU,organization,EIFAAC,NA,NA
+country,GRC,organization,EIFAAC,NA,NA
+country,HUN,organization,EIFAAC,NA,NA
+country,ISL,organization,EIFAAC,NA,NA
+country,IRL,organization,EIFAAC,NA,NA
+country,ISR,organization,EIFAAC,NA,NA
+country,ITA,organization,EIFAAC,NA,NA
+country,LVA,organization,EIFAAC,NA,NA
+country,LTU,organization,EIFAAC,NA,NA
+country,LUX,organization,EIFAAC,NA,NA
+country,MDA,organization,EIFAAC,NA,NA
+country,NLD,organization,EIFAAC,NA,NA
+country,MKD,organization,EIFAAC,NA,NA
+country,NOR,organization,EIFAAC,NA,NA
+country,POL,organization,EIFAAC,NA,NA
+country,PRT,organization,EIFAAC,NA,NA
+country,ROU,organization,EIFAAC,NA,NA
+country,SVN,organization,EIFAAC,NA,NA
+country,SVK,organization,EIFAAC,NA,NA
+country,ESP,organization,EIFAAC,NA,NA
+country,SRB,organization,EIFAAC,NA,NA
+country,SWE,organization,EIFAAC,NA,NA
+country,CHE,organization,EIFAAC,NA,NA
+country,TUR,organization,EIFAAC,NA,NA
+country,GBR,organization,EIFAAC,NA,NA
+country,BEN,organization,FCWC,NA,NA
+country,CIV,organization,FCWC,NA,NA
+country,GHA,organization,FCWC,NA,NA
+country,LBR,organization,FCWC,NA,NA
+country,NGA,organization,FCWC,NA,NA
+country,TGO,organization,FCWC,NA,NA
+country,AUS,organization,FFA,NA,NA
+country,COK,organization,FFA,NA,NA
+country,FJI,organization,FFA,NA,NA
+country,KIR,organization,FFA,NA,NA
+country,MHL,organization,FFA,NA,NA
+country,FSM,organization,FFA,NA,NA
+country,NRU,organization,FFA,NA,NA
+country,NZL,organization,FFA,NA,NA
+country,NIU,organization,FFA,NA,NA
+country,PLW,organization,FFA,NA,NA
+country,PNG,organization,FFA,NA,NA
+country,WSM,organization,FFA,NA,NA
+country,SLB,organization,FFA,NA,NA
+country,TKL,organization,FFA,NA,NA
+country,TON,organization,FFA,NA,NA
+country,TUV,organization,FFA,NA,NA
+country,VUT,organization,FFA,NA,NA
+country,ALB,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,DZA,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,BGR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,HRV,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,CYP,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,EUR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,EGY,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,FRA,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,GRC,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,ISR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,ITA,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,JPN,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,LBN,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,LBY,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,MLT,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,MCO,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,MNE,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,MAR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,ROU,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,SVN,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,ESP,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,SYR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,TUN,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,TUR,organization,GFCM,GFCM DCRF,https://www.fao.org/gfcm/data/dcrf
+country,BLZ,organization,IATTC,NA,NA
+country,CAN,organization,IATTC,NA,NA
+country,CHN,organization,IATTC,NA,NA
+country,TWN,organization,IATTC,NA,NA
+country,COL,organization,IATTC,NA,NA
+country,CRI,organization,IATTC,NA,NA
+country,ECU,organization,IATTC,NA,NA
+country,SLV,organization,IATTC,NA,NA
+country,EUR,organization,IATTC,NA,NA
+country,FRA,organization,IATTC,NA,NA
+country,GTM,organization,IATTC,NA,NA
+country,KIR,organization,IATTC,NA,NA
+country,JPN,organization,IATTC,NA,NA
+country,MEX,organization,IATTC,NA,NA
+country,NIC,organization,IATTC,NA,NA
+country,PAN,organization,IATTC,NA,NA
+country,PER,organization,IATTC,NA,NA
+country,KOR,organization,IATTC,NA,NA
+country,USA,organization,IATTC,NA,NA
+country,VUT,organization,IATTC,NA,NA
+country,VEN,organization,IATTC,NA,NA
+country,ALB,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,DZA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,AGO,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,BRB,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,BLZ,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,BRA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CAN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CPV,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CHN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CIV,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,CUW,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,EGY,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,SLV,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GNQ,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,EUR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,FRA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GAB,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GHA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GRD,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GTM,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GIN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,HND,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,ISL,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,JPN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,LBR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,LBY,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,MAR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,MRT,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,MEX,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,NAM,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,NIC,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,NGA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,NOR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,PAN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,PHL,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,KOR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,RUS,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,VCT,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,STP,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,SEN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,SLE,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,ZAF,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,SYR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,TTO,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,TUN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,TUR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,GBR,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,USA,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,URY,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,VUT,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,VEN,organization,ICCAT,ICCAT Reporting Requirements,https://www.iccat.int/en/submitSTAT.html
+country,BEL,organization,ICES,NA,NA
+country,CAN,organization,ICES,NA,NA
+country,DNK,organization,ICES,NA,NA
+country,EST,organization,ICES,NA,NA
+country,FIN,organization,ICES,NA,NA
+country,FRA,organization,ICES,NA,NA
+country,DEU,organization,ICES,NA,NA
+country,ISL,organization,ICES,NA,NA
+country,IRL,organization,ICES,NA,NA
+country,LVA,organization,ICES,NA,NA
+country,LTU,organization,ICES,NA,NA
+country,NLD,organization,ICES,NA,NA
+country,NOR,organization,ICES,NA,NA
+country,POL,organization,ICES,NA,NA
+country,PRT,organization,ICES,NA,NA
+country,RUS,organization,ICES,NA,NA
+country,ESP,organization,ICES,NA,NA
+country,SWE,organization,ICES,NA,NA
+country,GBR,organization,ICES,NA,NA
+country,USA,organization,ICES,NA,NA
+country,CAN,organization,IPHC,NA,NA
+country,USA,organization,IPHC,NA,NA
+country,ATG,organization,IWC,NA,NA
+country,ARG,organization,IWC,NA,NA
+country,AUS,organization,IWC,NA,NA
+country,AUT,organization,IWC,NA,NA
+country,BEL,organization,IWC,NA,NA
+country,BLZ,organization,IWC,NA,NA
+country,BEN,organization,IWC,NA,NA
+country,BRA,organization,IWC,NA,NA
+country,BGR,organization,IWC,NA,NA
+country,KHM,organization,IWC,NA,NA
+country,CMR,organization,IWC,NA,NA
+country,CHL,organization,IWC,NA,NA
+country,CHN,organization,IWC,NA,NA
+country,COL,organization,IWC,NA,NA
+country,COG,organization,IWC,NA,NA
+country,CRI,organization,IWC,NA,NA
+country,CIV,organization,IWC,NA,NA
+country,HRV,organization,IWC,NA,NA
+country,CYP,organization,IWC,NA,NA
+country,CZE,organization,IWC,NA,NA
+country,DNK,organization,IWC,NA,NA
+country,DMA,organization,IWC,NA,NA
+country,DOM,organization,IWC,NA,NA
+country,ECU,organization,IWC,NA,NA
+country,ERI,organization,IWC,NA,NA
+country,EST,organization,IWC,NA,NA
+country,FIN,organization,IWC,NA,NA
+country,FRA,organization,IWC,NA,NA
+country,GAB,organization,IWC,NA,NA
+country,GMB,organization,IWC,NA,NA
+country,DEU,organization,IWC,NA,NA
+country,GHA,organization,IWC,NA,NA
+country,GRD,organization,IWC,NA,NA
+country,GTM,organization,IWC,NA,NA
+country,GIN,organization,IWC,NA,NA
+country,GNB,organization,IWC,NA,NA
+country,HUN,organization,IWC,NA,NA
+country,ISL,organization,IWC,NA,NA
+country,IND,organization,IWC,NA,NA
+country,IRL,organization,IWC,NA,NA
+country,ISR,organization,IWC,NA,NA
+country,ITA,organization,IWC,NA,NA
+country,JPN,organization,IWC,NA,NA
+country,KEN,organization,IWC,NA,NA
+country,KIR,organization,IWC,NA,NA
+country,LAO,organization,IWC,NA,NA
+country,LTU,organization,IWC,NA,NA
+country,LUX,organization,IWC,NA,NA
+country,MLI,organization,IWC,NA,NA
+country,MHL,organization,IWC,NA,NA
+country,MRT,organization,IWC,NA,NA
+country,MEX,organization,IWC,NA,NA
+country,MCO,organization,IWC,NA,NA
+country,MNG,organization,IWC,NA,NA
+country,MAR,organization,IWC,NA,NA
+country,NRU,organization,IWC,NA,NA
+country,NLD,organization,IWC,NA,NA
+country,NZL,organization,IWC,NA,NA
+country,NIC,organization,IWC,NA,NA
+country,NOR,organization,IWC,NA,NA
+country,OMN,organization,IWC,NA,NA
+country,PLW,organization,IWC,NA,NA
+country,PAN,organization,IWC,NA,NA
+country,PER,organization,IWC,NA,NA
+country,POL,organization,IWC,NA,NA
+country,PRT,organization,IWC,NA,NA
+country,KOR,organization,IWC,NA,NA
+country,ROU,organization,IWC,NA,NA
+country,RUS,organization,IWC,NA,NA
+country,KNA,organization,IWC,NA,NA
+country,LCA,organization,IWC,NA,NA
+country,VCT,organization,IWC,NA,NA
+country,SMR,organization,IWC,NA,NA
+country,SEN,organization,IWC,NA,NA
+country,SVK,organization,IWC,NA,NA
+country,SVN,organization,IWC,NA,NA
+country,SLB,organization,IWC,NA,NA
+country,ZAF,organization,IWC,NA,NA
+country,ESP,organization,IWC,NA,NA
+country,SUR,organization,IWC,NA,NA
+country,SWE,organization,IWC,NA,NA
+country,CHE,organization,IWC,NA,NA
+country,TGO,organization,IWC,NA,NA
+country,TUV,organization,IWC,NA,NA
+country,GBR,organization,IWC,NA,NA
+country,USA,organization,IWC,NA,NA
+country,TZA,organization,IWC,NA,NA
+country,URY,organization,IWC,NA,NA
+country,NOR,organization,JointFish,NA,NA
+country,RUS,organization,JointFish,NA,NA
+country,BDI,organization,LTA,NA,NA
+country,COD,organization,LTA,NA,NA
+country,TZA,organization,LTA,NA,NA
+country,ZMB,organization,LTA,NA,NA
+country,BDI,organization,LVFO,NA,NA
+country,KEN,organization,LVFO,NA,NA
+country,UGA,organization,LVFO,NA,NA
+country,TZA,organization,LVFO,NA,NA
+country,KHM,organization,MRC,NA,NA
+country,LAO,organization,MRC,NA,NA
+country,THA,organization,MRC,NA,NA
+country,VNM,organization,MRC,NA,NA
+country,AUS,organization,NACA,NA,NA
+country,BGD,organization,NACA,NA,NA
+country,KHM,organization,NACA,NA,NA
+country,CHN,organization,NACA,NA,NA
+country,HKG,organization,NACA,NA,NA
+country,IND,organization,NACA,NA,NA
+country,IDN,organization,NACA,NA,NA
+country,IRN,organization,NACA,NA,NA
+country,PRK,organization,NACA,NA,NA
+country,LAO,organization,NACA,NA,NA
+country,MYS,organization,NACA,NA,NA
+country,MMR,organization,NACA,NA,NA
+country,NPL,organization,NACA,NA,NA
+country,PAK,organization,NACA,NA,NA
+country,PHL,organization,NACA,NA,NA
+country,LKA,organization,NACA,NA,NA
+country,THA,organization,NACA,NA,NA
+country,VNM,organization,NACA,NA,NA
+country,CAN,organization,NAFO,NA,NA
+country,CUB,organization,NAFO,NA,NA
+country,DNK,organization,NAFO,NA,NA
+country,FRO,organization,NAFO,NA,NA
+country,GRL,organization,NAFO,NA,NA
+country,EUR,organization,NAFO,NA,NA
+country,FRA,organization,NAFO,NA,NA
+country,ISL,organization,NAFO,NA,NA
+country,JPN,organization,NAFO,NA,NA
+country,NOR,organization,NAFO,NA,NA
+country,KOR,organization,NAFO,NA,NA
+country,RUS,organization,NAFO,NA,NA
+country,GBR,organization,NAFO,NA,NA
+country,UKR,organization,NAFO,NA,NA
+country,USA,organization,NAFO,NA,NA
+country,FRO,organization,NAMMCO,NA,NA
+country,GRL,organization,NAMMCO,NA,NA
+country,ISL,organization,NAMMCO,NA,NA
+country,NOR,organization,NAMMCO,NA,NA
+country,CAN,organization,NASCO,NA,NA
+country,DNK,organization,NASCO,NA,NA
+country,EUR,organization,NASCO,NA,NA
+country,NOR,organization,NASCO,NA,NA
+country,RUS,organization,NASCO,NA,NA
+country,GBR,organization,NASCO,NA,NA
+country,USA,organization,NASCO,NA,NA
+country,DNK,organization,NEAFC,NA,NA
+country,EUR,organization,NEAFC,NA,NA
+country,ISL,organization,NEAFC,NA,NA
+country,NOR,organization,NEAFC,NA,NA
+country,RUS,organization,NEAFC,NA,NA
+country,GBR,organization,NEAFC,NA,NA
+country,CAN,organization,NPAFC,NA,NA
+country,JPN,organization,NPAFC,NA,NA
+country,KOR,organization,NPAFC,NA,NA
+country,RUS,organization,NPAFC,NA,NA
+country,USA,organization,NPAFC,NA,NA
+country,CAN,organization,NPFC,NA,NA
+country,CHN,organization,NPFC,NA,NA
+country,EUR,organization,NPFC,NA,NA
+country,JPN,organization,NPFC,NA,NA
+country,KOR,organization,NPFC,NA,NA
+country,RUS,organization,NPFC,NA,NA
+country,USA,organization,NPFC,NA,NA
+country,VUT,organization,NPFC,NA,NA
+country,BLZ,organization,OSPESCA,NA,NA
+country,CRI,organization,OSPESCA,NA,NA
+country,DOM,organization,OSPESCA,NA,NA
+country,SLV,organization,OSPESCA,NA,NA
+country,GTM,organization,OSPESCA,NA,NA
+country,HND,organization,OSPESCA,NA,NA
+country,NIC,organization,OSPESCA,NA,NA
+country,PAN,organization,OSPESCA,NA,NA
+country,DJI,organization,PERSGA,NA,NA
+country,EGY,organization,PERSGA,NA,NA
+country,JOR,organization,PERSGA,NA,NA
+country,SAU,organization,PERSGA,NA,NA
+country,SOM,organization,PERSGA,NA,NA
+country,SDN,organization,PERSGA,NA,NA
+country,YEM,organization,PERSGA,NA,NA
+country,CAN,organization,PICES,NA,NA
+country,CHN,organization,PICES,NA,NA
+country,JPN,organization,PICES,NA,NA
+country,KOR,organization,PICES,NA,NA
+country,RUS,organization,PICES,NA,NA
+country,USA,organization,PICES,NA,NA
+country,CAN,organization,PSC,NA,NA
+country,USA,organization,PSC,NA,NA
+country,BHR,organization,RECOFI,RECOFI MDR PILOT,NA
+country,IRQ,organization,RECOFI,RECOFI MDR PILOT,NA
+country,IRN,organization,RECOFI,RECOFI MDR PILOT,NA
+country,KWT,organization,RECOFI,RECOFI MDR PILOT,NA
+country,OMN,organization,RECOFI,RECOFI MDR PILOT,NA
+country,QAT,organization,RECOFI,RECOFI MDR PILOT,NA
+country,SAU,organization,RECOFI,RECOFI MDR PILOT,NA
+country,ARE,organization,RECOFI,RECOFI MDR PILOT,NA
+country,BRN,organization,SEAFDEC,NA,NA
+country,KHM,organization,SEAFDEC,NA,NA
+country,IDN,organization,SEAFDEC,NA,NA
+country,JPN,organization,SEAFDEC,NA,NA
+country,LAO,organization,SEAFDEC,NA,NA
+country,MYS,organization,SEAFDEC,NA,NA
+country,MMR,organization,SEAFDEC,NA,NA
+country,PHL,organization,SEAFDEC,NA,NA
+country,SGP,organization,SEAFDEC,NA,NA
+country,THA,organization,SEAFDEC,NA,NA
+country,VNM,organization,SEAFDEC,NA,NA
+country,AGO,organization,SEAFO,NA,NA
+country,EUR,organization,SEAFO,NA,NA
+country,JPN,organization,SEAFO,NA,NA
+country,NAM,organization,SEAFO,NA,NA
+country,KOR,organization,SEAFO,NA,NA
+country,ZAF,organization,SEAFO,NA,NA
+country,AUS,organization,SIOFA,NA,NA
+country,COM,organization,SIOFA,NA,NA
+country,COK,organization,SIOFA,NA,NA
+country,EUR,organization,SIOFA,NA,NA
+country,FRA,organization,SIOFA,NA,NA
+country,JPN,organization,SIOFA,NA,NA
+country,KOR,organization,SIOFA,NA,NA
+country,MUS,organization,SIOFA,NA,NA
+country,SYC,organization,SIOFA,NA,NA
+country,ASM,organization,SPC,NA,NA
+country,AUS,organization,SPC,NA,NA
+country,COK,organization,SPC,NA,NA
+country,FSM,organization,SPC,NA,NA
+country,FJI,organization,SPC,NA,NA
+country,FRA,organization,SPC,NA,NA
+country,PYF,organization,SPC,NA,NA
+country,GUM,organization,SPC,NA,NA
+country,KIR,organization,SPC,NA,NA
+country,MHL,organization,SPC,NA,NA
+country,NRU,organization,SPC,NA,NA
+country,NCL,organization,SPC,NA,NA
+country,NIU,organization,SPC,NA,NA
+country,MNP,organization,SPC,NA,NA
+country,PLW,organization,SPC,NA,NA
+country,PNG,organization,SPC,NA,NA
+country,PCN,organization,SPC,NA,NA
+country,WSM,organization,SPC,NA,NA
+country,SLB,organization,SPC,NA,NA
+country,TKL,organization,SPC,NA,NA
+country,TON,organization,SPC,NA,NA
+country,TUV,organization,SPC,NA,NA
+country,USA,organization,SPC,NA,NA
+country,VUT,organization,SPC,NA,NA
+country,WLF,organization,SPC,NA,NA
+country,AUS,organization,SPRFMO,NA,NA
+country,BLZ,organization,SPRFMO,NA,NA
+country,CHL,organization,SPRFMO,NA,NA
+country,CHN,organization,SPRFMO,NA,NA
+country,COK,organization,SPRFMO,NA,NA
+country,CUB,organization,SPRFMO,NA,NA
+country,ECU,organization,SPRFMO,NA,NA
+country,EUR,organization,SPRFMO,NA,NA
+country,DNK,organization,SPRFMO,NA,NA
+country,KOR,organization,SPRFMO,NA,NA
+country,VUT,organization,SPRFMO,NA,NA
+country,NZL,organization,SPRFMO,NA,NA
+country,PAN,organization,SPRFMO,NA,NA
+country,PER,organization,SPRFMO,NA,NA
+country,RUS,organization,SPRFMO,NA,NA
+country,TWN,organization,SPRFMO,NA,NA
+country,USA,organization,SPRFMO,NA,NA
+country,CPV,organization,SRFC,NA,NA
+country,GMB,organization,SRFC,NA,NA
+country,GIN,organization,SRFC,NA,NA
+country,GNB,organization,SRFC,NA,NA
+country,MRT,organization,SRFC,NA,NA
+country,SEN,organization,SRFC,NA,NA
+country,SLE,organization,SRFC,NA,NA
+country,COM,organization,SWIOFC,NA,NA
+country,FRA,organization,SWIOFC,NA,NA
+country,KEN,organization,SWIOFC,NA,NA
+country,MDG,organization,SWIOFC,NA,NA
+country,MDV,organization,SWIOFC,NA,NA
+country,MUS,organization,SWIOFC,NA,NA
+country,MOZ,organization,SWIOFC,NA,NA
+country,SYC,organization,SWIOFC,NA,NA
+country,SOM,organization,SWIOFC,NA,NA
+country,ZAF,organization,SWIOFC,NA,NA
+country,TZA,organization,SWIOFC,NA,NA
+country,YEM,organization,SWIOFC,NA,NA
+country,AUS,organization,WCPFC,NA,NA
+country,CAN,organization,WCPFC,NA,NA
+country,CHN,organization,WCPFC,NA,NA
+country,COK,organization,WCPFC,NA,NA
+country,EUR,organization,WCPFC,NA,NA
+country,FJI,organization,WCPFC,NA,NA
+country,FRA,organization,WCPFC,NA,NA
+country,IDN,organization,WCPFC,NA,NA
+country,JPN,organization,WCPFC,NA,NA
+country,KIR,organization,WCPFC,NA,NA
+country,MHL,organization,WCPFC,NA,NA
+country,FSM,organization,WCPFC,NA,NA
+country,NRU,organization,WCPFC,NA,NA
+country,NZL,organization,WCPFC,NA,NA
+country,NIU,organization,WCPFC,NA,NA
+country,PLW,organization,WCPFC,NA,NA
+country,PNG,organization,WCPFC,NA,NA
+country,PHL,organization,WCPFC,NA,NA
+country,KOR,organization,WCPFC,NA,NA
+country,WSM,organization,WCPFC,NA,NA
+country,SLB,organization,WCPFC,NA,NA
+country,TON,organization,WCPFC,NA,NA
+country,TWN,organization,WCPFC,NA,NA
+country,TUV,organization,WCPFC,NA,NA
+country,USA,organization,WCPFC,NA,NA
+country,VUT,organization,WCPFC,NA,NA
+country,ATG,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,BHS,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,BRB,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,BLZ,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,BRA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,COL,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,CRI,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,CUB,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,DMA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,DOM,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,EUR,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,FRA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GRD,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GTM,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GIN,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GUY,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,HTI,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,HND,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,JAM,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,JPN,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,MEX,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,NLD,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,NIC,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,PAN,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,KOR,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,KNA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,LCA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,VCT,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,ESP,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,SUR,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,TTO,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,GBR,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,USA,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,VEN,organization,WECAFC,WECAFC DCRF,https://www.fao.org/wecafc/data/dcrf
+country,AUS,organization,UN-FAO,NA,NA
+country,BGD,organization,UN-FAO,NA,NA
+country,BLZ,organization,UN-FAO,NA,NA
+country,CHN,organization,UN-FAO,NA,NA
+country,COM,organization,UN-FAO,NA,NA
+country,ERI,organization,UN-FAO,NA,NA
+country,EUR,organization,UN-FAO,NA,NA
+country,FRA,organization,UN-FAO,NA,NA
+country,GIN,organization,UN-FAO,NA,NA
+country,IND,organization,UN-FAO,NA,NA
+country,IDN,organization,UN-FAO,NA,NA
+country,IRN,organization,UN-FAO,NA,NA
+country,JPN,organization,UN-FAO,NA,NA
+country,KEN,organization,UN-FAO,NA,NA
+country,KOR,organization,UN-FAO,NA,NA
+country,MDG,organization,UN-FAO,NA,NA
+country,MYS,organization,UN-FAO,NA,NA
+country,MDV,organization,UN-FAO,NA,NA
+country,MUS,organization,UN-FAO,NA,NA
+country,MOZ,organization,UN-FAO,NA,NA
+country,OMN,organization,UN-FAO,NA,NA
+country,PAK,organization,UN-FAO,NA,NA
+country,PHL,organization,UN-FAO,NA,NA
+country,SYC,organization,UN-FAO,NA,NA
+country,SLE,organization,UN-FAO,NA,NA
+country,SOM,organization,UN-FAO,NA,NA
+country,ZAF,organization,UN-FAO,NA,NA
+country,LKA,organization,UN-FAO,NA,NA
+country,SDN,organization,UN-FAO,NA,NA
+country,TZA,organization,UN-FAO,NA,NA
+country,THA,organization,UN-FAO,NA,NA
+country,GBR,organization,UN-FAO,NA,NA
+country,YEM,organization,UN-FAO,NA,NA
+country,ARG,organization,UN-FAO,NA,NA
+country,BRA,organization,UN-FAO,NA,NA
+country,CHL,organization,UN-FAO,NA,NA
+country,ECU,organization,UN-FAO,NA,NA
+country,NZL,organization,UN-FAO,NA,NA
+country,NOR,organization,UN-FAO,NA,NA
+country,PER,organization,UN-FAO,NA,NA
+country,ESP,organization,UN-FAO,NA,NA
+country,URY,organization,UN-FAO,NA,NA
+country,KHM,organization,UN-FAO,NA,NA
+country,MMR,organization,UN-FAO,NA,NA
+country,NPL,organization,UN-FAO,NA,NA
+country,TLS,organization,UN-FAO,NA,NA
+country,USA,organization,UN-FAO,NA,NA
+country,VNM,organization,UN-FAO,NA,NA
+country,ARM,organization,UN-FAO,NA,NA
+country,TJK,organization,UN-FAO,NA,NA
+country,KGZ,organization,UN-FAO,NA,NA
+country,TUR,organization,UN-FAO,NA,NA
+country,AZE,organization,UN-FAO,NA,NA
+country,BEL,organization,UN-FAO,NA,NA
+country,DEU,organization,UN-FAO,NA,NA
+country,ITA,organization,UN-FAO,NA,NA
+country,NAM,organization,UN-FAO,NA,NA
+country,NLD,organization,UN-FAO,NA,NA
+country,POL,organization,UN-FAO,NA,NA
+country,RUS,organization,UN-FAO,NA,NA
+country,SWE,organization,UN-FAO,NA,NA
+country,UKR,organization,UN-FAO,NA,NA
+country,TWN,organization,UN-FAO,NA,NA
+country,AGO,organization,UN-FAO,NA,NA
+country,BEN,organization,UN-FAO,NA,NA
+country,CMR,organization,UN-FAO,NA,NA
+country,CPV,organization,UN-FAO,NA,NA
+country,COD,organization,UN-FAO,NA,NA
+country,COG,organization,UN-FAO,NA,NA
+country,CIV,organization,UN-FAO,NA,NA
+country,CUB,organization,UN-FAO,NA,NA
+country,GNQ,organization,UN-FAO,NA,NA
+country,GAB,organization,UN-FAO,NA,NA
+country,GMB,organization,UN-FAO,NA,NA
+country,GHA,organization,UN-FAO,NA,NA
+country,GRC,organization,UN-FAO,NA,NA
+country,GNB,organization,UN-FAO,NA,NA
+country,LBR,organization,UN-FAO,NA,NA
+country,MRT,organization,UN-FAO,NA,NA
+country,MAR,organization,UN-FAO,NA,NA
+country,NGA,organization,UN-FAO,NA,NA
+country,ROU,organization,UN-FAO,NA,NA
+country,STP,organization,UN-FAO,NA,NA
+country,SEN,organization,UN-FAO,NA,NA
+country,TGO,organization,UN-FAO,NA,NA
+country,BWA,organization,UN-FAO,NA,NA
+country,BFA,organization,UN-FAO,NA,NA
+country,BDI,organization,UN-FAO,NA,NA
+country,CAF,organization,UN-FAO,NA,NA
+country,TCD,organization,UN-FAO,NA,NA
+country,EGY,organization,UN-FAO,NA,NA
+country,ETH,organization,UN-FAO,NA,NA
+country,LSO,organization,UN-FAO,NA,NA
+country,MWI,organization,UN-FAO,NA,NA
+country,MLI,organization,UN-FAO,NA,NA
+country,NER,organization,UN-FAO,NA,NA
+country,RWA,organization,UN-FAO,NA,NA
+country,SWZ,organization,UN-FAO,NA,NA
+country,UGA,organization,UN-FAO,NA,NA
+country,ZMB,organization,UN-FAO,NA,NA
+country,ZWE,organization,UN-FAO,NA,NA
+country,BOL,organization,UN-FAO,NA,NA
+country,COL,organization,UN-FAO,NA,NA
+country,CRI,organization,UN-FAO,NA,NA
+country,DOM,organization,UN-FAO,NA,NA
+country,SLV,organization,UN-FAO,NA,NA
+country,GTM,organization,UN-FAO,NA,NA
+country,HND,organization,UN-FAO,NA,NA
+country,JAM,organization,UN-FAO,NA,NA
+country,MEX,organization,UN-FAO,NA,NA
+country,NIC,organization,UN-FAO,NA,NA
+country,PAN,organization,UN-FAO,NA,NA
+country,PRY,organization,UN-FAO,NA,NA
+country,SUR,organization,UN-FAO,NA,NA
+country,VEN,organization,UN-FAO,NA,NA
+country,AIA,organization,UN-FAO,NA,NA
+country,ATG,organization,UN-FAO,NA,NA
+country,BHS,organization,UN-FAO,NA,NA
+country,BRB,organization,UN-FAO,NA,NA
+country,GRD,organization,UN-FAO,NA,NA
+country,GUY,organization,UN-FAO,NA,NA
+country,HTI,organization,UN-FAO,NA,NA
+country,MSR,organization,UN-FAO,NA,NA
+country,LCA,organization,UN-FAO,NA,NA
+country,KNA,organization,UN-FAO,NA,NA
+country,VCT,organization,UN-FAO,NA,NA
+country,TTO,organization,UN-FAO,NA,NA
+country,TCA,organization,UN-FAO,NA,NA
+country,ALB,organization,UN-FAO,NA,NA
+country,AUT,organization,UN-FAO,NA,NA
+country,BIH,organization,UN-FAO,NA,NA
+country,BGR,organization,UN-FAO,NA,NA
+country,HRV,organization,UN-FAO,NA,NA
+country,CYP,organization,UN-FAO,NA,NA
+country,CZE,organization,UN-FAO,NA,NA
+country,DNK,organization,UN-FAO,NA,NA
+country,EST,organization,UN-FAO,NA,NA
+country,FIN,organization,UN-FAO,NA,NA
+country,HUN,organization,UN-FAO,NA,NA
+country,ISL,organization,UN-FAO,NA,NA
+country,IRL,organization,UN-FAO,NA,NA
+country,ISR,organization,UN-FAO,NA,NA
+country,LVA,organization,UN-FAO,NA,NA
+country,LTU,organization,UN-FAO,NA,NA
+country,LUX,organization,UN-FAO,NA,NA
+country,MDA,organization,UN-FAO,NA,NA
+country,MKD,organization,UN-FAO,NA,NA
+country,PRT,organization,UN-FAO,NA,NA
+country,SVN,organization,UN-FAO,NA,NA
+country,SVK,organization,UN-FAO,NA,NA
+country,SRB,organization,UN-FAO,NA,NA
+country,CHE,organization,UN-FAO,NA,NA
+country,COK,organization,UN-FAO,NA,NA
+country,FJI,organization,UN-FAO,NA,NA
+country,KIR,organization,UN-FAO,NA,NA
+country,MHL,organization,UN-FAO,NA,NA
+country,FSM,organization,UN-FAO,NA,NA
+country,NRU,organization,UN-FAO,NA,NA
+country,NIU,organization,UN-FAO,NA,NA
+country,PLW,organization,UN-FAO,NA,NA
+country,PNG,organization,UN-FAO,NA,NA
+country,WSM,organization,UN-FAO,NA,NA
+country,SLB,organization,UN-FAO,NA,NA
+country,TKL,organization,UN-FAO,NA,NA
+country,TON,organization,UN-FAO,NA,NA
+country,TUV,organization,UN-FAO,NA,NA
+country,VUT,organization,UN-FAO,NA,NA
+country,DZA,organization,UN-FAO,NA,NA
+country,LBN,organization,UN-FAO,NA,NA
+country,LBY,organization,UN-FAO,NA,NA
+country,MLT,organization,UN-FAO,NA,NA
+country,MCO,organization,UN-FAO,NA,NA
+country,MNE,organization,UN-FAO,NA,NA
+country,SYR,organization,UN-FAO,NA,NA
+country,TUN,organization,UN-FAO,NA,NA
+country,CAN,organization,UN-FAO,NA,NA
+country,CUW,organization,UN-FAO,NA,NA
+country,DMA,organization,UN-FAO,NA,NA
+country,LAO,organization,UN-FAO,NA,NA
+country,MNG,organization,UN-FAO,NA,NA
+country,SMR,organization,UN-FAO,NA,NA
+country,HKG,organization,UN-FAO,NA,NA
+country,PRK,organization,UN-FAO,NA,NA
+country,FRO,organization,UN-FAO,NA,NA
+country,GRL,organization,UN-FAO,NA,NA
+country,DJI,organization,UN-FAO,NA,NA
+country,JOR,organization,UN-FAO,NA,NA
+country,SAU,organization,UN-FAO,NA,NA
+country,BHR,organization,UN-FAO,NA,NA
+country,IRQ,organization,UN-FAO,NA,NA
+country,KWT,organization,UN-FAO,NA,NA
+country,QAT,organization,UN-FAO,NA,NA
+country,ARE,organization,UN-FAO,NA,NA
+country,BRN,organization,UN-FAO,NA,NA
+country,SGP,organization,UN-FAO,NA,NA
+country,ASM,organization,UN-FAO,NA,NA
+country,PYF,organization,UN-FAO,NA,NA
+country,GUM,organization,UN-FAO,NA,NA
+country,NCL,organization,UN-FAO,NA,NA
+country,MNP,organization,UN-FAO,NA,NA
+country,PCN,organization,UN-FAO,NA,NA
+country,WLF,organization,UN-FAO,NA,NA
