@@ -1,0 +1,12 @@
+id: task_I.2
+name: nominal catch
+measurement: catch
+formats:
+  simplified:
+    id: simplified
+    name: Simplified
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_simplified_wecafc_taskI.2.json
+  generic:
+    id: generic
+    name: Generic
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_generic_wecafc_taskI.2.json

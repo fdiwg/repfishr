@@ -1,0 +1,12 @@
+id: task_III.1
+name: Fleet engaged
+measurement: fleet_engagement
+formats:
+  simplified:
+    id: simplified
+    name: Simplified
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_simplified_wecafc_taskIII.1.json
+  generic:
+    id: generic
+    name: Generic
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_generic_wecafc_taskIII.1.json

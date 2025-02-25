@@ -23,10 +23,19 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \section{Super class}{
 \code{\link[repfishr:reporting_actor]{repfishr::reporting_actor}} -> \code{reporting_receiver}
 }
+\section{Public fields}{
+\if{html}{\out{<div class="r6-fields">}}
+\describe{
+\item{\code{tasks}}{tasks}
+}
+\if{html}{\out{</div>}}
+}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
 \item \href{#method-reporting_receiver-new}{\code{reporting_receiver$new()}}
+\item \href{#method-reporting_receiver-getTasks}{\code{reporting_receiver$getTasks()}}
+\item \href{#method-reporting_receiver-getTaskById}{\code{reporting_receiver$getTaskById()}}
 \item \href{#method-reporting_receiver-clone}{\code{reporting_receiver$clone()}}
 }
 }
@@ -49,6 +58,39 @@ Initializes a reporting receiver
 \item{\code{type}}{type}
 }
 \if{html}{\out{</div>}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-reporting_receiver-getTasks"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_receiver-getTasks}{}}}
+\subsection{Method \code{getTasks()}}{
+Get tasks
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$getTasks()}\if{html}{\out{</div>}}
+}
+
+\subsection{Returns}{
+a list of \link{reporting_task}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-reporting_receiver-getTaskById"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_receiver-getTaskById}{}}}
+\subsection{Method \code{getTaskById()}}{
+Get task by ID
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$getTaskById(id)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{id}}{id}
+}
+\if{html}{\out{</div>}}
+}
+\subsection{Returns}{
+an object of class \link{reporting_task}
 }
 }
 \if{html}{\out{<hr>}}

@@ -51,7 +51,7 @@ reporting_flow <- R6::R6Class("reporting_flow",
       if(raw){
         receivers = lapply(1:nrow(private$actors), function(i){
           actor = private$actors[i,]
-          reporting_sender$new(
+          reporting_receiver$new(
             id = actor$receiver_id,
             name = actor$receiver_name,
             type = actor$receiver_type

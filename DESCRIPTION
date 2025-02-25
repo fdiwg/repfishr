@@ -9,6 +9,10 @@ Depends: R (>= 4.0)
 Imports:
   R6,
   methods,
+  jsonlite,
+  yaml,
+  readr,
+  mime,
   vrule
 Remotes:
   fdiwg/vrule

@@ -1,0 +1,12 @@
+id: task_II.1
+name: Catch
+measurement: catch
+formats:
+  simplified:
+    id: simplified
+    name: Simplified
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_simplified_wecafc_taskII.1.json
+  generic:
+    id: generic
+    name: Generic
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_generic_wecafc_taskII.1.json

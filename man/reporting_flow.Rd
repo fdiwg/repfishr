@@ -31,6 +31,7 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \subsection{Public methods}{
 \itemize{
 \item \href{#method-reporting_flow-new}{\code{reporting_flow$new()}}
+\item \href{#method-reporting_flow-getSender}{\code{reporting_flow$getSender()}}
 \item \href{#method-reporting_flow-getReceivers}{\code{reporting_flow$getReceivers()}}
 \item \href{#method-reporting_flow-getReceiverIds}{\code{reporting_flow$getReceiverIds()}}
 \item \href{#method-reporting_flow-getReceiver}{\code{reporting_flow$getReceiver()}}
@@ -57,12 +58,22 @@ Initializes a reporting flow
 }
 }
 \if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-reporting_flow-getSender"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_flow-getSender}{}}}
+\subsection{Method \code{getSender()}}{
+Get sender
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{reporting_flow$getSender()}\if{html}{\out{</div>}}
+}
+
+\subsection{Returns}{
+an object of class \link{reporting_sender}
+}
+}
+\if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-reporting_flow-getReceivers"></a>}}
 \if{latex}{\out{\hypertarget{method-reporting_flow-getReceivers}{}}}
 \subsection{Method \code{getReceivers()}}{
-Get sender
-
-
 Get list of valid receivers for the selected sender
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{reporting_flow$getReceivers(raw = FALSE)}\if{html}{\out{</div>}}
@@ -76,7 +87,7 @@ Get list of valid receivers for the selected sender
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-an object of class \link{reporting_sender}
+an object of class \link{data.frame} or a \code{list} of \link{reporting_receiver}
 }
 }
 \if{html}{\out{<hr>}}
