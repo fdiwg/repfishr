@@ -23,6 +23,8 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \section{Public fields}{
 \if{html}{\out{<div class="r6-fields">}}
 \describe{
+\item{\code{receiver}}{receiver}
+
 \item{\code{id}}{id}
 
 \item{\code{name}}{name}
@@ -30,6 +32,8 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \item{\code{measurement}}{measurement}
 
 \item{\code{formats}}{formats}
+
+\item{\code{report_fun}}{report handler (function)}
 }
 \if{html}{\out{</div>}}
 }
@@ -37,6 +41,7 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \subsection{Public methods}{
 \itemize{
 \item \href{#method-reporting_task-new}{\code{reporting_task$new()}}
+\item \href{#method-reporting_task-process}{\code{reporting_task$process()}}
 \item \href{#method-reporting_task-clone}{\code{reporting_task$clone()}}
 }
 }
@@ -46,13 +51,42 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \subsection{Method \code{new()}}{
 Initializes a reporting task
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_task$new(file)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_task$new(receiver, file)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
+\item{\code{receiver}}{receiver}
+
 \item{\code{file}}{file}
+}
+\if{html}{\out{</div>}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-reporting_task-process"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_task-process}{}}}
+\subsection{Method \code{process()}}{
+Process data
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{reporting_task$process(data, format, parallel = FALSE, metadata, path, ...)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{data}}{object of class \link{data.frame}}
+
+\item{\code{format}}{format id for data validation}
+
+\item{\code{parallel}}{whether data validation should be run in parallel}
+
+\item{\code{metadata}}{metadata object}
+
+\item{\code{path}}{path for the output file}
+
+\item{\code{...}}{any other arguments to be passed to \pkg{vrule} validation method}
 }
 \if{html}{\out{</div>}}
 }

@@ -30,7 +30,9 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
       if(length(self$tasks)==0){
         task_specs = list.files(system.file("extdata/specs", self$id, package = "repfishr"), full.names = T)
         if(length(task_specs)>0){
-          self$tasks = lapply(task_specs, reporting_task$new)
+          self$tasks = lapply(task_specs, function(file){
+            reporting_task$new(receiver = self$id, file = file)
+          })
         }
       }
       return(self$tasks)
@@ -46,7 +48,7 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
       }else{
         task_spec = system.file("extdata/specs", self$id, paste0(id, ".yml"), package = "repfishr")
         if(task_spec == "") stop("It seems the task YML file is not named with its ID!")
-        task = reporting_task$new(file = task_spec)
+        task = reporting_task$new(receiver = self$id, file = task_spec)
       }
       return(task)
     }

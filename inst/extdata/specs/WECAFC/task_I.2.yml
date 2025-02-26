@@ -10,3 +10,5 @@ formats:
     id: generic
     name: Generic
     ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_generic_wecafc_taskI.2.json
+report: 
+  handler: task_I.2_test.R
