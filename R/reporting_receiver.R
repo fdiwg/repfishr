@@ -28,7 +28,7 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
     #'@return a list of \link{reporting_task}
     getTasks = function(){
       if(length(self$tasks)==0){
-        task_specs = list.files(system.file("extdata/specs", self$id, package = "repfishr"), full.names = T)
+        task_specs = list.files(system.file("extdata/specs", self$id, package = "repfishr"), pattern = ".yml", full.names = T)
         if(length(task_specs)>0){
           self$tasks = lapply(task_specs, function(file){
             reporting_task$new(receiver = self$id, file = file)
