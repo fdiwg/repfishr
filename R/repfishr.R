@@ -5,12 +5,16 @@
 #' 
 #' @import R6
 #' @import methods
-#' @import vrule
-#' @import readr
-#' @import mime
+#' @import tibble
+#' @import magrittr
 #' @import jsonlite
 #' @import yaml
-#'
+#' @import readr
+#' @import mime
+#' @import vrule
+#' @import writexl
+#' @import openxlsx
+#' 
 #' @name repfishr
 #' @author Emmanuel Blondel \email{emmanuel.blondel1@@gmail.com}
 #' 
