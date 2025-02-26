@@ -42,7 +42,7 @@ reporting_task <- R6::R6Class("reporting_task",
         })
         names(self$formats) = names(task$formats)
         if(!is.null(task$report$handler)){
-          report_fun = source(system.file("extdata/specs", self$receiver, task$report$handler, package = "repfishr"))$value
+          report_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$report$handler, package = "repfishr"))$value
           if(!all(names(formals(report_fun)) == c("data","metadata","path"))){
             stop("The report handler should be standardized with the following arguments: [data, metadata, path]")
           }
