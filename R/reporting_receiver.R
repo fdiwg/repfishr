@@ -20,13 +20,25 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
     #'@param id id
     #'@param name name
     #'@param type type
-    initialize = function(id, name, type){
-      super$initialize(id, name, type)
+    initialize = function(id, name = NULL, type = NULL){
+      super$initialize(id, name = name, type = type)
+    },
+    
+    #'@description Get task IDs
+    #'@return the list of task IDs
+    getTasks = function(){
+      task_specs = list.files(system.file("extdata/specs", self$id, "tasks", package = "repfishr"), pattern = ".yml", full.names = T)
+      tasks = sapply(task_specs, function(x){
+        task = yaml::read_yaml(x)
+        task$id
+      })
+      names(tasks) = NULL
+      return(tasks)
     },
     
     #'@description Get tasks
     #'@return a list of \link{reporting_task}
-    getTasks = function(){
+    getTaskDefinitions = function(){
       if(length(self$tasks)==0){
         task_specs = list.files(system.file("extdata/specs", self$id, "tasks", package = "repfishr"), pattern = ".yml", full.names = T)
         if(length(task_specs)>0){
@@ -38,10 +50,10 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
       return(self$tasks)
     },
     
-    #'@description Get task by ID
+    #'@description Get task definition by ID
     #'@param id id
     #'@return an object of class \link{reporting_task}
-    getTaskById = function(id){
+    getTaskDefinitionById = function(id){
       task = NULL
       if(length(self$tasks)>0){
         task = self$tasks[sapply(self$tasks, function(x){x$id == id})][[1]]

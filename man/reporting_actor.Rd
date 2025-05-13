@@ -44,7 +44,7 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \subsection{Method \code{new()}}{
 Initializes a reporting sender
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_actor$new(id, name, type)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_actor$new(id, name = NULL, type = NULL)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{

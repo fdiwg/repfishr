@@ -22,7 +22,7 @@ reporting_actor <- R6::R6Class("reporting_actor",
     #'@param id id
     #'@param name name
     #'@param type type
-    initialize = function(id, name, type){
+    initialize = function(id, name = NULL, type = NULL){
       self$id = id
       self$name = name
       self$type = type

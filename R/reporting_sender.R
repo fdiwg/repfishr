@@ -17,8 +17,8 @@ reporting_sender <- R6::R6Class("reporting_sender",
     #'@param id id
     #'@param name name
     #'@param type type
-    initialize = function(id, name, type){
-      super$initialize(id, name, type)
+    initialize = function(id, name = NULL, type = NULL){
+      super$initialize(id, name = name, type = type)
     }
   )
-)
+) 

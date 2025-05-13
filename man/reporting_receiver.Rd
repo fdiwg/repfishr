@@ -35,7 +35,8 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \itemize{
 \item \href{#method-reporting_receiver-new}{\code{reporting_receiver$new()}}
 \item \href{#method-reporting_receiver-getTasks}{\code{reporting_receiver$getTasks()}}
-\item \href{#method-reporting_receiver-getTaskById}{\code{reporting_receiver$getTaskById()}}
+\item \href{#method-reporting_receiver-getTaskDefinitions}{\code{reporting_receiver$getTaskDefinitions()}}
+\item \href{#method-reporting_receiver-getTaskDefinitionById}{\code{reporting_receiver$getTaskDefinitionById()}}
 \item \href{#method-reporting_receiver-clone}{\code{reporting_receiver$clone()}}
 }
 }
@@ -45,7 +46,7 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \subsection{Method \code{new()}}{
 Initializes a reporting receiver
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$new(id, name, type)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$new(id, name = NULL, type = NULL)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
@@ -64,9 +65,22 @@ Initializes a reporting receiver
 \if{html}{\out{<a id="method-reporting_receiver-getTasks"></a>}}
 \if{latex}{\out{\hypertarget{method-reporting_receiver-getTasks}{}}}
 \subsection{Method \code{getTasks()}}{
-Get tasks
+Get task IDs
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$getTasks()}\if{html}{\out{</div>}}
+}
+
+\subsection{Returns}{
+the list of task IDs
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-reporting_receiver-getTaskDefinitions"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_receiver-getTaskDefinitions}{}}}
+\subsection{Method \code{getTaskDefinitions()}}{
+Get tasks
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$getTaskDefinitions()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
@@ -74,12 +88,12 @@ a list of \link{reporting_task}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-reporting_receiver-getTaskById"></a>}}
-\if{latex}{\out{\hypertarget{method-reporting_receiver-getTaskById}{}}}
-\subsection{Method \code{getTaskById()}}{
-Get task by ID
+\if{html}{\out{<a id="method-reporting_receiver-getTaskDefinitionById"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_receiver-getTaskDefinitionById}{}}}
+\subsection{Method \code{getTaskDefinitionById()}}{
+Get task definition by ID
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$getTaskById(id)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$getTaskDefinitionById(id)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
