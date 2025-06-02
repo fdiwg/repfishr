@@ -1,5 +1,6 @@
-id: task_II.2
+id: task-II.2
 name: Effort
+context: DCRF
 measurement: effort
 formats:
   simplified:

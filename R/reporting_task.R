@@ -17,6 +17,8 @@ reporting_task <- R6::R6Class("reporting_task",
     id = NA,
     #'@field name name
     name = NA,
+    #'@field context context
+    context = NA,
     #'@field measurement measurement
     measurement = NA,
     #'@field formats formats
@@ -27,21 +29,26 @@ reporting_task <- R6::R6Class("reporting_task",
     #'@description Initializes a reporting task
     #'@param receiver receiver
     #'@param file file
-    initialize = function(receiver, file){
-      task = switch(mime::guess_type(file),
-        "text/yaml" = yaml::read_yaml(file),
-        "application/json" = jsonlite::read_json(file),
-        NULL
-      )
+    #'@param task task (as list object)
+    initialize = function(receiver = NULL, file = NULL, task = NULL){
+      if(is.null(task)) if(!is.null(file)){
+        task = switch(mime::guess_type(file),
+          "text/yaml" = yaml::read_yaml(file),
+          "application/json" = jsonlite::read_json(file),
+          NULL
+        )
+      }
       if(!is.null(task)){
         self$receiver = receiver
         self$id = task$id
         self$name = task$name
+        self$context = task$context
+        self$measurement = task$measurement
         self$formats = lapply(task$formats, function(x){
           reporting_format$new(id = x$id, name = x$name, ref = x$ref)
         })
         names(self$formats) = names(task$formats)
-        if(!is.null(task$report$handler)){
+        if(!is.null(receiver)) if(!is.null(task$report$handler)){
           report_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$report$handler, package = "repfishr"))$value
           if(!all(names(formals(report_fun)) == c("data","metadata","path"))){
             stop("The report handler should be standardized with the following arguments: [data, metadata, path]")

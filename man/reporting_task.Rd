@@ -29,6 +29,8 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 
 \item{\code{name}}{name}
 
+\item{\code{context}}{context}
+
 \item{\code{measurement}}{measurement}
 
 \item{\code{formats}}{formats}
@@ -51,7 +53,7 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \subsection{Method \code{new()}}{
 Initializes a reporting task
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_task$new(receiver, file)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_task$new(receiver = NULL, file = NULL, task = NULL)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
@@ -60,6 +62,8 @@ Initializes a reporting task
 \item{\code{receiver}}{receiver}
 
 \item{\code{file}}{file}
+
+\item{\code{task}}{task (as list object)}
 }
 \if{html}{\out{</div>}}
 }

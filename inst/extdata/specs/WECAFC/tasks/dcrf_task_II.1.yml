@@ -1,5 +1,6 @@
-id: task_II.1
+id: task-II.1
 name: Catch
+context: DCRF
 measurement: catch
 formats:
   simplified:
