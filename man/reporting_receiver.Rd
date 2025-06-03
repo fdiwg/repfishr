@@ -80,9 +80,16 @@ the list of task IDs
 \subsection{Method \code{getTaskDefinitions()}}{
 Get tasks
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$getTaskDefinitions()}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$getTaskDefinitions(raw = FALSE)}\if{html}{\out{</div>}}
 }
 
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{raw}}{raw}
+}
+\if{html}{\out{</div>}}
+}
 \subsection{Returns}{
 a list of \link{reporting_task}
 }

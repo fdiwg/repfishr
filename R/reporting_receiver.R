@@ -37,14 +37,19 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
     },
     
     #'@description Get tasks
+    #'@param raw raw
     #'@return a list of \link{reporting_task}
-    getTaskDefinitions = function(){
+    getTaskDefinitions = function(raw = FALSE){
       if(length(self$tasks)==0){
         task_specs = list.files(system.file("extdata/specs", self$id, "tasks", package = "repfishr"), pattern = ".yml", full.names = T)
         if(length(task_specs)>0){
-          self$tasks = lapply(task_specs, function(file){
-            reporting_task$new(receiver = self$id, file = file)
-          })
+          if(raw){
+            self$tasks = lapply(task_specs, yaml::read_yaml)
+          }else{
+            self$tasks = lapply(task_specs, function(file){
+              reporting_task$new(receiver = self$id, file = file)
+            })
+          }
         }
       }
       return(self$tasks)
