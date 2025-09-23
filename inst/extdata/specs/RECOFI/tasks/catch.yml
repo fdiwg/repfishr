@@ -1,6 +1,5 @@
-id: dcrf_task_catch
+id: catch
 name: Catches
-context: DCRF
 measurement: ["catch","bycatch"]
 formats:
   simplified:

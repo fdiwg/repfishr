@@ -1,6 +1,5 @@
-id: dcrf_task_effort
+id: effort
 name: Effort
-context: DCRF
 measurement: ["fleet_engagement","effort"]
 formats:
   simplified:
