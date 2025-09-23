@@ -1,0 +1,9 @@
+id: catch
+name: Catches
+context: DCRF
+measurement: ["catch","bycatch"]
+formats:
+  simplified:
+    id: simplified
+    name: Simplified
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_simplified_recofi_catch.json

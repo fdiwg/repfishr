@@ -1,0 +1,9 @@
+id: effort
+name: Effort
+context: DCRF
+measurement: ["fleet_engagement","effort"]
+formats:
+  simplified:
+    id: simplified
+    name: Simplified
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_simplified_recofi_effort.json
