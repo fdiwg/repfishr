@@ -13,6 +13,9 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
   private = list(),
   public = list(
     
+    #'@field sender sender
+    sender = NULL,
+    
     #'@field tasks tasks
     tasks = list(),
     
@@ -22,6 +25,12 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
     #'@param type type
     initialize = function(id, name = NULL, type = NULL){
       super$initialize(id, name = name, type = type)
+    },
+    
+    #'@description Set sender
+    #'@param sender sender object of class \link{reporting_sender}
+    setSender = function(sender){
+      self$sender = sender
     },
     
     #'@description Get task IDs
@@ -47,7 +56,9 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
             self$tasks = lapply(task_specs, yaml::read_yaml)
           }else{
             self$tasks = lapply(task_specs, function(file){
-              reporting_task$new(receiver = self$id, file = file)
+              rep_task = reporting_task$new(receiver = self$id, file = file)
+              if(!is.null(self$sender)) rep_task$setSender(self$sender)
+              return(rep_task)
             })
           }
         }
@@ -66,6 +77,7 @@ reporting_receiver <- R6::R6Class("reporting_receiver",
         task_spec = system.file("extdata/specs", self$id, "tasks", paste0(id, ".yml"), package = "repfishr")
         if(task_spec == "") stop("It seems the task YML file is not named with its ID!")
         task = reporting_task$new(receiver = self$id, file = task_spec)
+        if(!is.null(self$sender)) task$setSender(self$sender)
       }
       return(task)
     }

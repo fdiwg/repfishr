@@ -11,6 +11,8 @@
 reporting_task <- R6::R6Class("reporting_task",
   private = list(),
   public = list(
+    #'@field sender sender
+    sender = NULL,
     #'@field receiver receiver
     receiver = NA,
     #'@field id id
@@ -50,12 +52,18 @@ reporting_task <- R6::R6Class("reporting_task",
         names(self$formats) = names(task$formats)
         if(!is.null(receiver)) if(!is.null(task$report$handler)){
           report_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$report$handler, package = "repfishr"))$value
-          if(!all(names(formals(report_fun)) == c("data","metadata","path"))){
+          if(!all(names(formals(report_fun)) == c("sender", "data","metadata","path"))){
             stop("The report handler should be standardized with the following arguments: [data, metadata, path]")
           }
           self$report_fun = report_fun
         }
       }
+    },
+    
+    #'@description Set sender
+    #'@param sender sender object of class \link{reporting_sender}
+    setSender = function(sender){
+      self$sender = sender
     },
     
     #'@description Process data
@@ -88,6 +96,7 @@ reporting_task <- R6::R6Class("reporting_task",
       if(!is.null(self$report_fun)){
         INFO("Data reporting")
         out = self$report_fun(
+          sender = self$sender,
           data = data,
           metadata = metadata,
           path = path

@@ -51,11 +51,13 @@ reporting_flow <- R6::R6Class("reporting_flow",
       if(raw){
         receivers = lapply(1:nrow(private$actors), function(i){
           actor = private$actors[i,]
-          reporting_receiver$new(
+          rec = reporting_receiver$new(
             id = actor$receiver_id,
             name = actor$receiver_name,
             type = actor$receiver_type
           )
+          rec$setSender(self$sender)
+          return(rec)
         })
       }
       return(receivers)
@@ -77,6 +79,9 @@ reporting_flow <- R6::R6Class("reporting_flow",
       if(length(receivers)==0){
         WARN(sprintf("No possible receiver '%s' for sender '%s'", id, sender))
       }
+      #propagate the sender
+      receiver$setSender(self$sender)
+      
       return(receiver)
     }
      

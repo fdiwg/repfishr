@@ -23,6 +23,8 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \section{Public fields}{
 \if{html}{\out{<div class="r6-fields">}}
 \describe{
+\item{\code{sender}}{sender}
+
 \item{\code{receiver}}{receiver}
 
 \item{\code{id}}{id}
@@ -43,6 +45,7 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \subsection{Public methods}{
 \itemize{
 \item \href{#method-reporting_task-new}{\code{reporting_task$new()}}
+\item \href{#method-reporting_task-setSender}{\code{reporting_task$setSender()}}
 \item \href{#method-reporting_task-process}{\code{reporting_task$process()}}
 \item \href{#method-reporting_task-clone}{\code{reporting_task$clone()}}
 }
@@ -64,6 +67,23 @@ Initializes a reporting task
 \item{\code{file}}{file}
 
 \item{\code{task}}{task (as list object)}
+}
+\if{html}{\out{</div>}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-reporting_task-setSender"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_task-setSender}{}}}
+\subsection{Method \code{setSender()}}{
+Set sender
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{reporting_task$setSender(sender)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{sender}}{sender object of class \link{reporting_sender}}
 }
 \if{html}{\out{</div>}}
 }

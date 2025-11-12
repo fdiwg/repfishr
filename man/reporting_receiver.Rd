@@ -26,6 +26,8 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \section{Public fields}{
 \if{html}{\out{<div class="r6-fields">}}
 \describe{
+\item{\code{sender}}{sender}
+
 \item{\code{tasks}}{tasks}
 }
 \if{html}{\out{</div>}}
@@ -34,6 +36,7 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \subsection{Public methods}{
 \itemize{
 \item \href{#method-reporting_receiver-new}{\code{reporting_receiver$new()}}
+\item \href{#method-reporting_receiver-setSender}{\code{reporting_receiver$setSender()}}
 \item \href{#method-reporting_receiver-getTasks}{\code{reporting_receiver$getTasks()}}
 \item \href{#method-reporting_receiver-getTaskDefinitions}{\code{reporting_receiver$getTaskDefinitions()}}
 \item \href{#method-reporting_receiver-getTaskDefinitionById}{\code{reporting_receiver$getTaskDefinitionById()}}
@@ -57,6 +60,23 @@ Initializes a reporting receiver
 \item{\code{name}}{name}
 
 \item{\code{type}}{type}
+}
+\if{html}{\out{</div>}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-reporting_receiver-setSender"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_receiver-setSender}{}}}
+\subsection{Method \code{setSender()}}{
+Set sender
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{reporting_receiver$setSender(sender)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{sender}}{sender object of class \link{reporting_sender}}
 }
 \if{html}{\out{</div>}}
 }
