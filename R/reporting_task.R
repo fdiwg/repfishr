@@ -41,7 +41,7 @@ reporting_task <- R6::R6Class("reporting_task",
     initialize = function(receiver = NULL, file = NULL, task = NULL){
       if(is.null(task)) if(!is.null(file)){
         task = switch(mime::guess_type(file),
-          "text/yaml" = yaml::read_yaml(file),
+          "application/yaml" = yaml::read_yaml(file),
           "application/json" = jsonlite::read_json(file),
           NULL
         )
