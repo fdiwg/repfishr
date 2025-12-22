@@ -37,7 +37,13 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 
 \item{\code{formats}}{formats}
 
+\item{\code{process_fun}}{process handler (function)}
+
 \item{\code{report_fun}}{report handler (function)}
+
+\item{\code{report_data}}{data to report}
+
+\item{\code{report_metadata}}{metadata to report}
 }
 \if{html}{\out{</div>}}
 }
@@ -47,6 +53,7 @@ Emmanuel Blondel <emmanuel.blondel1@gmail.com>
 \item \href{#method-reporting_task-new}{\code{reporting_task$new()}}
 \item \href{#method-reporting_task-setSender}{\code{reporting_task$setSender()}}
 \item \href{#method-reporting_task-process}{\code{reporting_task$process()}}
+\item \href{#method-reporting_task-report}{\code{reporting_task$report()}}
 \item \href{#method-reporting_task-clone}{\code{reporting_task$clone()}}
 }
 }
@@ -92,9 +99,9 @@ Set sender
 \if{html}{\out{<a id="method-reporting_task-process"></a>}}
 \if{latex}{\out{\hypertarget{method-reporting_task-process}{}}}
 \subsection{Method \code{process()}}{
-Process data
+Process data before reporting
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_task$process(data, format, parallel = FALSE, metadata, path, ...)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_task$process(data, metadata, path, parallel = FALSE, ...)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
@@ -102,13 +109,36 @@ Process data
 \describe{
 \item{\code{data}}{object of class \link{data.frame}}
 
-\item{\code{format}}{format id for data validation}
+\item{\code{metadata}}{metadata object}
+
+\item{\code{path}}{path for the output file}
 
 \item{\code{parallel}}{whether data validation should be run in parallel}
+
+\item{\code{...}}{any other arguments to be passed to \pkg{vrule} validation method}
+}
+\if{html}{\out{</div>}}
+}
+}
+\if{html}{\out{<hr>}}
+\if{html}{\out{<a id="method-reporting_task-report"></a>}}
+\if{latex}{\out{\hypertarget{method-reporting_task-report}{}}}
+\subsection{Method \code{report()}}{
+Reports data
+\subsection{Usage}{
+\if{html}{\out{<div class="r">}}\preformatted{reporting_task$report(data, metadata, path, parallel = FALSE, ...)}\if{html}{\out{</div>}}
+}
+
+\subsection{Arguments}{
+\if{html}{\out{<div class="arguments">}}
+\describe{
+\item{\code{data}}{object of class \link{data.frame}}
 
 \item{\code{metadata}}{metadata object}
 
 \item{\code{path}}{path for the output file}
+
+\item{\code{parallel}}{whether data validation should be run in parallel}
 
 \item{\code{...}}{any other arguments to be passed to \pkg{vrule} validation method}
 }

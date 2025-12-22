@@ -25,8 +25,14 @@ reporting_task <- R6::R6Class("reporting_task",
     measurement = NA,
     #'@field formats formats
     formats = list(),
+    #'@field process_fun process handler (function)
+    process_fun = NULL,
     #'@field report_fun report handler (function)
     report_fun = NULL,
+    #'@field report_data data to report
+    report_data = NULL,
+    #'@field report_metadata metadata to report
+    report_metadata = NULL,
     
     #'@description Initializes a reporting task
     #'@param receiver receiver
@@ -50,12 +56,23 @@ reporting_task <- R6::R6Class("reporting_task",
           reporting_format$new(id = x$id, name = x$name, ref = x$ref)
         })
         names(self$formats) = names(task$formats)
-        if(!is.null(receiver)) if(!is.null(task$report$handler)){
-          report_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$report$handler, package = "repfishr"))$value
-          if(!all(names(formals(report_fun)) == c("sender", "data","metadata","path"))){
-            stop("The report handler should be standardized with the following arguments: [data, metadata, path]")
+        if(!is.null(receiver)){
+          #process handler
+          if(!is.null(task$process$handler)){
+            process_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$process$handler, package = "repfishr"))$value
+            if(!all(names(formals(process_fun)) == c("sender", "data", "metadata"))){
+              stop("The process handler should be standardized with the following arguments: [sender, data, metadata]")
+            }
+            self$process_fun = process_fun
           }
-          self$report_fun = report_fun
+          #report handler
+          if(!is.null(task$report$handler)){
+            report_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$report$handler, package = "repfishr"))$value
+            if(!all(names(formals(report_fun)) == c("sender", "data", "metadata", "path"))){
+              stop("The report handler should be standardized with the following arguments: [sender, data, metadata, path]")
+            }
+            self$report_fun = report_fun
+          }
         }
       }
     },
@@ -66,39 +83,82 @@ reporting_task <- R6::R6Class("reporting_task",
       self$sender = sender
     },
     
-    #'@description Process data
+    #'@description Process data before reporting
     #'@param data object of class \link{data.frame}
-    #'@param format format id for data validation
-    #'@param parallel whether data validation should be run in parallel
     #'@param metadata metadata object
     #'@param path path for the output file
+    #'@param parallel whether data validation should be run in parallel
     #'@param ... any other arguments to be passed to \pkg{vrule} validation method
-    process = function(data, format, parallel = FALSE, 
-                       metadata, path, ...){
-      if(!format %in% names(self$formats)){
-        
-        errMsg = sprintf("Format '%s' is not among available formats for this task: [%s]", 
-                         format, paste0(names(self$formats), collapse = ","))
-        ERROR(errMsg)
-        stop(errMsg)
-      }
+    process = function(data, metadata, path, parallel = FALSE, ...){
       
-      #validation
-      INFO("Data validation")
-      validation_output = self$formats[[format]]$spec$validate(data = data, parallel = parallel, ...)
-      if(nrow(validation_output)>0 & any(validation_output$type == "ERROR")){
-        errMsg = "Errors were detected during validation phase, reporting is aborted"
-        ERROR(errMsg)
-        return(validation_output)
+      #pre-processing (if any) before reporting
+      if(!is.null(self$process_fun)){
+        
+        #validation before processing with format 'process' if needed
+        if("process" %in% names(self$formats)){
+          INFO("Data validation before processing")
+          validation_output = self$formats[["process"]]$spec$validate(data = data, parallel = parallel, ...)
+          if(nrow(validation_output)>0 & any(validation_output$type == "ERROR")){
+            errMsg = "Errors were detected during validation phase, reporting is aborted"
+            ERROR(errMsg)
+            return(validation_output)
+          }else{
+            INFO("Data validation before processing sucessful")
+          }
+        }
+        
+        INFO("Processing data before reporting")
+        report_data = self$process_fun(
+          sender = self$sender,
+          data = data,
+          metadata = metadata
+        )
+        self$report_data = report_data
+        self$report_metadata = attr(report_data, "metadata")
+      }else{
+        self$report_data = data
+        self$report_metadata = metadata
       }
+    },
+    
+    #'@description Reports data
+    #'@param data object of class \link{data.frame}
+    #'@param metadata metadata object
+    #'@param path path for the output file
+    #'@param parallel whether data validation should be run in parallel
+    #'@param ... any other arguments to be passed to \pkg{vrule} validation method
+    report = function(data, metadata, path, parallel = FALSE, ...){
+      
+      #pre-processing
+      self$process(
+        data = data,
+        metadata = metadata,
+        path = path,
+        parallel = parallel,
+        ...
+      )
       
       #reporting (if any)
       if(!is.null(self$report_fun)){
+        
+        #validation before reporting with format 'report' if needed
+        if("report" %in% names(self$formats)){
+          INFO("Data validation before reporting")
+          validation_output = self$formats[["report"]]$spec$validate(data = self$report_data, parallel = parallel, ...)
+          if(nrow(validation_output)>0 & any(validation_output$type == "ERROR")){
+            errMsg = "Errors were detected during validation phase, reporting is aborted"
+            ERROR(errMsg)
+            return(validation_output)
+          }else{
+            INFO("Data validation before reporting sucessful")
+          }
+        }
+        
         INFO("Data reporting")
         out = self$report_fun(
           sender = self$sender,
-          data = data,
-          metadata = metadata,
+          data = self$report_data,
+          metadata = self$report_metadata,
           path = path
         )
       }else{

@@ -1,0 +1,13 @@
+id: iccat_task_t1nc
+name: Task 1 - Nominal catches
+context: ICCAT Reporting requirements
+measurement: catch
+formats:
+  report:
+    id: report
+    name: Reporting validation format
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_generic_iccat_task_t1nc.json
+process:
+  handler: iccat_task_t1nc_process.R
+report: 
+  handler: iccat_task_t1nc_report.R
