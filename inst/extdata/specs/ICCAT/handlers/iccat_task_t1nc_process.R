@@ -18,9 +18,15 @@ function(sender, data, metadata){
   #DATA WITHOUT GEOMETRY
   data_geomless = data[is.na(data$longitude_start) | is.na(data$latitude_start) |
                        is.na(data$longitude_end) | is.na(data$latitude_end),]
-  #TODO mapping trough assumptions based on the reporting state
+  
+  #mapping trough assumptions based on the reporting state
   #from species -> inherit sampling areas -> inherit target sampling areas for the country and take the highest %
-  #retrieve intersections between WJA sender (eg GRD) and ICCAT sampling arreas
+  #of intersection between WJA sender (eg GRD) and ICCAT sampling areas.
+  #
+  #Note: assumption based on the sampling area with highest % of intersects may lead to biased mappings (eg a NJA that 
+  #intersects equivalently 2 or 3 sampling areas). A better assumption should be to get the intersect like this when 
+  #the NJA is totally included in the sampling area (100%) but in a first instance, we should work on the proxy mapping 
+  #between national fishing zones and the sampling areas
   ints = fdi4R::intersections[
     fdi4R::intersections$layer1 == "cwp:wja_level1" &
     fdi4R::intersections$code1 == sender$id &
