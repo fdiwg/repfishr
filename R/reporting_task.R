@@ -163,7 +163,8 @@ reporting_task <- R6::R6Class("reporting_task",
         )
       }else{
         WARN(sprintf("No report associated to task '%s'. Data will be reported in its original form", self$id))
-        out = readr::write_csv(data, path)
+        readr::write_csv(self$report_data, path)
+        out = path
       }
       return(out)      
     }
