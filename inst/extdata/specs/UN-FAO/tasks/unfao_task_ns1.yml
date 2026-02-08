@@ -1,0 +1,11 @@
+id: unfao_task_ns1
+name: Nominal catches
+context: FAO Global Statistics - STATLAN
+measurement: catch
+formats:
+  report:
+    id: report
+    name: Reporting validation format
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_generic_unfao_task_ns1.json
+process:
+  handler: unfao_task_ns1_process.R
