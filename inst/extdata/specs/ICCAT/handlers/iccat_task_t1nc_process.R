@@ -83,7 +83,7 @@ function(sender, data, metadata){
   #spatial join with CWP WJA level 0 -> fishing zone
   data_geom_sf$fishing_zone = sapply(1:nrow(data_geom_sf), function(i){
     wja_code = fdi4R::wja_level0[sf::st_intersects(data_geom_sf[i,], fdi4R::wja_level0, sparse = FALSE),]$code
-    switch(wja_code, "nja" = "EEZ", "abnj" = "HSEA")
+    switch(wja_code, "JA" = "EEZ", "ABNJ" = "HSEA")
   })
   #spatial join with ICCAT sampling areas --> sampling area
   data_geom_sf$sampling_area = sapply(1:nrow(data_geom_sf), function(i){
