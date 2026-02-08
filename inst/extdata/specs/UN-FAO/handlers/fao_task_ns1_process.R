@@ -17,6 +17,7 @@ function(sender, data, metadata){
     units(vals) <- "t"
     as.numeric(vals)
   }
+  data_proc$measurement_unit = "t"
   
   #share metadata
   attr(data_proc, "metadata") = metadata
