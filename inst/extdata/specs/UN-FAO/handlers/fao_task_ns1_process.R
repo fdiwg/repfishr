@@ -2,8 +2,8 @@ function(sender, data, metadata){
   
  data_proc = data |>
      dplyr::mutate(
-      flagstate = sender$id,
-      year = lubridate::year(time_end)
+      flagstate = sender$id, #inherit flagstate from sender
+      year = lubridate::year(time_end) #derive year from date
     ) |>
     dplyr::group_by_at(c("flagstate", "year", "species", "measurement", "measurement_type", "measurement_unit")) |>
     dplyr::summarise(
