@@ -17,7 +17,8 @@ function(sender, data, metadata){
       measurement_type = character(0), 
       measurement_value = numeric(0), 
       measurement_unit = character(0)
-    )  
+    )
+    metadata$nb_records = 0
   }else{
     data_proc <- data |>
       dplyr::mutate(
@@ -65,6 +66,7 @@ function(sender, data, metadata){
     }
     result$measurement_unit = "t"
     result$measurement_type = "nominal"
+    metadata$nb_records = nrow(result)
   }
   
   #share metadata

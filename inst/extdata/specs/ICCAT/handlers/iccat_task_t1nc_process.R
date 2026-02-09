@@ -23,6 +23,7 @@ function(sender, data, metadata){
       measurement_unit = character(0),
       measurement_source = character(0)
     )
+    metadata$nb_records = 0
   }else{
     #remove unecessary columns
     data$fishing_activity = NULL
@@ -168,6 +169,7 @@ function(sender, data, metadata){
       dplyr::group_by_at(series) |>
       dplyr::summarise(measurement_value = sum(measurement_value, na.rm = T)) |>
       dplyr::ungroup()
+    metadata$nb_records = nrow(result)
   }
 
   #share metadata
