@@ -1,5 +1,7 @@
 function(sender, data, metadata){
   
+  result = NULL
+  
   #filter on species
   data = data[data$species %in% fdi4R::cl_wecafc_species$code,]
   
@@ -17,7 +19,6 @@ function(sender, data, metadata){
       measurement_unit = character(0)
     )  
   }else{
-  
     data_proc <- data |>
       dplyr::mutate(
         flagstate = sender$id, #inherit flagstate from sender
