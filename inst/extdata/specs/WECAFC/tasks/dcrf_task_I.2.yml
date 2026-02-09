@@ -3,6 +3,7 @@ name: Nominal catches
 context: DCRF
 measurement: catch
 formats:
+  #formats used for upload in WECAFIS dcf-shiny framework
   simplified:
     id: simplified
     name: Simplified
@@ -11,5 +12,12 @@ formats:
     id: generic
     name: Generic
     ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_generic_wecafc_taskI.2.json
+  #formats used in repfishr for data reporting
+  report:
+    id: report
+    name: Reporting format
+    ref: https://raw.githubusercontent.com/fdiwg/fdi-formats/main/cwp_rh_generic_wecafc_taskI.2.json
+process:
+  handler: wecafc_task_I.2_process.R
 report: 
-  handler: task_I.2_test.R
+  handler: wecafc_task_I.2_report.R
