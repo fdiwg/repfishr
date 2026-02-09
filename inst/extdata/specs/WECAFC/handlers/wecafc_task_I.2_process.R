@@ -45,6 +45,7 @@ function(sender, data, metadata){
     as.numeric(vals)
   }
   result$measurement_unit = "t"
+  result$measurement_type = "nominal"
   
   #share metadata
   attr(result, "metadata") = metadata
