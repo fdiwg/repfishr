@@ -2,7 +2,7 @@ function(sender, data, metadata){
   
   result = NULL
   
-  if(nrow(result)==0){
+  if(nrow(data)==0){
     result = data.frame(
       flagstate = character(0),
       year = integer(0),
