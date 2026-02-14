@@ -25,6 +25,8 @@ function(sender, data, metadata){
     )
     metadata$nb_records = 0
   }else{
+    data_proc = NULL
+    
     #remove unecessary columns
     data$fishing_activity = NULL
     data$vessel = NULL
@@ -80,47 +82,51 @@ function(sender, data, metadata){
     #-----------------------------------------------------------------------------
     data_geom = data[!is.na(data$longitude_start) & !is.na(data$latitude_start) &
                      !is.na(data$longitude_end) & !is.na(data$latitude_end),]
-    data_geom_lines <- sf::st_sfc(
-      mapply(
-        function(x1, y1, x2, y2) {
-          sf::st_linestring(matrix(
-            c(x1, y1, x2, y2),
-            ncol = 2,
-            byrow = TRUE
-          ))
-        },
-        data_geom$longitude_start,
-        data_geom$latitude_start,
-        data_geom$longitude_end,
-        data_geom$latitude_end,
-        SIMPLIFY = FALSE
-      ),
-      crs = 4326  # WGS84 lon/lat
-    )
+    if(nrow(data_geom)>0){
+      data_geom_lines <- sf::st_sfc(
+        mapply(
+          function(x1, y1, x2, y2) {
+            sf::st_linestring(matrix(
+              c(x1, y1, x2, y2),
+              ncol = 2,
+              byrow = TRUE
+            ))
+          },
+          data_geom$longitude_start,
+          data_geom$latitude_start,
+          data_geom$longitude_end,
+          data_geom$latitude_end,
+          SIMPLIFY = FALSE
+        ),
+        crs = 4326  # WGS84 lon/lat
+      )
+      
+      # convert to sf
+      data_geom_sf <- sf::st_sf(data_geom, geom = data_geom_lines)
+      #spatial join with CWP WJA level 0 -> fishing zone
+      data_geom_sf$fishing_zone = sapply(1:nrow(data_geom_sf), function(i){
+        wja_code = fdi4R::wja_level0[sf::st_intersects(data_geom_sf[i,], fdi4R::wja_level0, sparse = FALSE),]$code
+        switch(wja_code, "JA" = "EEZ", "ABNJ" = "HSEA")
+      })
+      #spatial join with ICCAT sampling areas --> sampling area
+      data_geom_sf$sampling_area = sapply(1:nrow(data_geom_sf), function(i){
+        sa_for_sp = fdi4R::iccat_sampling_areas_lowres[fdi4R::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
+        sa_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$code
+        sa_code
+      })
+      #spatial join with ICCAT sampling areas --> stock
+      data_geom_sf$stock = sapply(1:nrow(data_geom_sf), function(i){
+        sa_for_sp = fdi4R::iccat_sampling_areas_lowres[fdi4R::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
+        stock_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$stock
+        stock_code
+      })
+      data_geom_sf$geom = NULL
     
-    # convert to sf
-    data_geom_sf <- sf::st_sf(data_geom, geom = data_geom_lines)
-    #spatial join with CWP WJA level 0 -> fishing zone
-    data_geom_sf$fishing_zone = sapply(1:nrow(data_geom_sf), function(i){
-      wja_code = fdi4R::wja_level0[sf::st_intersects(data_geom_sf[i,], fdi4R::wja_level0, sparse = FALSE),]$code
-      switch(wja_code, "JA" = "EEZ", "ABNJ" = "HSEA")
-    })
-    #spatial join with ICCAT sampling areas --> sampling area
-    data_geom_sf$sampling_area = sapply(1:nrow(data_geom_sf), function(i){
-      sa_for_sp = fdi4R::iccat_sampling_areas_lowres[fdi4R::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
-      sa_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$code
-      sa_code
-    })
-    #spatial join with ICCAT sampling areas --> stock
-    data_geom_sf$stock = sapply(1:nrow(data_geom_sf), function(i){
-      sa_for_sp = fdi4R::iccat_sampling_areas_lowres[fdi4R::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
-      stock_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$stock
-      stock_code
-    })
-    data_geom_sf$geom = NULL
-  
-    #Bind both datasources
-    data_proc = rbind(data_geomless2, data_geom_sf)
+      #Bind both datasources
+      data_proc = rbind(data_geomless2, data_geom_sf)
+    }else{
+      data_proc = data_geomless2
+    }
     
     #MANAGE MISSING MAPPINGS (species with not specific sampling areas / stocks)
     #-----------------------------------------------------------------------------
