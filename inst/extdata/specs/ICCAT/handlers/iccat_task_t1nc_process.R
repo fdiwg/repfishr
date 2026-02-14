@@ -152,7 +152,7 @@ function(sender, data, metadata){
     #we know the target BIL sampling area (BIL_SA) and if it's AT or MD
     #we can filter on the mapping to retrieve the species- non specific stock area
     if(any(is.na(data_proc$stock))){
-      fdi4R::mapping_iccat_sampling_areas__x__stocks[fdi4R::mapping_iccat_sampling_areas__x__stocks$src_code == BIL_SA & regexpr(ATorMD, fdi4R::mapping_iccat_sampling_areas__x__stocks$trg_code) > 0,]$trg_code
+      data_proc[is.na(data_proc$stock),]$stock = fdi4R::mapping_iccat_sampling_areas__x__stocks[fdi4R::mapping_iccat_sampling_areas__x__stocks$src_code == BIL_SA & regexpr(ATorMD, fdi4R::mapping_iccat_sampling_areas__x__stocks$trg_code) > 0,]$trg_code
     }
     
     #additional processing before aggregation
