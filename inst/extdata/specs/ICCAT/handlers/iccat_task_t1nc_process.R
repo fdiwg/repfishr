@@ -49,15 +49,15 @@ function(sender, data, metadata){
     #intersects equivalently 2 or 3 sampling areas). A better assumption should be to get the intersect like this when 
     #the NJA is totally included in the sampling area (100%) but in a first instance, we should work on the proxy mapping 
     #between national fishing zones and the sampling areas
-    ints = fdi4R::intersections[
-      fdi4R::intersections$layer1 == "cwp:wja_level1" &
-      fdi4R::intersections$code1 == sender$id &
-      fdi4R::intersections$layer2 == "iccat:iccat_sa_master",]
+    ints = fdisfdata::intersections[
+      fdisfdata::intersections$layer1 == "cwp:wja_level1" &
+      fdisfdata::intersections$code1 == sender$id &
+      fdisfdata::intersections$layer2 == "iccat:iccat_sa_master",]
     
     #join with ICCAT sampling areas spatial ref (inherit species)
     ints = ints |> 
       dplyr::left_join(
-        y = fdi4R::iccat_sampling_areas_lowres, 
+        y = fdisfdata::iccat_sampling_areas_lowres, 
         by = dplyr::join_by(code2 == code)
       )
     ints$geom = NULL
@@ -105,18 +105,18 @@ function(sender, data, metadata){
       data_geom_sf <- sf::st_sf(data_geom, geom = data_geom_lines)
       #spatial join with CWP WJA level 0 -> fishing zone
       data_geom_sf$fishing_zone = sapply(1:nrow(data_geom_sf), function(i){
-        wja_code = fdi4R::wja_level0[sf::st_intersects(data_geom_sf[i,], fdi4R::wja_level0, sparse = FALSE),]$code
+        wja_code = fdisfdata::wja_level0[sf::st_intersects(data_geom_sf[i,], fdisfdata::wja_level0, sparse = FALSE),]$code
         switch(wja_code, "JA" = "EEZ", "ABNJ" = "HSEA")
       })
       #spatial join with ICCAT sampling areas --> sampling area
       data_geom_sf$sampling_area = sapply(1:nrow(data_geom_sf), function(i){
-        sa_for_sp = fdi4R::iccat_sampling_areas_lowres[fdi4R::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
+        sa_for_sp = fdisfdata::iccat_sampling_areas_lowres[fdisfdata::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
         sa_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$code
         sa_code
       })
       #spatial join with ICCAT sampling areas --> stock
       data_geom_sf$stock = sapply(1:nrow(data_geom_sf), function(i){
-        sa_for_sp = fdi4R::iccat_sampling_areas_lowres[fdi4R::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
+        sa_for_sp = fdisfdata::iccat_sampling_areas_lowres[fdisfdata::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
         stock_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$stock
         stock_code
       })

@@ -17,11 +17,13 @@ Imports:
   mime,
   vrule,
   fdi4R,
+  fdisfdata,
   writexl,
   openxlsx
 Remotes:
   fdiwg/vrule,
-  fdiwg/fdi4R
+  fdiwg/fdi4R,
+  fdiwg/fdisfdata
 Suggests: parallel, testthat
 Description: R framework to facilitate fisheries data reporting flows, with first intention to help countries to validate, 
  format and send data to relevant organizations including regional fisheries management organizations or bodies handling data collection reference frameworks, and FAO.
