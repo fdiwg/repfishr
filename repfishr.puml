@@ -1,0 +1,120 @@
+@startuml
+!theme plain
+scale 3200*1000
+left to right direction
+skinparam classBackgroundColor #FFFFFF
+skinparam classBorderColor #333333
+skinparam classArrowColor #333333
+skinparam classTextAlignment left
+skinparam padding 2
+skinparam linetype ortho
+skinparam arrowThickness 2
+skinparam maxMessageSize 80
+skinparam noteBackgroundColor #FFFACD
+skinparam noteBorderColor #333333
+skinparam noteFontSize 9
+
+' ====== ABSTRACT BASE (LEFT) ======
+abstract class reporting_actor <<abstract>> {
+  id: string
+  name: string
+  type: string
+}
+
+note right of reporting_actor
+  BASE ACTOR CLASS
+  ==================
+  • id: identifier
+  • name: label
+  • type: entity type
+end note
+
+' ====== ACTORS ======
+class reporting_sender <<R6>> {
+  initialize()
+}
+reporting_sender --|> reporting_actor
+
+class reporting_receiver <<R6>> {
+  sender: reporting_sender
+  tasks: list
+  --
+  getTasks()
+}
+reporting_receiver --|> reporting_actor
+
+' ====== MAIN FLOW (CENTER) ======
+class reporting_flow <<R6>> {
+  sender: reporting_sender*
+  --
+  getSender()
+  getReceivers()
+}
+
+note right of reporting_flow
+  REPORTING FLOW
+  ================
+  • Init sender ID & type
+  • Load receivers
+  • Return by ID
+end note
+
+' ====== TASK (RIGHT-CENTER) ======
+class reporting_task <<R6>> {
+  id: string*
+  sender: reporting_sender
+  formats: list
+  process_fun: function
+  --
+  process()
+  report()
+}
+
+note right of reporting_task
+  REPORTING TASK
+  ================
+  PROCESS:
+    • Validate
+    • Transform
+  REPORT:
+    • Validate
+    • Output
+end note
+
+' ====== FORMAT (RIGHT) ======
+class reporting_format <<R6>> {
+  id: string
+  name: string
+  ref: string
+  spec: format_spec
+}
+
+note right of reporting_format
+  REPORTING FORMAT
+  =================
+  Wraps vrule
+  format_spec
+  
+  Validates data
+  using JSON schema
+end note
+
+' ====== APPLY COLORS ======
+reporting_actor -[#E3F2FD]- reporting_actor
+reporting_sender -[#BBDEFB]- reporting_sender
+reporting_receiver -[#BBDEFB]- reporting_receiver
+reporting_flow -[#FFF9C4]- reporting_flow
+reporting_task -[#C8E6C9]- reporting_task
+reporting_format -[#F8BBD0]- reporting_format
+
+' ====== RELATIONSHIPS ======
+reporting_flow "1" --> "1" reporting_sender : has
+reporting_flow "1" --> "*" reporting_receiver : manages
+reporting_receiver "1" --> "*" reporting_task : contains
+reporting_task "1" --> "*" reporting_format : validates
+reporting_task --> "1" reporting_sender : uses
+
+legend bottom
+  |<#E3F2FD> Base | <#BBDEFB> Actors | <#FFF9C4> Flow | <#C8E6C9> Task | <#F8BBD0> Format |
+endlegend
+@enduml
