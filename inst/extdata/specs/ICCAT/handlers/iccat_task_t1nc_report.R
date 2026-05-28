@@ -7,11 +7,6 @@ function(sender, data, metadata, path){
   try(rm(file.path(tempdir(), basename(task_tpl_file))),silent = T)
   task_tmp_file = file.copy(from = task_tpl_file, to = tempdir())
   task_wb = openxlsx::loadWorkbook(file.path(tempdir(), basename(task_tpl_file)))
-  
-  ##### TRUCO
-  #  Remove worksheet data validations
-  #task_wb$worksheets[[1]]$dataValidations <- list()
-  ########
     
   #metadata
   #-> statistical correspondent
@@ -41,7 +36,7 @@ function(sender, data, metadata, path){
     qtyDLkg = NA,
     qtyFAkg = NA,
     TCorBC = if(nrow(data)>0) "TC" else NA,
-    CFL = NA,
+    CFL = if(nrow(data)>0) as.numeric(data$conversion_factor) else NA,
     CFD = NA,
     DSourceLCd = if(nrow(data)>0) data$measurement_source else NA,
     corrL = NA,
