@@ -36,7 +36,7 @@ function(sender, data, metadata, path){
     qtyDLkg = NA,
     qtyFAkg = NA,
     TCorBC = if(nrow(data)>0) "TC" else NA,
-    CFL = NA,
+    CFL = if(nrow(data)>0) as.numeric(data$conversion_factor) else NA,
     CFD = NA,
     DSourceLCd = if(nrow(data)>0) data$measurement_source else NA,
     corrL = NA,
