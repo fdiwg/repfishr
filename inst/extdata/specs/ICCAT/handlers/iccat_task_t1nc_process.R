@@ -21,7 +21,8 @@ function(sender, data, metadata){
       measurement_type = character(0),
       measurement_value = numeric(0),
       measurement_unit = character(0),
-      measurement_source = character(0)
+      measurement_source = character(0),
+      conversion_factor = numeric(0)
     )
     metadata$nb_records = 0
   }else{
@@ -160,7 +161,7 @@ function(sender, data, metadata){
     data_proc = cbind(
       flagstate = sender$id,
       data_proc[,c("year", "species", "stock", "sampling_area", "gear_type", "fishing_zone", 
-                   "measurement", "measurement_type", "measurement_value", "measurement_unit", "measurement_source")]
+                   "measurement", "measurement_type", "measurement_value", "measurement_unit", "measurement_source", "conversion_factor")]
     )
     data_proc$measurement_value = sapply(1:nrow(data_proc), function(i){
       ud = units::as_units(data_proc[i,]$measurement_value, data_proc[i,]$measurement_unit)

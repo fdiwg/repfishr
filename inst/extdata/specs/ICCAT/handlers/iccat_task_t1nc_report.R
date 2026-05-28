@@ -7,6 +7,11 @@ function(sender, data, metadata, path){
   try(rm(file.path(tempdir(), basename(task_tpl_file))),silent = T)
   task_tmp_file = file.copy(from = task_tpl_file, to = tempdir())
   task_wb = openxlsx::loadWorkbook(file.path(tempdir(), basename(task_tpl_file)))
+  
+  ##### TRUCO
+  #  Remove worksheet data validations
+  #task_wb$worksheets[[1]]$dataValidations <- list()
+  ########
     
   #metadata
   #-> statistical correspondent
