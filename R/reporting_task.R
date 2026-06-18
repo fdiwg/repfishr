@@ -143,15 +143,15 @@ reporting_task <- R6::R6Class("reporting_task",
         
         #validation before reporting with format 'report' if needed
         if("report" %in% names(self$formats)){
-          INFO("Data validation before reporting")
-          validation_output = self$formats[["report"]]$spec$validate(data = self$report_data, parallel = parallel, ...)
-          if(nrow(validation_output)>0 & any(validation_output$type == "ERROR")){
-            errMsg = "Errors were detected during validation phase, reporting is aborted"
-            ERROR(errMsg)
-            return(validation_output)
-          }else{
-            INFO("Data validation before reporting sucessful")
-          }
+         INFO("Data validation before reporting")
+         validation_output = self$formats[["report"]]$spec$validate(data = self$report_data, parallel = parallel, ...)
+         if(nrow(validation_output)>0 & any(validation_output$type == "ERROR")){
+           errMsg = "Errors were detected during validation phase, reporting is aborted"
+           ERROR(errMsg)
+           return(validation_output)
+         }else{
+           INFO("Data validation before reporting sucessful")
+         }
         }
         
         INFO("Data reporting")
