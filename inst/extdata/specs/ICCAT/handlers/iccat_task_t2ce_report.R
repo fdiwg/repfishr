@@ -21,7 +21,7 @@ function(sender, data, metadata, path){
   )
   
   #build species column headers from the wide result column names
-  strata_cols = c("flagstate", "year", "month", "gear_type", "fishing_zone",
+  strata_cols = c("flagstate", "year", "month", "gear_type", "geo_grid_cd", "quad_cd", "lat", "lon", "fishing_zone",
                   "fishing_mode", "effort_fishing_duration", "effort_fishing_duration_unit", "effort_number_gears", "effort_number_gears_unit", "effort_number_sets",
                   "measurement_source")
   sp_keys = setdiff(colnames(data), strata_cols)  #I get "BUM|DR|L", "DOL|LW|L", etc.
@@ -44,10 +44,10 @@ function(sender, data, metadata, path){
     YearC = if(nrow(data)>0) data$year           else NA,
     Month = if(nrow(data)>0) data$month          else NA,
     GearCd = if(nrow(data)>0) data$gear_type      else NA,
-    GeoGridCd = if(nrow(data)>0) "5x5" else NA, # 5x5 for LL, 1x1 for others / Note there is a LatLon option for specific coordinates (i.e., FADs?)
-    QuadCd = if(nrow(data)>0) "NW" else NA, #this is the universal quadrant that is available at the cwp_grids QUADRANT metadata
-    Lat = NA, #from as.numeric(CWP_C)
-    Lon = NA, #from as.numeric(CWP_D)
+    GeoGridCd = if(nrow(data)>0) data$geo_grid_cd else NA, # 5x5 for LL, 1x1 for others / Note there is a LatLon option for specific coordinates (i.e., FADs?)
+    QuadCd = if(nrow(data)>0) data$quad_cd else NA, #this is the universal quadrant that is available at the cwp_grids QUADRANT metadata
+    Lat = if(nrow(data)>0) data$lat else NA, #from as.numeric(CWP_C)
+    Lon = if(nrow(data)>0) data$lon else NA, #from as.numeric(CWP_D)
     SchoolTypCd = if(nrow(data)>0) data$fishing_mode else NA,
     Effort1 = if(nrow(data)>0) data$effort_fishing_duration        else NA,
     Eff1TypeCd = if(nrow(data)>0) data$effort_fishing_duration_unit   else NA,

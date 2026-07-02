@@ -15,10 +15,10 @@ function(sender, data, metadata){
       month = integer(0),
       species = character(0),
       gear_type = character(0),
-      #geo_grid_cd = character(0),
-      #quad_cd = character(0),
-      #lat = numeric(0),
-      #lon = numeric(0),
+      geo_grid_cd = character(0),
+      quad_cd = character(0),
+      lat = numeric(0),
+      lon = numeric(0),
       fishing_mode = character(0),
       effort_fishing_duration = numeric(0),
       effort_fishing_duration_unit = character(0),
@@ -30,7 +30,7 @@ function(sender, data, metadata){
       measurement_value = numeric(0),
       measurement_unit = character(0),
       measurement_source = character(0),
-      processing_type = character(0),
+      processing_type = character(0)
       #catch_type = character(0)
     )
     metadata$nb_records = 0
@@ -51,6 +51,22 @@ function(sender, data, metadata){
     #DATA WITHOUT GEOMETRY
     data_geomless = data[is.na(data$longitude_start) | is.na(data$latitude_start) |
                            is.na(data$longitude_end) | is.na(data$latitude_end),]
+    
+    #For geomless data, get the WJA polygon for the sender country and use it to obtain lat, lon and quad_cd
+    sender_wja = fdisfdata::wja_level1[fdisfdata::wja_level1$code == sender$id,]
+    # For geomless rows, intersect the country WJA with the grid (gear-based)
+    for(i in 1:nrow(data_geomless)){
+      if(data_geomless[i,]$gear_type == "LL-B"){
+        grid_match = fdisfdata::grid_5deg[sf::st_intersects(sender_wja, fdisfdata::grid_5deg, sparse = FALSE),]
+        data_geomless$geo_grid_cd[i] = "5x5"
+      }else{
+        grid_match = fdisfdata::grid_1deg[sf::st_intersects(sender_wja, fdisfdata::grid_1deg, sparse = FALSE),]
+        data_geomless$geo_grid_cd[i] = "1x1"
+      }
+      data_geomless$lat[i]     = if(nrow(grid_match) > 0) as.numeric(grid_match$CWP_C[1]) else NA_real_
+      data_geomless$lon[i]     = if(nrow(grid_match) > 0) as.numeric(grid_match$CWP_D[1]) else NA_real_
+      data_geomless$quad_cd[i] = if(nrow(grid_match) > 0) grid_match$QUADRANT[1]          else NA_character_
+    }
     
     #mapping trough assumptions based on the reporting state
     #from species -> inherit sampling areas -> inherit target sampling areas for the country and take the highest %
@@ -135,10 +151,30 @@ function(sender, data, metadata){
         stock_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$stock
         stock_code
       })
-      data_geom_sf$geom = NULL
       
       #Add spatial intersection with 1x1 and 5x5, as if the intersection is always with a single square (multiple intersection logistics for later developments)
       #The intersection with 1x1 or 5x5 depending the gear (LL or other)
+      
+      #spatial join with CWP Grid (1x1 or 5x5 depending on gear) -> CWP_C, CWP_D, QUADRANT
+      for(i in 1:nrow(data_geom_sf)){
+        if(data_geom_sf[i,]$gear_type == "LL-B"){ #CHANGE TO START WITH "LL"
+          grid_match = fdisfdata::grid_5deg[sf::st_intersects(data_geom_sf[i,], fdisfdata::grid_5deg, sparse = FALSE),]
+          data_geom_sf$geo_grid_cd[i] = "5x5"
+        }else{
+          grid_match = fdisfdata::grid_1deg[sf::st_intersects(data_geom_sf[i,], fdisfdata::grid_1deg, sparse = FALSE),]
+          data_geom_sf$geo_grid_cd[i] = "1x1"
+        }
+        data_geom_sf$lat[i]     = if(nrow(grid_match) > 0) as.numeric(grid_match$CWP_C[1]) else NA_real_ #NOTE THIS IS ONLY WITH ONE SQUARE INTERSECTING
+        data_geom_sf$lon[i]     = if(nrow(grid_match) > 0) as.numeric(grid_match$CWP_D[1]) else NA_real_ #NOTE THIS IS ONLY WITH ONE SQUARE INTERSECTING
+        data_geom_sf$quad_cd[i] = if(nrow(grid_match) > 0) grid_match$QUADRANT[1]          else NA_character_ #NOTE THIS IS ONLY WITH ONE SQUARE INTERSECTING
+      }
+      
+      data_geom_sf$geom = NULL
+      
+      
+      #grid_5deg = fdisfdata::grid_5deg
+      #LAT LON TO BE EXTRACTED FROM CWP_C AND CWP_D COLUMNS IF NO COORDINATES AVAILABLE
+      #QuadCd FROM QUADRANT COLUMN
       
       #Bind both datasources
       data_proc = rbind(data_geomless2, data_geom_sf)
@@ -177,7 +213,7 @@ function(sender, data, metadata){
     data_proc = data_proc |> dplyr::rename(measurement_source = data_source)
     data_proc = cbind(
       flagstate = sender$id,
-      data_proc[,c("year", "month", "species", "gear_type", "fishing_zone", "fishing_mode", "effort_fishing_duration", "effort_fishing_duration_unit", "effort_number_gears", "effort_number_gears_unit", "effort_number_sets",
+      data_proc[,c("year", "month", "species", "gear_type", "geo_grid_cd", "quad_cd", "lat", "lon", "fishing_zone", "fishing_mode", "effort_fishing_duration", "effort_fishing_duration_unit", "effort_number_gears", "effort_number_gears_unit", "effort_number_sets",
                    "measurement", "measurement_type", "measurement_value", "measurement_unit", "measurement_source", "processing_type")]
     )
     data_proc$measurement_value = sapply(1:nrow(data_proc), function(i){
@@ -192,7 +228,7 @@ function(sender, data, metadata){
     #each unique species/processing_type combination becomes a column - catch type is always "L" by now
     data_proc$sp_col_key = paste(data_proc$species, data_proc$processing_type, sep = "|")
     
-    strata_cols = c("flagstate", "year", "month", "gear_type", "fishing_zone",
+    strata_cols = c("flagstate", "year", "month", "gear_type", "geo_grid_cd", "quad_cd", "lat", "lon", "fishing_zone",
                     "fishing_mode", "effort_fishing_duration", "effort_fishing_duration_unit", "effort_number_gears", "effort_number_gears_unit", "effort_number_sets",
                     "measurement_source")
     

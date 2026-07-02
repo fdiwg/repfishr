@@ -87,11 +87,15 @@ function(sender, data, metadata){
       data_geom_lines <- sf::st_sfc(
         mapply(
           function(x1, y1, x2, y2) {
-            sf::st_linestring(matrix(
-              c(x1, y1, x2, y2),
-              ncol = 2,
-              byrow = TRUE
-            ))
+            if(x1 != x2 & y1 != y2){
+              sf::st_linestring(matrix(
+                c(x1, y1, x2, y2),
+                ncol = 2,
+                byrow = TRUE
+              ))
+            }else{
+              sf::st_point(c(x1, y2))
+            }
           },
           data_geom$longitude_start,
           data_geom$latitude_start,
