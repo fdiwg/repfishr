@@ -1,4 +1,4 @@
-function(sender, data, metadata){
+function(sender, data, metadata, params = list()){
   
   result = NULL
   
@@ -6,6 +6,11 @@ function(sender, data, metadata){
   data = data[data$species %in% fdi4R::cl_iccat_species$code,]
   
   #other filters?
+  
+  #check params 
+  if(length(params)==0 | is.null(params$fishing_zones) | !is(params$fishing_zones, "sf")){
+    warning("The ICCAT T2CE process requires a spatial 'fishing_zones' object")
+  }
   
   #if no data
   if(nrow(data)==0){

@@ -86,10 +86,11 @@ reporting_task <- R6::R6Class("reporting_task",
     #'@description Process data before reporting
     #'@param data object of class \link{data.frame}
     #'@param metadata metadata object
+    #'@param params additional parameters. Optional. Default is an empty list
     #'@param path path for the output file
     #'@param parallel whether data validation should be run in parallel
     #'@param ... any other arguments to be passed to \pkg{vrule} validation method
-    process = function(data, metadata, path, parallel = FALSE, ...){
+    process = function(data, metadata, params = list(), path, parallel = FALSE, ...){
       
       #pre-processing (if any) before reporting
       if(!is.null(self$process_fun)){
@@ -111,7 +112,8 @@ reporting_task <- R6::R6Class("reporting_task",
         report_data = self$process_fun(
           sender = self$sender,
           data = data,
-          metadata = metadata
+          metadata = metadata,
+          params = params
         )
         self$report_data = report_data
         self$report_metadata = attr(report_data, "metadata")
@@ -124,15 +126,17 @@ reporting_task <- R6::R6Class("reporting_task",
     #'@description Reports data
     #'@param data object of class \link{data.frame}
     #'@param metadata metadata object
+    #'@param params additional parameters. Optional. Default is an empty list
     #'@param path path for the output file
     #'@param parallel whether data validation should be run in parallel
     #'@param ... any other arguments to be passed to \pkg{vrule} validation method
-    report = function(data, metadata, path, parallel = FALSE, ...){
+    report = function(data, metadata, params = list(), path, parallel = FALSE, ...){
       
       #pre-processing
       self$process(
         data = data,
         metadata = metadata,
+        params = params,
         path = path,
         parallel = parallel,
         ...
