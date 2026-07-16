@@ -1,0 +1,8 @@
+url: https://fdiwg.github.io/repfishr/
+template:
+  bootstrap: 5
+
+navbar:
+  structure:
+    left: [get_started, reference]
+    right: [github]
