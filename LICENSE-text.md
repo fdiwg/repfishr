@@ -1,0 +1,4 @@
+# License
+
+    YEAR: 2026
+    COPYRIGHT HOLDER: Fisheries Data Interoperability Working Group (fdiwg)

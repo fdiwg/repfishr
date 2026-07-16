@@ -1,19 +1,19 @@
 <urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
-<url><loc>/404.html</loc></url>
-<url><loc>/LICENSE-text.html</loc></url>
-<url><loc>/authors.html</loc></url>
-<url><loc>/index.html</loc></url>
-<url><loc>/reference/get_reporting_flow_actors.html</loc></url>
-<url><loc>/reference/iccat_fill_report_dataset.html</loc></url>
-<url><loc>/reference/iccat_fill_report_dataset_characteristics.html</loc></url>
-<url><loc>/reference/iccat_fill_report_statistical_correspondent.html</loc></url>
-<url><loc>/reference/index.html</loc></url>
-<url><loc>/reference/repfishr.html</loc></url>
-<url><loc>/reference/reporting_actor.html</loc></url>
-<url><loc>/reference/reporting_flow.html</loc></url>
-<url><loc>/reference/reporting_format.html</loc></url>
-<url><loc>/reference/reporting_receiver.html</loc></url>
-<url><loc>/reference/reporting_sender.html</loc></url>
-<url><loc>/reference/reporting_task.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/404.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/LICENSE-text.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/authors.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/index.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/get_reporting_flow_actors.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/iccat_fill_report_dataset.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/iccat_fill_report_dataset_characteristics.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/iccat_fill_report_statistical_correspondent.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/index.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/repfishr.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/reporting_actor.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/reporting_flow.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/reporting_format.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/reporting_receiver.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/reporting_sender.html</loc></url>
+<url><loc>https://fdiwg.github.io/repfishr/reference/reporting_task.html</loc></url>
 </urlset>
 
