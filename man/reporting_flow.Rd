@@ -117,7 +117,7 @@ Get a receiver by its id
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-an object of class \link{reporting_organization}
+an object of class \link{reporting_receiver}
 }
 }
 \if{html}{\out{<hr>}}

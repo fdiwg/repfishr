@@ -10,12 +10,24 @@ iccat_fill_report_dataset_characteristics(
 )
 }
 \arguments{
-\item{wb}{a \code{Workbook} object from \link{openxlsx}}
+\item{wb}{a \link[openxlsx]{Workbook} object from \link{openxlsx}}
 
-\item{metadata}{a named \link{list} with business metadata}
+\item{reporting_flag}{reporting flag}
+
+\item{from}{start year/date}
+
+\item{to}{end year/date}
+
+\item{report_version}{report version (\code{Final}, \code{Preliminary})}
+
+\item{report_type}{report type}
+
+\item{report_coverage}{report coverage}
+
+\item{notes}{notes}
 }
 \value{
-the modified \code{Workbook} object
+the modified \link[openxlsx]{Workbook} object
 }
 \description{
 Fills an ICCAT template workbook with dataset characteristics information

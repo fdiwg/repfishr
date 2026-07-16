@@ -3,9 +3,9 @@
 #'
 #'@usage iccat_fill_report_statistical_correspondent(wb, metadata)
 #'
-#'@param wb a \code{Workbook} object from \link{openxlsx}
+#'@param wb a \link[openxlsx]{Workbook} object from \link{openxlsx}
 #'@param metadata a named \link{list} with business metadata
-#'@return the modified \code{Workbook} object
+#'@return the modified \link[openxlsx]{Workbook} object
 #'
 #'@export
 iccat_fill_report_statistical_correspondent = function(wb, metadata){
@@ -32,9 +32,15 @@ iccat_fill_report_statistical_correspondent = function(wb, metadata){
 #'  report_version, report_type, report_coverage
 #')
 #'
-#'@param wb a \code{Workbook} object from \link{openxlsx}
-#'@param metadata a named \link{list} with business metadata
-#'@return the modified \code{Workbook} object
+#'@param wb a \link[openxlsx]{Workbook} object from \link{openxlsx}
+#'@param reporting_flag reporting flag
+#'@param from start year/date
+#'@param to end year/date
+#'@param report_version report version (\code{Final}, \code{Preliminary})
+#'@param report_type report type
+#'@param report_coverage report coverage
+#'@param notes notes
+#'@return the modified \link[openxlsx]{Workbook} object
 #'
 #'@export
 iccat_fill_report_dataset_characteristics = function(wb, 
@@ -64,12 +70,12 @@ iccat_fill_report_dataset_characteristics = function(wb,
 #'@title Fills an ICCAT template workbook with a dataset
 #'@usage iccat_fill_report_statistical_correspondent(wb, metadata)
 #'
-#'@param wb a \code{Workbook} object from \link{openxlsx}
+#'@param wb a \link[openxlsx]{Workbook} object from \link{openxlsx}
 #'@param sheet a sheet index
 #'@param x an object of class \link{data.frame}
 #'@param startRow start row index
 #'@param startCol start column index
-#'@return the modified \code{Workbook} object
+#'@return the modified \link[openxlsx]{Workbook} object
 #'
 #'@export
 iccat_fill_report_dataset = function(wb, sheet, x, startRow = 1, startCol = 1){

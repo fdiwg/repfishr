@@ -7,12 +7,12 @@
 iccat_fill_report_statistical_correspondent(wb, metadata)
 }
 \arguments{
-\item{wb}{a \code{Workbook} object from \link{openxlsx}}
+\item{wb}{a \link[openxlsx]{Workbook} object from \link{openxlsx}}
 
 \item{metadata}{a named \link{list} with business metadata}
 }
 \value{
-the modified \code{Workbook} object
+the modified \link[openxlsx]{Workbook} object
 }
 \description{
 Fills an ICCAT template workbook with statistical correspondent information
