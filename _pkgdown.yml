@@ -2,16 +2,3 @@ url: https://fdiwg.github.io/repfishr/
 template:
   bootstrap: 5
 
-navbar:
-  structure:
-    left: [get_started, reference]
-    right: [github]
-
-  components:
-    reference:
-      text: "Reference"
-      href: reference/index.html
-
-    github:
-      icon: fab fa-github
-      href: https://github.com/fdiwg/repfishr
