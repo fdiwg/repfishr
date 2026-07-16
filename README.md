@@ -1,1 +1,9 @@
 # repfishr
+
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Build Status](https://github.com/fdiwg/repfishr/actions/workflows/r-cmd-check.yml/badge.svg?branch=main)](https://github.com/fdiwg/repfishr/actions/workflows/r-cmd-check.yml)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/repfishr)](https://cran.r-project.org/package=repfishr)
+[![Github_Status_Badge](https://img.shields.io/badge/Github-0.1.20260716-blue.svg)](https://github.com/fdiwg/repfishr)
+
+[repfishr](https://github.com/fdiwg/repfishr) provides tools to facilitate the reporting of national fishery statistics to regional fisheries management organizations, bodies and global organizations.
