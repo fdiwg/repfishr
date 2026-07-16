@@ -11,9 +11,11 @@
 #' @import yaml
 #' @import readr
 #' @import mime
-#' @import vrule
 #' @import writexl
 #' @import openxlsx
+#' @import vrule
+#' @import fdi4R
+#' @import fdisfdata
 #' 
 #' @name repfishr
 #' @author Emmanuel Blondel \email{emmanuel.blondel1@@gmail.com}
