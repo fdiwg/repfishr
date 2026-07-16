@@ -11,6 +11,7 @@
 #' @import yaml
 #' @import readr
 #' @import mime
+#' @import lubridate
 #' @import writexl
 #' @import openxlsx
 #' @import vrule
