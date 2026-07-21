@@ -60,16 +60,16 @@ reporting_task <- R6::R6Class("reporting_task",
           #process handler
           if(!is.null(task$process$handler)){
             process_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$process$handler, package = "repfishr"))$value
-            if(!all(names(formals(process_fun)) == c("sender", "data", "metadata"))){
-              stop("The process handler should be standardized with the following arguments: [sender, data, metadata]")
+            if(!all(names(formals(process_fun)) == c("sender", "data", "metadata", "params"))){
+              stop("The process handler should be standardized with the following arguments: [sender, data, params, metadata]")
             }
             self$process_fun = process_fun
           }
           #report handler
           if(!is.null(task$report$handler)){
             report_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$report$handler, package = "repfishr"))$value
-            if(!all(names(formals(report_fun)) == c("sender", "data", "metadata", "path"))){
-              stop("The report handler should be standardized with the following arguments: [sender, data, metadata, path]")
+            if(!all(names(formals(report_fun)) == c("sender", "data", "metadata", "params", "path"))){
+              stop("The report handler should be standardized with the following arguments: [sender, data, metadata, params, path]")
             }
             self$report_fun = report_fun
           }

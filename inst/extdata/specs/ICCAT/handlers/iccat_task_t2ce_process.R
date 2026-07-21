@@ -53,62 +53,53 @@ function(sender, data, metadata, params = list()){
     data$time_end   = NULL
     
     #dissociate data with coordinates / without coordinates
-    #DATA WITHOUT GEOMETRY
+    
+    #DATA WITHOUT COORDINATES
     data_geomless = data[is.na(data$longitude_start) | is.na(data$latitude_start) |
                            is.na(data$longitude_end) | is.na(data$latitude_end),]
     
-    #For geomless data, get the WJA polygon for the sender country and use it to obtain lat, lon and quad_cd
+    #For geomless data, derive lat, lon, quad_cd and geo_grid_cd from either:
+    #  1) activity_zone polygon (from params$fishing_zones) if available
+    #  2) sender WJA polygon if no geopackage available
+    #Intersect the polygon with the grid (1deg or 5deg depending on gear)
+    #Take the cell with the highest intersection area
     sender_wja = fdisfdata::wja_level1[fdisfdata::wja_level1$code == sender$id,]
-    # For geomless rows, intersect the country WJA with the grid (gear-based)
+    
     for(i in 1:nrow(data_geomless)){
-      if(data_geomless[i,]$gear_type == "LL-B"){
-        grid_match = fdisfdata::grid_5deg[sf::st_intersects(sender_wja, fdisfdata::grid_5deg, sparse = FALSE),]
+      
+      #select reference polygon: activity_zone if available, sender_wja as fallback
+      if(!is.na(data_geomless[i,]$activity_zone)){
+        ref_polygon = params$fishing_zones[params$fishing_zones$code == data_geomless[i,]$activity_zone,]
+      }else{
+        ref_polygon = sender_wja
+      }
+      
+      #select grid and geo_grid_cd based on gear type
+      if(startsWith(data_geomless[i,]$gear_type, "LL")){
+        grid = fdisfdata::grid_5deg
         data_geomless$geo_grid_cd[i] = "5x5"
       }else{
-        grid_match = fdisfdata::grid_1deg[sf::st_intersects(sender_wja, fdisfdata::grid_1deg, sparse = FALSE),]
+        grid = fdisfdata::grid_1deg
         data_geomless$geo_grid_cd[i] = "1x1"
       }
-      data_geomless$lat[i]     = if(nrow(grid_match) > 0) as.numeric(grid_match$CWP_C[1]) else NA_real_
-      data_geomless$lon[i]     = if(nrow(grid_match) > 0) as.numeric(grid_match$CWP_D[1]) else NA_real_
-      data_geomless$quad_cd[i] = if(nrow(grid_match) > 0) grid_match$QUADRANT[1]          else NA_character_
+      
+      #intersect reference polygon with grid cells
+      grid_match = grid[sf::st_intersects(ref_polygon, grid, sparse = FALSE),]
+      
+      if(nrow(grid_match) > 0){
+        #compute intersection area for each intersecting grid cell and take the one with highest area
+        intersection_areas = sf::st_area(sf::st_intersection(ref_polygon, grid_match))
+        best = which.max(intersection_areas)
+        data_geomless$lat[i]     = as.numeric(grid_match$CWP_C[best])
+        data_geomless$lon[i]     = as.numeric(grid_match$CWP_D[best])
+        data_geomless$quad_cd[i] = grid_match$QUADRANT[best]
+      }else{
+        data_geomless$lat[i]     = NA_real_
+        data_geomless$lon[i]     = NA_real_
+        data_geomless$quad_cd[i] = NA_character_
+      }
     }
     
-    #mapping trough assumptions based on the reporting state
-    #from species -> inherit sampling areas -> inherit target sampling areas for the country and take the highest %
-    #of intersection between WJA sender (eg GRD) and ICCAT sampling areas.
-    #
-    #Note: assumption based on the sampling area with highest % of intersects may lead to biased mappings (eg a NJA that 
-    #intersects equivalently 2 or 3 sampling areas). A better assumption should be to get the intersect like this when 
-    #the NJA is totally included in the sampling area (100%) but in a first instance, we should work on the proxy mapping 
-    #between national fishing zones and the sampling areas
-    ints = fdisfdata::intersections[
-      fdisfdata::intersections$layer1 == "cwp:wja_level1" &
-        fdisfdata::intersections$code1  == sender$id &
-        fdisfdata::intersections$layer2 == "iccat:iccat_sa_master",]
-    
-    #join with ICCAT sampling areas spatial ref (inherit species)
-    ints = ints |>
-      dplyr::left_join(
-        y  = fdisfdata::iccat_sampling_areas_lowres,
-        by = dplyr::join_by(code2 == code)
-      )
-    ints$geom = NULL
-    #by sampling area / species, we retained the sampling area mostly covered by the WJA
-    ints = ints[,c("code2", "stock", "stock_asfis_code", "surface1_percent")] |>
-      dplyr::group_by_at(c("code2","stock", "stock_asfis_code")) |>
-      dplyr::summarize(max_surface = max(surface1_percent))
-    ints = ints[,c("code2", "stock", "stock_asfis_code")]
-    colnames(ints) = c("sampling_area", "stock", "species")
-    ints[ints$species %in% c("AT-","MD"),]$species = NA #patch to be solved by Arturo at source
-    
-    BIL_SA  = unique(ints$sampling_area[startsWith(ints$sampling_area,"BIL")])[1]
-    ATorMD  = substring(ints[is.na(ints$species),]$stock, 1,2)
-    
-    #PROCESS GEOMLESS DATA
-    #-----------------------------------------------------------------------------
-    #we join by species to inherit sampling_area mostly covered by WJA
-    data_geomless2 = data_geomless |>
-      dplyr::left_join(y = ints)
     
     #PROCESS DATA WITH GEOMETRY (likely logbooks)
     #-----------------------------------------------------------------------------
@@ -144,76 +135,40 @@ function(sender, data, metadata, params = list()){
         wja_code = fdisfdata::wja_level0[sf::st_intersects(data_geom_sf[i,], fdisfdata::wja_level0, sparse = FALSE),]$code
         switch(wja_code, "JA" = "EEZ", "ABNJ" = "HSEA")
       })
-      #spatial join with ICCAT sampling areas --> sampling area
-      data_geom_sf$sampling_area = sapply(1:nrow(data_geom_sf), function(i){
-        sa_for_sp = fdisfdata::iccat_sampling_areas_lowres[fdisfdata::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
-        sa_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$code
-        sa_code
-      })
-      #spatial join with ICCAT sampling areas --> stock
-      data_geom_sf$stock = sapply(1:nrow(data_geom_sf), function(i){
-        sa_for_sp = fdisfdata::iccat_sampling_areas_lowres[fdisfdata::iccat_sampling_areas_lowres$stock_asfis_code == data_geom_sf[i,]$species,]
-        stock_code = sa_for_sp[sf::st_intersects(data_geom_sf[i,], sa_for_sp, sparse = FALSE),]$stock
-        stock_code
-      })
-      
-      #Add spatial intersection with 1x1 and 5x5, as if the intersection is always with a single square (multiple intersection logistics for later developments)
-      #The intersection with 1x1 or 5x5 depending the gear (LL or other)
       
       #spatial join with CWP Grid (1x1 or 5x5 depending on gear) -> CWP_C, CWP_D, QUADRANT
+      #take the grid cell with the highest intersection area
       for(i in 1:nrow(data_geom_sf)){
-        if(data_geom_sf[i,]$gear_type == "LL-B"){ #CHANGE TO START WITH "LL"
-          grid_match = fdisfdata::grid_5deg[sf::st_intersects(data_geom_sf[i,], fdisfdata::grid_5deg, sparse = FALSE),]
+        if(startsWith(data_geom_sf[i,]$gear_type, "LL")){
+          grid = fdisfdata::grid_5deg
           data_geom_sf$geo_grid_cd[i] = "5x5"
         }else{
-          grid_match = fdisfdata::grid_1deg[sf::st_intersects(data_geom_sf[i,], fdisfdata::grid_1deg, sparse = FALSE),]
+          grid = fdisfdata::grid_1deg
           data_geom_sf$geo_grid_cd[i] = "1x1"
         }
-        data_geom_sf$lat[i]     = if(nrow(grid_match) > 0) as.numeric(grid_match$CWP_C[1]) else NA_real_ #NOTE THIS IS ONLY WITH ONE SQUARE INTERSECTING
-        data_geom_sf$lon[i]     = if(nrow(grid_match) > 0) as.numeric(grid_match$CWP_D[1]) else NA_real_ #NOTE THIS IS ONLY WITH ONE SQUARE INTERSECTING
-        data_geom_sf$quad_cd[i] = if(nrow(grid_match) > 0) grid_match$QUADRANT[1]          else NA_character_ #NOTE THIS IS ONLY WITH ONE SQUARE INTERSECTING
+        grid_match = grid[sf::st_intersects(data_geom_sf[i,], grid, sparse = FALSE),]
+        if(nrow(grid_match) > 0){
+          intersection_areas = sf::st_area(sf::st_intersection(data_geom_sf[i,], grid_match))
+          best = which.max(intersection_areas)
+          data_geom_sf$lat[i]     = as.numeric(grid_match$CWP_C[best])
+          data_geom_sf$lon[i]     = as.numeric(grid_match$CWP_D[best])
+          data_geom_sf$quad_cd[i] = grid_match$QUADRANT[best]
+        }else{
+          data_geom_sf$lat[i]     = NA_real_
+          data_geom_sf$lon[i]     = NA_real_
+          data_geom_sf$quad_cd[i] = NA_character_
+        }
       }
       
       data_geom_sf$geom = NULL
       
       
-      #grid_5deg = fdisfdata::grid_5deg
-      #LAT LON TO BE EXTRACTED FROM CWP_C AND CWP_D COLUMNS IF NO COORDINATES AVAILABLE
-      #QuadCd FROM QUADRANT COLUMN
-      
       #Bind both datasources
-      data_proc = rbind(data_geomless2, data_geom_sf)
+      data_proc = rbind(data_geomless, data_geom_sf)
     }else{
-      data_proc = data_geomless2
+      data_proc = data_geomless
     }
-    
-    #MANAGE MISSING MAPPINGS (species with no specific sampling areas / stocks)
-    #-----------------------------------------------------------------------------
-    #when there is no sampling area, we assume it's a billfish area
-    #that we taken from above best intersect with WJA
-    if(any(is.na(data_proc$sampling_area))){
-      data_proc[is.na(data_proc$sampling_area),]$sampling_area = BIL_SA
-    }
-    #when there is no stock information we need to inherit it
-    #=> 1st choice: we use the mapping species/stocks
-    if(any(is.na(data_proc$stock))){
-      new_dt = data_proc[is.na(data_proc$stock),] |>
-        dplyr::select(-c(stock)) |>
-        dplyr::left_join(
-          y  = fdi4R::mapping_iccat_species__x__stocks[regexpr(ATorMD, fdi4R::mapping_iccat_species__x__stocks$stock)>0,],
-          by = dplyr::join_by(species == species)
-        )
-      data_proc[is.na(data_proc$stock),]$stock = new_dt$stock
-    }
-    
-    #if we still have some missing stocks
-    #=> 2d choice: we use the mapping sampling_areas / stocks to derivate stock
-    #we know the target BIL sampling area (BIL_SA) and if it's AT or MD
-    #we can filter on the mapping to retrieve the species- non specific stock area
-    if(any(is.na(data_proc$stock))){
-      data_proc[is.na(data_proc$stock),]$stock = fdi4R::mapping_iccat_sampling_areas__x__stocks[fdi4R::mapping_iccat_sampling_areas__x__stocks$src_code == BIL_SA & regexpr(ATorMD, fdi4R::mapping_iccat_sampling_areas__x__stocks$trg_code) > 0,]$trg_code
-    }
-    
+   
     #additional processing before aggregation
     data_proc = data_proc |> dplyr::rename(measurement_source = data_source)
     data_proc = cbind(
@@ -234,8 +189,8 @@ function(sender, data, metadata, params = list()){
     data_proc$sp_col_key = paste(data_proc$species, data_proc$processing_type, sep = "|")
     
     strata_cols = c("flagstate", "year", "month", "gear_type", "geo_grid_cd", "quad_cd", "lat", "lon", "fishing_zone",
-                    "fishing_mode", "effort_fishing_duration", "effort_fishing_duration_unit", "effort_number_gears", "effort_number_gears_unit", "effort_number_sets",
-                    "measurement_source")
+                    "fishing_mode", "effort_fishing_duration_unit", "effort_number_gears_unit", "measurement_source")
+    # Removed "effort_fishing_duration", "effort_number_gears" and "effort_number_sets" so they get aggregated - CHECK WITH ICCAT
     
     # When effort_number_gears is available, nullify effort_number_sets so it doesn't affect aggregation
     data_proc$effort_number_sets = ifelse(
@@ -246,7 +201,22 @@ function(sender, data, metadata, params = list()){
     
     data_agg = data_proc |>
       dplyr::group_by(dplyr::across(dplyr::all_of(c(strata_cols, "sp_col_key")))) |>
-      dplyr::summarise(measurement_value = sum(measurement_value, na.rm = TRUE), .groups = "drop")
+      dplyr::summarise(
+        measurement_value = sum(measurement_value, na.rm = TRUE),
+        .groups = "drop")
+    
+    #aggregate effort separately
+    effort_agg = data_proc |>
+      dplyr::group_by(dplyr::across(dplyr::all_of(strata_cols))) |>
+      dplyr::summarise(
+        effort_fishing_duration = sum(effort_fishing_duration, na.rm = TRUE),
+        effort_number_gears     = if(all(is.na(effort_number_gears))) NA_real_ else sum(effort_number_gears, na.rm = TRUE),
+        effort_number_sets      = if(all(is.na(effort_number_sets)))  NA_real_ else sum(effort_number_sets,  na.rm = TRUE),
+        .groups = "drop"
+      ) |>
+      dplyr::mutate(
+        effort_number_sets = ifelse(!is.na(effort_number_gears), NA_real_, effort_number_sets)
+      )
     
     result = data_agg |>
       tidyr::pivot_wider(
@@ -254,7 +224,8 @@ function(sender, data, metadata, params = list()){
         names_from  = sp_col_key,
         values_from = measurement_value,
         values_fill = NA_real_
-      )
+      ) |>
+      dplyr::left_join(effort_agg, by = strata_cols)
     
     metadata$nb_records = nrow(result)
   }

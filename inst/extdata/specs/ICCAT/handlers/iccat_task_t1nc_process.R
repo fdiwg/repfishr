@@ -42,7 +42,7 @@ function(sender, data, metadata, params = list()){
     data_geomless = data[is.na(data$longitude_start) | is.na(data$latitude_start) |
                          is.na(data$longitude_end) | is.na(data$latitude_end),]
     
-    #mapping trough assumptions based on the reporting state
+        #mapping trough assumptions based on the reporting state
     #from species -> inherit sampling areas -> inherit target sampling areas for the country and take the highest %
     #of intersection between WJA sender (eg GRD) and ICCAT sampling areas.
     #

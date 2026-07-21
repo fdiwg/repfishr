@@ -1,4 +1,4 @@
-function(sender, data, metadata, path){
+function(sender, data, metadata, params = list(), path){
   
   requireNamespace("openxlsx")
   
@@ -24,17 +24,24 @@ function(sender, data, metadata, path){
   strata_cols = c("flagstate", "year", "month", "gear_type", "geo_grid_cd", "quad_cd", "lat", "lon", "fishing_zone",
                   "fishing_mode", "effort_fishing_duration", "effort_fishing_duration_unit", "effort_number_gears", "effort_number_gears_unit", "effort_number_sets",
                   "measurement_source")
-  sp_keys = setdiff(colnames(data), strata_cols)  #I get "BUM|DR|L", "DOL|LW|L", etc.
+  sp_keys = sort(setdiff(colnames(data), strata_cols))  #get "BUM|DR|L", "DOL|LW|L", etc. in alphabetical order
   
   sp_header = do.call(rbind, strsplit(sp_keys, "\\|"))
   colnames(sp_header) = c("species", "product_type")
   
-  #write species / product type / catch type at rows 22, 23, 24 from col O (15)
+  #clear existing template example values in species / product type / catch type
+  for(col_j in 15L:40L){
+    openxlsx::writeData(task_wb, sheet = "ST03-T2CE", x = "", startRow = 22L, startCol = col_j)
+    openxlsx::writeData(task_wb, sheet = "ST03-T2CE", x = "", startRow = 23L, startCol = col_j)
+    openxlsx::writeData(task_wb, sheet = "ST03-T2CE", x = "", startRow = 24L, startCol = col_j)
+  }
+  
+  #write species / product type / catch type
   for(j in 1:nrow(sp_header)){
     col_j = 14L + j
     openxlsx::writeData(task_wb, sheet = "ST03-T2CE", x = sp_header[j,"species"],      startRow = 22L, startCol = col_j)
     openxlsx::writeData(task_wb, sheet = "ST03-T2CE", x = sp_header[j,"product_type"], startRow = 23L, startCol = col_j)
-    openxlsx::writeData(task_wb, sheet = "ST03-T2CE", "L",   startRow = 24L, startCol = col_j)
+    openxlsx::writeData(task_wb, sheet = "ST03-T2CE", "L",                             startRow = 24L, startCol = col_j)
   }
   
   #data
