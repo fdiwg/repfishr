@@ -60,16 +60,16 @@ reporting_task <- R6::R6Class("reporting_task",
           #process handler
           if(!is.null(task$process$handler)){
             process_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$process$handler, package = "repfishr"))$value
-            if(!all(names(formals(process_fun)) == c("sender", "data", "metadata"))){
-              stop("The process handler should be standardized with the following arguments: [sender, data, metadata]")
+            if(!all(names(formals(process_fun)) == c("sender", "data", "metadata", "params"))){
+              stop("The process handler should be standardized with the following arguments: [sender, data, params, metadata]")
             }
             self$process_fun = process_fun
           }
           #report handler
           if(!is.null(task$report$handler)){
             report_fun = source(system.file("extdata/specs", self$receiver, "handlers", task$report$handler, package = "repfishr"))$value
-            if(!all(names(formals(report_fun)) == c("sender", "data", "metadata", "path"))){
-              stop("The report handler should be standardized with the following arguments: [sender, data, metadata, path]")
+            if(!all(names(formals(report_fun)) == c("sender", "data", "metadata", "params", "path"))){
+              stop("The report handler should be standardized with the following arguments: [sender, data, metadata, params, path]")
             }
             self$report_fun = report_fun
           }
@@ -86,10 +86,11 @@ reporting_task <- R6::R6Class("reporting_task",
     #'@description Process data before reporting
     #'@param data object of class \link{data.frame}
     #'@param metadata metadata object
+    #'@param params additional parameters. Optional. Default is an empty list
     #'@param path path for the output file
     #'@param parallel whether data validation should be run in parallel
     #'@param ... any other arguments to be passed to \pkg{vrule} validation method
-    process = function(data, metadata, path, parallel = FALSE, ...){
+    process = function(data, metadata, params = list(), path, parallel = FALSE, ...){
       
       #pre-processing (if any) before reporting
       if(!is.null(self$process_fun)){
@@ -111,7 +112,8 @@ reporting_task <- R6::R6Class("reporting_task",
         report_data = self$process_fun(
           sender = self$sender,
           data = data,
-          metadata = metadata
+          metadata = metadata,
+          params = params
         )
         self$report_data = report_data
         self$report_metadata = attr(report_data, "metadata")
@@ -124,15 +126,17 @@ reporting_task <- R6::R6Class("reporting_task",
     #'@description Reports data
     #'@param data object of class \link{data.frame}
     #'@param metadata metadata object
+    #'@param params additional parameters. Optional. Default is an empty list
     #'@param path path for the output file
     #'@param parallel whether data validation should be run in parallel
     #'@param ... any other arguments to be passed to \pkg{vrule} validation method
-    report = function(data, metadata, path, parallel = FALSE, ...){
+    report = function(data, metadata, params = list(), path, parallel = FALSE, ...){
       
       #pre-processing
       self$process(
         data = data,
         metadata = metadata,
+        params = params,
         path = path,
         parallel = parallel,
         ...
@@ -143,15 +147,15 @@ reporting_task <- R6::R6Class("reporting_task",
         
         #validation before reporting with format 'report' if needed
         if("report" %in% names(self$formats)){
-          INFO("Data validation before reporting")
-          validation_output = self$formats[["report"]]$spec$validate(data = self$report_data, parallel = parallel, ...)
-          if(nrow(validation_output)>0 & any(validation_output$type == "ERROR")){
-            errMsg = "Errors were detected during validation phase, reporting is aborted"
-            ERROR(errMsg)
-            return(validation_output)
-          }else{
-            INFO("Data validation before reporting sucessful")
-          }
+         INFO("Data validation before reporting")
+         validation_output = self$formats[["report"]]$spec$validate(data = self$report_data, parallel = parallel, ...)
+         if(nrow(validation_output)>0 & any(validation_output$type == "ERROR")){
+           errMsg = "Errors were detected during validation phase, reporting is aborted"
+           ERROR(errMsg)
+           return(validation_output)
+         }else{
+           INFO("Data validation before reporting sucessful")
+         }
         }
         
         INFO("Data reporting")

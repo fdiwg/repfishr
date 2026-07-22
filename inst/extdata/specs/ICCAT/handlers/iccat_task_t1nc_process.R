@@ -1,4 +1,4 @@
-function(sender, data, metadata){
+function(sender, data, metadata, params = list()){
   
   result = NULL
   
@@ -42,7 +42,7 @@ function(sender, data, metadata){
     data_geomless = data[is.na(data$longitude_start) | is.na(data$latitude_start) |
                          is.na(data$longitude_end) | is.na(data$latitude_end),]
     
-    #mapping trough assumptions based on the reporting state
+        #mapping trough assumptions based on the reporting state
     #from species -> inherit sampling areas -> inherit target sampling areas for the country and take the highest %
     #of intersection between WJA sender (eg GRD) and ICCAT sampling areas.
     #
@@ -87,11 +87,15 @@ function(sender, data, metadata){
       data_geom_lines <- sf::st_sfc(
         mapply(
           function(x1, y1, x2, y2) {
-            sf::st_linestring(matrix(
-              c(x1, y1, x2, y2),
-              ncol = 2,
-              byrow = TRUE
-            ))
+            if(x1 != x2 & y1 != y2){
+              sf::st_linestring(matrix(
+                c(x1, y1, x2, y2),
+                ncol = 2,
+                byrow = TRUE
+              ))
+            }else{
+              sf::st_point(c(x1, y2))
+            }
           },
           data_geom$longitude_start,
           data_geom$latitude_start,

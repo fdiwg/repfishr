@@ -1,4 +1,4 @@
-function(sender, data, metadata, path){
+function(sender, data, metadata, params = list(), path){
   
   requireNamespace("openxlsx")
   
