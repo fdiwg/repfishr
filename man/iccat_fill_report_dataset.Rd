@@ -4,10 +4,10 @@
 \alias{iccat_fill_report_dataset}
 \title{Fills an ICCAT template workbook with a dataset}
 \usage{
-iccat_fill_report_statistical_correspondent(wb, metadata)
+iccat_fill_report_dataset(wb, sheet, x, startRow, startCol)
 }
 \arguments{
-\item{wb}{a \link[openxlsx]{Workbook} object from \link{openxlsx}}
+\item{wb}{a \code{Workbook} object from \pkg{openxlsx}}
 
 \item{sheet}{a sheet index}
 
@@ -18,7 +18,7 @@ iccat_fill_report_statistical_correspondent(wb, metadata)
 \item{startCol}{start column index}
 }
 \value{
-the modified \link[openxlsx]{Workbook} object
+the modified \code{Workbook} object
 }
 \description{
 Fills an ICCAT template workbook with a dataset

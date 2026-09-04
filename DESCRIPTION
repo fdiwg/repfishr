@@ -1,6 +1,6 @@
 Package: repfishr
-Version: 0.1.20260716
-Date: 2026-07-16
+Version: 0.1.20260904
+Date: 2026-09-04
 Title: Fisheries data reporting flows
 Authors@R: c(
   person("Emmanuel", "Blondel", role = c("aut", "cre"), email = "emmanuel.blondel1@gmail.com", comment = c(ORCID = "0000-0002-5870-5762")),
@@ -17,6 +17,8 @@ Imports:
   readr,
   mime,
   lubridate,
+  sf,
+  terra,
   vrule,
   fdi4R,
   fdisfdata,

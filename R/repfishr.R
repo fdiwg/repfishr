@@ -6,6 +6,8 @@
 #' @import R6
 #' @import methods
 #' @import tibble
+#' @rawNamespace import(sf, except = c(st_perimeter, st_minimum_bounding_circle))
+#' @rawNamespace import(terra, except = c(extract,intersect,inset,origin,union))
 #' @import magrittr
 #' @import jsonlite
 #' @import yaml

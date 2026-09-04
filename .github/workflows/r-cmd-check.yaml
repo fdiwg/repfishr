@@ -16,7 +16,14 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {os: ubuntu-latest,   r: 'release'}
+          #- {os: macos-latest,    r: 'release'}
+          #- {os: windows-latest,  r: 'release'}
+          - {os: ubuntu-latest,   r: 'devel', http-user-agent: 'release'}
+          #- {os: ubuntu-latest,   r: 'release'}
+          #- {os: ubuntu-latest,   r: 'oldrel-1'}
+    
+    env:
+        PKG_SYSREQS: false
     
     steps:
       - uses: actions/checkout@v3
@@ -44,4 +51,5 @@ jobs:
       - name: Check R package
         uses: r-lib/actions/check-r-package@v2
         with:
+          error-on: '"note"'
           artifact-name: repfishr_r-${{ matrix.config.r }}_${{ matrix.config.os }}-results

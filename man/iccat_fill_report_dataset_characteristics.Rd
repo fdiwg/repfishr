@@ -6,11 +6,11 @@
 \usage{
 iccat_fill_report_dataset_characteristics(
  wb, reporting_flag, from, to,
- report_version, report_type, report_coverage
+ report_version, report_type, report_coverage, notes
 )
 }
 \arguments{
-\item{wb}{a \link[openxlsx]{Workbook} object from \link{openxlsx}}
+\item{wb}{a \code{Workbook} object from \pkg{openxlsx}}
 
 \item{reporting_flag}{reporting flag}
 
@@ -27,7 +27,7 @@ iccat_fill_report_dataset_characteristics(
 \item{notes}{notes}
 }
 \value{
-the modified \link[openxlsx]{Workbook} object
+the modified \code{Workbook} object
 }
 \description{
 Fills an ICCAT template workbook with dataset characteristics information
