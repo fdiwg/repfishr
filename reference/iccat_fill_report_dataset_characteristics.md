@@ -8,7 +8,7 @@ information
 ``` r
 iccat_fill_report_dataset_characteristics(
  wb, reporting_flag, from, to,
- report_version, report_type, report_coverage
+ report_version, report_type, report_coverage, notes
 )
 ```
 
@@ -16,7 +16,7 @@ iccat_fill_report_dataset_characteristics(
 
 - wb:
 
-  a Workbook object from openxlsx
+  a `Workbook` object from openxlsx
 
 - reporting_flag:
 
@@ -48,4 +48,4 @@ iccat_fill_report_dataset_characteristics(
 
 ## Value
 
-the modified Workbook object
+the modified `Workbook` object

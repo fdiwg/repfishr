@@ -5,14 +5,14 @@ Fills an ICCAT template workbook with a dataset
 ## Usage
 
 ``` r
-iccat_fill_report_statistical_correspondent(wb, metadata)
+iccat_fill_report_dataset(wb, sheet, x, startRow, startCol)
 ```
 
 ## Arguments
 
 - wb:
 
-  a Workbook object from openxlsx
+  a `Workbook` object from openxlsx
 
 - sheet:
 
@@ -33,4 +33,4 @@ iccat_fill_report_statistical_correspondent(wb, metadata)
 
 ## Value
 
-the modified Workbook object
+the modified `Workbook` object

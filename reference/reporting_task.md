@@ -126,7 +126,14 @@ Process data before reporting
 
 #### Usage
 
-    reporting_task$process(data, metadata, path, parallel = FALSE, ...)
+    reporting_task$process(
+      data,
+      metadata,
+      params = list(),
+      path,
+      parallel = FALSE,
+      ...
+    )
 
 #### Arguments
 
@@ -137,6 +144,10 @@ Process data before reporting
 - `metadata`:
 
   metadata object
+
+- `params`:
+
+  additional parameters. Optional. Default is an empty list
 
 - `path`:
 
@@ -158,7 +169,14 @@ Reports data
 
 #### Usage
 
-    reporting_task$report(data, metadata, path, parallel = FALSE, ...)
+    reporting_task$report(
+      data,
+      metadata,
+      params = list(),
+      path,
+      parallel = FALSE,
+      ...
+    )
 
 #### Arguments
 
@@ -169,6 +187,10 @@ Reports data
 - `metadata`:
 
   metadata object
+
+- `params`:
+
+  additional parameters. Optional. Default is an empty list
 
 - `path`:
 

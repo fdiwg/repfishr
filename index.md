@@ -8,7 +8,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![Build
 Status](https://github.com/fdiwg/repfishr/actions/workflows/r-cmd-check.yaml/badge.svg?branch=main)](https://github.com/fdiwg/repfishr/actions/workflows/r-cmd-check.yaml)
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/repfishr)](https://cran.r-project.org/package=repfishr)
-[![Github_Status_Badge](https://img.shields.io/badge/Github-0.1.20260716-blue.svg)](https://github.com/fdiwg/repfishr)
+[![Github_Status_Badge](https://img.shields.io/badge/Github-0.1.20260904-blue.svg)](https://github.com/fdiwg/repfishr)
 
 [repfishr](https://github.com/fdiwg/repfishr) provides tools to
 facilitate the reporting of national fishery statistics to regional

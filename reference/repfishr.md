@@ -12,6 +12,8 @@ Useful links:
 
 - <https://github.com/fdiwg/repfishr>
 
+- <https://fdiwg.github.io/repfishr/>
+
 - Report bugs at <https://github.com/fdiwg/repfishr/issues>
 
 ## Author

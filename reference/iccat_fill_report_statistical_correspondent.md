@@ -13,7 +13,7 @@ iccat_fill_report_statistical_correspondent(wb, metadata)
 
 - wb:
 
-  a Workbook object from openxlsx
+  a `Workbook` object from openxlsx
 
 - metadata:
 
@@ -22,4 +22,4 @@ iccat_fill_report_statistical_correspondent(wb, metadata)
 
 ## Value
 
-the modified Workbook object
+the modified `Workbook` object

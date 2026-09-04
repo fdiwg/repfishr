@@ -4,7 +4,7 @@
 
 - [`get_reporting_flow_actors()`](https://fdiwg.github.io/repfishr/reference/get_reporting_flow_actors.md)
   : Get reporting flow actors
-- [`iccat_fill_report_statistical_correspondent()`](https://fdiwg.github.io/repfishr/reference/iccat_fill_report_dataset.md)
+- [`iccat_fill_report_dataset()`](https://fdiwg.github.io/repfishr/reference/iccat_fill_report_dataset.md)
   : Fills an ICCAT template workbook with a dataset
 - [`iccat_fill_report_dataset_characteristics()`](https://fdiwg.github.io/repfishr/reference/iccat_fill_report_dataset_characteristics.md)
   : Fills an ICCAT template workbook with dataset characteristics
