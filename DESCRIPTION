@@ -1,6 +1,6 @@
 Package: repfishr
-Version: 0.1.20260528
-Date: 2026-05-28
+Version: 0.1.20260904
+Date: 2026-09-04
 Title: Fisheries data reporting flows
 Authors@R: c(
   person("Emmanuel", "Blondel", role = c("aut", "cre"), email = "emmanuel.blondel1@gmail.com", comment = c(ORCID = "0000-0002-5870-5762")),
@@ -16,6 +16,9 @@ Imports:
   yaml,
   readr,
   mime,
+  lubridate,
+  sf,
+  terra,
   vrule,
   fdi4R,
   fdisfdata,
@@ -28,8 +31,9 @@ Remotes:
 Suggests: parallel, testthat
 Description: R framework to facilitate fisheries data reporting flows, with first intention to help countries to validate, 
  format and send data to relevant organizations including regional fisheries management organizations or bodies handling data collection reference frameworks, and FAO.
-URL: https://github.com/fdiwg/repfishr
+URL: https://github.com/fdiwg/repfishr, https://fdiwg.github.io/repfishr/
 BugReports: https://github.com/fdiwg/repfishr/issues
+License: MIT + file LICENSE
 LazyLoad: yes
 Encoding: UTF-8
 RoxygenNote: 7.3.3

@@ -6,13 +6,25 @@
 \usage{
 iccat_fill_report_dataset_characteristics(
  wb, reporting_flag, from, to,
- report_version, report_type, report_coverage
+ report_version, report_type, report_coverage, notes
 )
 }
 \arguments{
-\item{wb}{a \code{Workbook} object from \link{openxlsx}}
+\item{wb}{a \code{Workbook} object from \pkg{openxlsx}}
 
-\item{metadata}{a named \link{list} with business metadata}
+\item{reporting_flag}{reporting flag}
+
+\item{from}{start year/date}
+
+\item{to}{end year/date}
+
+\item{report_version}{report version (\code{Final}, \code{Preliminary})}
+
+\item{report_type}{report type}
+
+\item{report_coverage}{report coverage}
+
+\item{notes}{notes}
 }
 \value{
 the modified \code{Workbook} object

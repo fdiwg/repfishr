@@ -13,6 +13,7 @@ format and send data to relevant organizations including regional fisheries mana
 Useful links:
 \itemize{
   \item \url{https://github.com/fdiwg/repfishr}
+  \item \url{https://fdiwg.github.io/repfishr/}
   \item Report bugs at \url{https://github.com/fdiwg/repfishr/issues}
 }
 

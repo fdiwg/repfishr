@@ -101,7 +101,14 @@ Set sender
 \subsection{Method \code{process()}}{
 Process data before reporting
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_task$process(data, metadata, path, parallel = FALSE, ...)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_task$process(
+  data,
+  metadata,
+  params = list(),
+  path,
+  parallel = FALSE,
+  ...
+)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
@@ -110,6 +117,8 @@ Process data before reporting
 \item{\code{data}}{object of class \link{data.frame}}
 
 \item{\code{metadata}}{metadata object}
+
+\item{\code{params}}{additional parameters. Optional. Default is an empty list}
 
 \item{\code{path}}{path for the output file}
 
@@ -126,7 +135,14 @@ Process data before reporting
 \subsection{Method \code{report()}}{
 Reports data
 \subsection{Usage}{
-\if{html}{\out{<div class="r">}}\preformatted{reporting_task$report(data, metadata, path, parallel = FALSE, ...)}\if{html}{\out{</div>}}
+\if{html}{\out{<div class="r">}}\preformatted{reporting_task$report(
+  data,
+  metadata,
+  params = list(),
+  path,
+  parallel = FALSE,
+  ...
+)}\if{html}{\out{</div>}}
 }
 
 \subsection{Arguments}{
@@ -135,6 +151,8 @@ Reports data
 \item{\code{data}}{object of class \link{data.frame}}
 
 \item{\code{metadata}}{metadata object}
+
+\item{\code{params}}{additional parameters. Optional. Default is an empty list}
 
 \item{\code{path}}{path for the output file}
 

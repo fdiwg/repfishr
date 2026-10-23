@@ -3,7 +3,7 @@
 #'
 #'@usage iccat_fill_report_statistical_correspondent(wb, metadata)
 #'
-#'@param wb a \code{Workbook} object from \link{openxlsx}
+#'@param wb a \code{Workbook} object from \pkg{openxlsx}
 #'@param metadata a named \link{list} with business metadata
 #'@return the modified \code{Workbook} object
 #'
@@ -29,11 +29,17 @@ iccat_fill_report_statistical_correspondent = function(wb, metadata){
 #'
 #'@usage iccat_fill_report_dataset_characteristics(
 #'  wb, reporting_flag, from, to,
-#'  report_version, report_type, report_coverage
+#'  report_version, report_type, report_coverage, notes
 #')
 #'
-#'@param wb a \code{Workbook} object from \link{openxlsx}
-#'@param metadata a named \link{list} with business metadata
+#'@param wb a \code{Workbook} object from \pkg{openxlsx}
+#'@param reporting_flag reporting flag
+#'@param from start year/date
+#'@param to end year/date
+#'@param report_version report version (\code{Final}, \code{Preliminary})
+#'@param report_type report type
+#'@param report_coverage report coverage
+#'@param notes notes
 #'@return the modified \code{Workbook} object
 #'
 #'@export
@@ -62,9 +68,10 @@ iccat_fill_report_dataset_characteristics = function(wb,
 
 #'@name iccat_fill_report_dataset
 #'@title Fills an ICCAT template workbook with a dataset
-#'@usage iccat_fill_report_statistical_correspondent(wb, metadata)
 #'
-#'@param wb a \code{Workbook} object from \link{openxlsx}
+#'@usage iccat_fill_report_dataset(wb, sheet, x, startRow, startCol)
+#'
+#'@param wb a \code{Workbook} object from \pkg{openxlsx}
 #'@param sheet a sheet index
 #'@param x an object of class \link{data.frame}
 #'@param startRow start row index

@@ -70,7 +70,7 @@ reporting_flow <- R6::R6Class("reporting_flow",
     
     #'@description Get a receiver by its id
     #'@param id id
-    #'@return an object of class \link{reporting_organization}
+    #'@return an object of class \link{reporting_receiver}
     getReceiver = function(id){
       receiver = NULL
       receivers = self$getReceivers(raw = T)
