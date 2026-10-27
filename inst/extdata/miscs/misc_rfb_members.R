@@ -39,6 +39,8 @@ country_rfbs[country_rfbs$receiver_id == "WECAFC",]$dcf_ref_url = "https://www.f
 country_rfbs[country_rfbs$receiver_id == "RECOFI",]$dcf = "RECOFI MDR PILOT"
 country_rfbs[country_rfbs$receiver_id == "ICCAT",]$dcf = "ICCAT Reporting Requirements"
 country_rfbs[country_rfbs$receiver_id == "ICCAT",]$dcf_ref_url = "https://www.iccat.int/en/submitSTAT.html"
+country_rfbs[country_rfbs$receiver_id == "IOTC",]$dcf = "IOTC Reporting Requirements"
+country_rfbs[country_rfbs$receiver_id == "IOTC",]$dcf_ref_url = "https://iotc.org/data/reporting-data-iotc"
 
 
 readr::write_csv(country_rfbs, "inst/extdata/reporting_flow_actors.csv")

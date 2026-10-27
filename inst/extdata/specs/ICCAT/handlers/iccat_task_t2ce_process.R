@@ -67,9 +67,10 @@ function(sender, data, metadata, params = list()){
     
     for(i in 1:nrow(data_geomless)){
       
-      #select reference polygon: activity_zone if available, sender_wja as fallback
-      if(!is.na(data_geomless[i,]$activity_zone)){
-        ref_polygon = params$fishing_zones[params$fishing_zones$code == data_geomless[i,]$activity_zone,]
+      #select reference polygon: activity_zone if it exists in the geopackage, sender_wja as fallback
+      az = data_geomless[i,]$activity_zone
+      if(!is.na(az) && az %in% params$fishing_zones$code){
+        ref_polygon = params$fishing_zones[params$fishing_zones$code == az,]
       }else{
         ref_polygon = sender_wja
       }
@@ -176,6 +177,11 @@ function(sender, data, metadata, params = list()){
       data_proc[,c("year", "month", "species", "gear_type", "geo_grid_cd", "quad_cd", "lat", "lon", "fishing_zone", "fishing_mode", "effort_fishing_duration", "effort_fishing_duration_unit", "effort_number_gears", "effort_number_gears_unit", "effort_number_sets",
                    "measurement", "measurement_type", "measurement_value", "measurement_unit", "measurement_source", "processing_type")]
     )
+    
+    #SchoolTypCd (fishing_mode) must be FAD, FSC or "n/a" for ICCAT:
+    #keep FAD / FSC as obtained from the SQL, anything else (including NA or empty) becomes "n/a"
+    data_proc$fishing_mode = ifelse(data_proc$fishing_mode %in% c("FAD", "FSC"), data_proc$fishing_mode, "n/a")
+    
     data_proc$measurement_value = sapply(1:nrow(data_proc), function(i){
       ud = units::as_units(data_proc[i,]$measurement_value, data_proc[i,]$measurement_unit)
       ud = units::set_units(ud, "kg")

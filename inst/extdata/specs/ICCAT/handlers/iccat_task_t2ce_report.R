@@ -59,7 +59,7 @@ function(sender, data, metadata, params = list(), path){
     Effort1 = if(nrow(data)>0) data$effort_fishing_duration        else NA,
     Eff1TypeCd = if(nrow(data)>0) data$effort_fishing_duration_unit   else NA,
     Effort2 = if(nrow(data)>0) dplyr::coalesce(data$effort_number_gears, data$effort_number_sets) else NA,
-    Eff2TypeCd = if(nrow(data)>0) ifelse(is.na(data$effort_number_gears), "NO.SETS", data$effort_number_gears_unit) else NA
+    Eff2TypeCd = if(nrow(data)>0) dplyr::case_when(!is.na(data$effort_number_gears) ~ data$effort_number_gears_unit,  !is.na(data$effort_number_sets)  ~ "NO.SETS", TRUE ~ "NO DATA") else NA
   )
   
   #Fill each row according with the species / product type type columns:
