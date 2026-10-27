@@ -53,7 +53,7 @@ iccat_fill_report_dataset_characteristics = function(wb,
   
   openxlsx::writeData(wb, 1, x = reporting_flag, startRow = 12, startCol = 3)
   openxlsx::writeData(wb, 1, x = from, startRow = 13, startCol = 3)
-  openxlsx::writeData(wb, 1, x = from, startRow = 13, startCol = 5)
+  openxlsx::writeData(wb, 1, x = to, startRow = 13, startCol = 5)
   
   report_version = match.arg(report_version)
   openxlsx::writeData(wb, 1, x = report_version, startRow = 17, startCol = 3)
