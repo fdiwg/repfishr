@@ -10,7 +10,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/fdiwg/repfishr/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/fdiwg/repfishr/blob/0.1.20260904/DESCRIPTION)
 
 Blondel E (2026). *repfishr: Fisheries data reporting flows*. R package
 version 0.1.20260904, <https://github.com/fdiwg/repfishr>.
